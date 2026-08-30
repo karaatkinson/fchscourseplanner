@@ -1,0 +1,254 @@
+{
+  "department": "Mathematics",
+  "source_docs": ["MATHEMATICS_2627.pdf", "202526_Dual_Credit_Crosswalk__FCHS__Vincennes.pdf", "CTD Companion Document"],
+
+  "courses": [
+    {
+      "id": "math-algebra1",
+      "title": "Algebra I",
+      "state_course_code": "2520",
+      "grades": [9,10,11,12],
+      "semesters": 2, "credits": 2,
+      "prerequisites": [],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.algebra1_required",
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-honors-algebra1",
+      "title": "Honors Algebra I",
+      "state_course_code": "2520",
+      "grades": [9],
+      "semesters": 2, "credits": 2,
+      "prerequisites": [{ "type": "requirement", "note": "Teacher recommendation required" }],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.algebra1_required",
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-geometry",
+      "title": "Geometry",
+      "state_course_code": "2532",
+      "grades": [9,10,11,12],
+      "semesters": 2, "credits": 2,
+      "prerequisites": ["math-algebra1"],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": ["seal.enrollment_honors_math_base"],
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-honors-geometry",
+      "title": "Honors Geometry",
+      "state_course_code": "2532",
+      "grades": [9,10],
+      "semesters": 2, "credits": 2,
+      "prerequisites": [{ "type": "requirement", "note": "Completed Algebra I and Algebra II at junior high level" }],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": ["seal.enrollment_honors_math_base"],
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-algebra2",
+      "title": "Algebra II",
+      "state_course_code": "2522",
+      "grades": [10,11,12],
+      "semesters": 2, "credits": 2,
+      "prerequisites": ["math-algebra1", "math-geometry"],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": ["seal.enrollment_honors_math_base"],
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-honors-algebra2",
+      "title": "Honors Algebra II",
+      "state_course_code": "2522",
+      "grades": [10,11],
+      "semesters": 2, "credits": 2,
+      "prerequisites": [{ "type": "requirement", "note": "A in Algebra I; Honors Algebra I and Honors Geometry recommended" }],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": ["seal.enrollment_honors_math_base"],
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-precalc-algebra-dc",
+      "title": "Pre-Calculus Dual Credit",
+      "state_course_code": "2564 + 2566",
+      "grades": [10,11,12],
+      "semesters": 2, "credits": 2,
+      "prerequisites": ["math-algebra1", "math-algebra2", "math-geometry"],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "semesters": [
+          {
+            "semester": 1, "college_course": "MATH 102", "college_course_name": "College Algebra", "college_credits": 3,
+            "eligibility_paths": [
+              { "type": "gpa_and_class", "min_gpa": 2.7, "unweighted": true, "min_grade_level": "Junior", "and_also": "B- or better in Algebra II (2nd semester)" },
+              { "type": "test_score", "options": [{ "test": "ACT_math", "min_score": 22 }, { "test": "SAT_math", "min_score": 560 }, { "test": "Accuplacer_AAF", "min_score": 255 }] }
+            ]
+          },
+          {
+            "semester": 2, "college_course": "MATH 104", "college_course_name": "Trigonometry", "college_credits": 3,
+            "eligibility_paths": [
+              { "type": "prior_course_grade", "course": "MATH 102", "min_grade": "C" },
+              { "type": "test_score", "options": [{ "test": "Accuplacer", "note": "qualifying placement score" }] }
+            ]
+          }
+        ]
+      },
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": ["seal.enrollment_honors_advanced_math"],
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-precalc-ap",
+      "title": "Pre-Calculus AP",
+      "state_course_code": "2563",
+      "grades": [10,11,12],
+      "semesters": 2, "credits": 2,
+      "prerequisites": ["math-algebra1"],
+      "special_notes": ["A or B in Honors Algebra II recommended"],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": ["seal.enrollment_honors_advanced_math"],
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-calculus-dc",
+      "title": "Calculus Dual Credit",
+      "state_course_code": "2544",
+      "grades": [11,12],
+      "semesters": 2, "credits": 2,
+      "prerequisites": ["math-algebra1", "math-geometry", "math-algebra2", "math-precalc-algebra-dc"],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "college_course": "MATH 118", "college_course_name": "Calculus w/Analytic Geometry I", "college_credits": 5,
+        "eligibility_paths": [
+          { "type": "prior_course_grade", "course": "DC PreCalculus (both semesters)", "min_grade": "C" },
+          { "type": "test_score", "options": [{ "test": "AP_Precalculus_exam", "min_score": 3 }, { "test": "Accuplacer_QAS", "min_score": 270 }] }
+        ]
+      },
+      "special_notes": ["Not recommended for students planning heavy science/math majors, per department framing - better suited to liberal arts-bound students."],
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": ["seal.enrollment_honors_advanced_math"],
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-calculus-ab-ap",
+      "title": "Calculus AB AP",
+      "state_course_code": "2562",
+      "grades": [11,12],
+      "semesters": 2, "credits": 2,
+      "prerequisites": ["math-precalc-ap"],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": ["seal.enrollment_honors_advanced_math"],
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-calculus-bc-ap",
+      "title": "Calculus BC AP",
+      "state_course_code": "2572",
+      "grades": [12],
+      "semesters": 2, "credits": 2,
+      "prerequisites": ["math-calculus-ab-ap"],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": ["seal.enrollment_honors_advanced_math"],
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-prob-stats",
+      "title": "Probability and Statistics",
+      "state_course_code": "2546",
+      "grades": [11,12],
+      "semesters": 1, "credits": 1,
+      "prerequisites": ["math-algebra1", "math-geometry", "math-algebra2"],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": ["seal.enrollment_honors_advanced_math"],
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-stats-ap",
+      "title": "Statistics AP",
+      "state_course_code": "2570",
+      "grades": [11,12],
+      "semesters": 2, "credits": 2,
+      "prerequisites": ["math-algebra1", "math-honors-algebra2", "math-honors-geometry"],
+      "special_notes": ["C or better in AP Precalculus or A in DC Precalculus recommended"],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": ["seal.enrollment_honors_advanced_math"],
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-finite",
+      "title": "Finite Mathematics",
+      "state_course_code": "2530",
+      "grades": [11,12],
+      "semesters": 1, "credits": 1,
+      "prerequisites": ["math-algebra1", "math-geometry", "math-algebra2"],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": ["seal.enrollment_honors_advanced_math"],
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-finite-dc",
+      "title": "Finite Mathematics Dual Credit",
+      "state_course_code": "2530",
+      "grades": [11,12],
+      "semesters": 2, "credits": 2,
+      "prerequisites": ["math-algebra1", "math-geometry", "math-algebra2"],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "college_course": "MATH 111", "college_course_name": "Finite Math", "college_credits": 3,
+        "eligibility_paths": [
+          { "type": "gpa_and_class", "min_gpa": 2.7, "unweighted": true, "min_grade_level": "Junior", "and_also": "B- or better in Algebra II (2nd semester)" },
+          { "type": "test_score", "options": [{ "test": "ACT_math", "min_score": 22 }, { "test": "SAT_math", "min_score": 560 }, { "test": "Accuplacer_AAF", "min_score": 255 }] }
+        ]
+      },
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": ["seal.enrollment_honors_advanced_math"],
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-quant-reasoning",
+      "title": "Quantitative Reasoning",
+      "state_course_code": "2550",
+      "grades": [11,12],
+      "semesters": 1, "credits": 1,
+      "prerequisites": ["math-algebra1", "math-geometry", "math-algebra2"],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": ["seal.enrollment_honors_advanced_math"],
+      "special_notes": ["Not an annual requirement under the new Indiana Diploma (only relevant to old Core 40/General diploma through class of 2028)."],
+      "ncaa_approved": true
+    },
+    {
+      "id": "math-quant-reasoning-dc",
+      "title": "Quantitative Reasoning Dual Credit",
+      "state_course_code": "2550",
+      "grades": [11,12],
+      "semesters": 1, "credits": 1,
+      "prerequisites": ["math-algebra1", "math-geometry", "math-algebra2"],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "college_course": "MATH 103", "college_course_name": "Quantitative Reasoning", "college_credits": 3,
+        "eligibility_paths": [
+          { "type": "gpa_and_class", "min_gpa": 2.7, "unweighted": true, "min_grade_level": "Junior", "and_also": "B- or better in Algebra II (2nd semester)" },
+          { "type": "test_score", "options": [{ "test": "ACT_math", "min_score": 22 }, { "test": "SAT_math", "min_score": 560 }, { "test": "Accuplacer_AAF", "min_score": 255 }] }
+        ]
+      },
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": ["seal.enrollment_honors_advanced_math"],
+      "ncaa_approved": true
+    }
+  ],
+
+  "_flags_for_owner_review": []
+}

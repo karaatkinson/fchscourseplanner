@@ -1,0 +1,67 @@
+{
+  "department": "Performing Arts",
+  "source_docs": ["PERFORMING_ARTS_2627.pdf", "202526_Dual_Credit_Crosswalk__FCHS__Vincennes.pdf"],
+  "_general_note": "Most prerequisites in this department are non-academic (audition, participation, prior experience) rather than course-based, and generally cannot be validated by the tool the way 'completed Algebra I' can. Modeled as 'requirement' notes (display-only) rather than gate-able course links, per our earlier discussion.",
+
+  "courses": [
+    { "id": "pa-band-beginning-concert", "title": "Beginning Band - Concert Band", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Previous band experience required" }], "special_notes": ["Small per-semester fee to band boosters", "After-school commitments mandatory"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-band-intermediate-symphonic", "title": "Intermediate Band - Symphonic Band", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Previous band experience required" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-band-intermediate-wind-symphony", "title": "Intermediate Band - Wind Symphony", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-band-advanced-wind-ensemble", "title": "Advanced Band - Wind Ensemble", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition" }], "special_notes": ["Premier performing ensemble of the band program"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-percussion-intermediate", "title": "Instrumental Ensemble - Intermediate Percussion", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Previous band experience required" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-percussion-advanced", "title": "Instrumental Ensemble - Advanced Percussion", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-jazz2", "title": "Jazz Ensemble - Jazz 2", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition + enrolled in a band class (exceptions possible for guitar/bass/drum set/piano)" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-jazz1", "title": "Jazz Ensemble - Jazz 1", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition + enrolled in a band class" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-colorguard", "title": "Dance Choreography - Color Guard Class", "grades": [9,10,11,12], "semesters": "1-2", "credits": "1-2", "prerequisites": [{ "type": "requirement", "note": "Color guard participation required; part of marching band" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+
+    { "id": "pa-choir-descants", "title": "Beginning Chorus - Descants (Treble Voices)", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-choir-vocal-majority", "title": "Beginning Chorus - Vocal Majority (Tenor/Bass Voices)", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-choir-flight", "title": "Beginning Chorus - Flight (Treble Voices)", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition (vocal + choreography); show choir, extracurricular fee applies" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-choir-harmonia", "title": "Intermediate Chorus - Harmonia (Treble Voices)", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-choir-encores", "title": "Intermediate Chorus - Encores (Mixed Voices)", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition (vocal + choreography); show choir, extracurricular fee applies" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-choir-ambassadors", "title": "Advanced Chorus - Ambassadors (Tenor/Bass Voices)", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-choir-highvoltage", "title": "Advanced Chorus - High Voltage (Treble Voices)", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition (vocal + choreography); show choir, extracurricular fee applies" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-choir-fcsingers", "title": "Advanced Chorus - FC Singers (Mixed Voices)", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition (vocal + choreography); show choir, extracurricular fee applies" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-choir-accents", "title": "Advanced Chorus - Accents (Treble Voices)", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition; extracurricular fee applies for travel/competitions" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-choir-chamber", "title": "Advanced Chorus - Chamber Choir (Mixed Voices)", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition; extracurricular fee applies for travel/competitions" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+
+    { "id": "pa-orchestra-cadet", "title": "Beginning Orchestra - Cadet", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Previous orchestra experience" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-orchestra-academy", "title": "Beginning Orchestra - Academy", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "any_of", "courses": ["pa-orchestra-cadet"], "note": "Audition or Cadet Orchestra" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-orchestra-symphony", "title": "Intermediate Orchestra - Symphony", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-orchestra-camerata", "title": "Advanced Orchestra - Camerata", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-orchestra-alt-string", "title": "Instrumental Ensemble - Alternative String Orchestra", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Audition + additional orchestra class" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+
+    { "id": "pa-theatre-arts", "title": "Theatre Arts", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-technical-theatre", "title": "Technical Theatre", "grades": [9,10,11,12], "semesters": "1-2", "credits": "1 per semester", "prerequisites": [], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-advanced-technical-theatre", "title": "Advanced Technical Theatre", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["pa-technical-theatre"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-advanced-acting", "title": "Advanced Acting", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": [{ "type": "requirement", "note": "Recommended: Theatre Arts" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-directing", "title": "Special Topics - Directing", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [{ "type": "requirement", "note": "Recommended: Theatre Arts" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-playwriting", "title": "Special Topics - Playwriting", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [{ "type": "requirement", "note": "Recommended: Theatre Arts" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-group-voice", "title": "Special Topics - Group Voice Class", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [{ "type": "requirement", "note": "Recommended: Theatre Arts + a Choir class" }], "special_notes": ["Required performance element must be completed to pass"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-musical-theater", "title": "Musical Theater", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [{ "type": "requirement", "note": "Recommended: Theatre Arts + a Choir class" }], "special_notes": ["Required performance element must be completed to pass"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-theatre-production", "title": "Theatre Production", "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "any_of", "courses": ["pa-theatre-arts", "pa-technical-theatre"] }], "special_notes": ["Recommended: 2 additional theatre courses"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    {
+      "id": "pa-theatre-appreciation-dc", "title": "Theatre Appreciation Dual Credit", "grades": [10,11,12], "semesters": 1, "credits": 1,
+      "prerequisites": [{ "type": "requirement", "note": "Recommended: Theatre Arts" }],
+      "dual_credit": { "institution": "Vincennes University", "college_course": "THEA 100",
+        "eligibility_paths": [
+          { "type": "gpa_and_class", "min_gpa": 2.7, "unweighted": true, "min_grade_level": "Junior" },
+          { "type": "test_score", "options": [{ "test": "ACT_english", "min_score": 17 }, { "test": "SAT_ebrw", "min_score": 510 }] }
+        ]},
+      "diploma_requirement_id": "personalized_electives", "ncaa_approved": false
+    },
+
+    { "id": "pa-music-theory-comp", "title": "Music Theory & Composition", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "pa-music-theory-comp-ap", "title": "AP Music Theory & Composition", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Recommended: Music Theory and Composition" }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    {
+      "id": "pa-music-appreciation-dc", "title": "Music Appreciation Dual Credit", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [],
+      "dual_credit": { "institution": "Vincennes University", "college_course": "MUSI 218", "note": "Checked directly against the Crosswalk document - unlike Theatre Appreciation's row, this course's row does not show GPA/test-score eligibility columns filled in. May have no formal gate, or the data may simply be missing from the source spreadsheet. Left as an open question rather than assumed." },
+      "diploma_requirement_id": "personalized_electives", "ncaa_approved": false
+    }
+  ],
+
+  "_flags_for_owner_review": [
+    "No Performing Arts course was found to map to any diploma requirement category (all defaulted to personalized_electives) - this seems right given Performing Arts isn't a named category in the new Indiana Diploma, but flagging in case any of these actually carry a Fine Arts-adjacent designation I'm missing from the CTD document's Performing Arts tab specifically (not yet reviewed in detail).",
+    "pa-music-appreciation-dc: STILL OPEN. Checked the Crosswalk document directly (not just a partial search result) - this course's row genuinely doesn't show GPA/test-score eligibility values the way other dual-credit rows do. Worth a quick check with whoever maintains that spreadsheet on whether this course has no eligibility gate, or whether the row is just incomplete."
+  ]
+}

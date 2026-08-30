@@ -1,0 +1,50 @@
+{
+  "department": "World Language",
+  "source_docs": ["WORLD_LANGUAGE_2627.pdf", "1_16_25_Memo_2627_Indiana_Diploma_Course_Eligibility.pdf"],
+  "_general_note": "Per the state eligibility memo: 'Any World Language Level III-VI (including AP World Languages)' satisfies the ss.world_perspectives diploma requirement. Levels I-II do not. Also relevant: Enrollment Honors Seal requires at least 4 World Language credits.",
+
+  "courses": [
+    { "id": "wl-french1", "title": "French I", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Recommended C or better in English" }], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true },
+    { "id": "wl-german1", "title": "German I", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Recommended C or better in English" }], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true },
+    { "id": "wl-spanish1", "title": "Spanish I", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Recommended C or better in English" }], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true },
+
+    { "id": "wl-french2", "title": "French II", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["wl-french1"], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true },
+    { "id": "wl-german2", "title": "German II", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["wl-german1"], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true },
+    { "id": "wl-spanish2", "title": "Spanish II", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["wl-spanish1"], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true },
+
+    { "id": "wl-spanish3", "title": "Spanish III", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["wl-spanish2"], "special_notes": ["Slower pace than Spanish III Honors; recommended for students not planning Spanish IV Honors or collegiate study"], "diploma_requirement_id": "ss.world_perspectives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true },
+    { "id": "wl-french3-honors", "title": "French III Honors", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["wl-french2"], "special_notes": ["Teacher recommendation; B or higher in prior level recommended"], "diploma_requirement_id": "ss.world_perspectives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true },
+    { "id": "wl-german3-honors", "title": "German III Honors", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["wl-german2"], "special_notes": ["Teacher recommendation; B or higher in prior level recommended"], "diploma_requirement_id": "ss.world_perspectives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true },
+    {
+      "id": "wl-spanish3-honors-dc", "title": "Spanish III Honors / Dual Credit", "grades": [10,11,12], "semesters": 2, "credits": 2,
+      "prerequisites": ["wl-spanish2"], "special_notes": ["Teacher recommendation; B or higher in prior level recommended"],
+      "dual_credit": { "institution": "Vincennes University",
+        "semesters": [
+          { "semester": 1, "college_course": "SPAN 101", "eligibility_paths": [{ "type": "requirement", "note": "Grades 10-12, with two years of high school Spanish" }] },
+          { "semester": 2, "college_course": "SPAN 103", "eligibility_paths": [{ "type": "prior_course_grade", "course": "SPAN 101", "min_grade": "C" }] }
+        ]},
+      "diploma_requirement_id": "ss.world_perspectives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true
+    },
+
+    { "id": "wl-french4-honors", "title": "French IV Honors", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["wl-french3-honors"], "diploma_requirement_id": "ss.world_perspectives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true },
+    { "id": "wl-german4-honors", "title": "German IV Honors", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["wl-german3-honors"], "diploma_requirement_id": "ss.world_perspectives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true },
+    {
+      "id": "wl-spanish4-dc", "title": "Spanish IV Dual Credit", "grades": [10,11,12], "semesters": 2, "credits": 2,
+      "prerequisites": ["wl-spanish3-honors-dc"], "special_notes": ["C or better in both semesters of Spanish III Honors/DC required"],
+      "dual_credit": { "institution": "Vincennes University",
+        "semesters": [
+          { "semester": 1, "college_course": "SPAN 201", "eligibility_paths": [{ "type": "prior_course_grade", "course": "SPAN 103", "min_grade": "C" }] },
+          { "semester": 2, "college_course": "SPAN 203", "eligibility_paths": [{ "type": "prior_course_grade", "course": "SPAN 201", "min_grade": "C" }] }
+        ]},
+      "diploma_requirement_id": "ss.world_perspectives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true
+    },
+
+    { "id": "wl-asl1", "title": "American Sign Language I", "state_course_code": "2156", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [], "special_notes": ["CONFIRMED by owner: no prerequisite for Year 1 (2156). Earlier apparent contradiction in source doc resolved."], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true },
+    { "id": "wl-asl2", "title": "American Sign Language II", "state_course_code": "2158", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["wl-asl1"], "special_notes": ["CONFIRMED by owner: requires having earned credit for the previous year's course (2156)."], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true },
+    { "id": "wl-asl3", "title": "American Sign Language III", "state_course_code": "2162", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["wl-asl2"], "special_notes": ["CONFIRMED by owner: requires having earned credit for the previous year's course (2158)."], "diploma_requirement_id": "ss.world_perspectives", "flexible_category_tags": ["seal.enrollment_honors_world_language"], "ncaa_approved": true }
+  ],
+
+  "_flags_for_owner_review": [
+    "RESOLVED: ASL prerequisite structure and state codes confirmed by owner. ASL counted as satisfying the Enrollment Honors Seal's World Language requirement per owner's reasonable interpretation of the 'any world language course' rule in the eligibility memo - noting this is an inference the owner made (not an explicit state confirmation), so worth a quick verification with IDOE/counseling staff if this seal is heavily used, but reasonable to proceed with in the meantime."
+  ]
+}
