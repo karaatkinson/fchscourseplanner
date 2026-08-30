@@ -1,0 +1,86 @@
+{
+  "department": "Science",
+  "source_docs": ["SCIENCE_C_O_2029_2627.pdf", "1_16_25_Memo_2627_Indiana_Diploma_Course_Eligibility.pdf"],
+
+  "courses": [
+    { "id": "sci-biology1", "title": "Biology I", "state_course_code": "3024", "grades": [9], "semesters": 2, "credits": 2, "prerequisites": [], "diploma_requirement_id": "stem.biology1_required", "ncaa_approved": true },
+    { "id": "sci-biology1-honors", "title": "Biology I Honors", "state_course_code": "3024", "grades": [9], "semesters": 2, "credits": 2, "prerequisites": [], "special_notes": ["A or B average in 8th grade science"], "diploma_requirement_id": "stem.biology1_required", "ncaa_approved": true },
+
+    { "id": "sci-chemistry1", "title": "Chemistry I", "state_course_code": "3064", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["math-algebra1", { "type": "any_of", "courses": ["sci-biology1-honors", "sci-biology1"] }], "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science", "seal.enrollment_honors_chemistry_required"], "ncaa_approved": true },
+    { "id": "sci-chemistry1-earlycollege", "title": "Chemistry I Early College", "state_course_code": "3064", "grades": [10], "semesters": 2, "credits": 2, "prerequisites": ["math-algebra1", { "type": "any_of", "courses": ["sci-biology1-honors", "sci-biology1"] }, { "type": "requirement", "note": "Accepted admittance into Early College Cohort" }], "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science", "seal.enrollment_honors_chemistry_required"], "ncaa_approved": true },
+    { "id": "sci-chemistry1-honors", "title": "Chemistry I Honors", "state_course_code": "3064", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["math-algebra1"], "special_notes": ["Recommended: Honors Biology"], "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science", "seal.enrollment_honors_chemistry_required"], "ncaa_approved": true },
+
+    { "id": "sci-icp", "title": "Integrated Chemistry - Physics", "state_course_code": "3108", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["math-algebra1"], "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science", "seal.enrollment_honors_advanced_lab_science_option"], "special_notes": ["Does NOT satisfy the Enrollment Honors Seal Chemistry-specific requirement - only counts as an Advanced Lab Science option."], "ncaa_approved": true },
+
+    { "id": "sci-physics1", "title": "Physics I", "state_course_code": "3084", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["sci-biology1"], "special_notes": ["Chemistry recommended"], "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science", "seal.enrollment_honors_physics_option"], "ncaa_approved": true },
+    {
+      "id": "sci-physics1-ap-dc", "title": "Physics I AP / Dual Credit", "state_course_code": "3080",
+      "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["math-algebra2", "math-geometry"],
+      "dual_credit": { "institution": "Ivy Tech Community College", "college_course": "PHYS 215/215L",
+        "eligibility_paths": [{ "type": "prior_course_grade", "course": "DC Precalculus Sem 1", "min_grade": "C" }, { "type": "test_score", "options": [{ "test": "AP_Precalculus_exam" }] }] },
+      "special_notes": ["Students required to take AP exam in May"],
+      "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science", "seal.enrollment_honors_physics_option"], "ncaa_approved": true
+    },
+
+    { "id": "sci-anatomy-physiology", "title": "Anatomy & Physiology", "state_course_code": "5276", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["sci-biology1"], "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science"], "ncaa_approved": true },
+    { "id": "sci-earth-space", "title": "Earth & Space Science I", "state_course_code": "3044", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["sci-biology1"], "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science"], "ncaa_approved": true },
+
+    {
+      "id": "sci-plant-animal-bio-dc", "title": "Dual Credit Plant and Animal Biology", "state_course_code": "3090/CCPA",
+      "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["sci-biology1"],
+      "special_notes": ["Recommended: ICP or Chemistry"],
+      "dual_credit": { "institution": "Vincennes University", "college_course": "BIOL 101/101L",
+        "eligibility_paths": [
+          { "type": "gpa_and_class", "min_gpa": 2.7, "unweighted": true, "min_grade_level": "Junior", "and_also": "B- or better in Algebra II (2nd semester)" },
+          { "type": "test_score", "options": [{ "test": "Accuplacer" }] }
+        ]},
+      "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science"],
+      "ncaa_approved": true
+    },
+
+    { "id": "sci-biology2-zoology", "title": "Biology II / Zoology", "state_course_code": "3026", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["sci-biology1"], "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science"], "ncaa_approved": true },
+    { "id": "sci-bioethics-happiness", "title": "Bioethics and the Biology of Happiness", "state_course_code": "3092", "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["sci-biology1"], "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science"], "special_notes": ["Code 3092 = 'Advanced Science Special Topics', which IS on the state's Additional Science Credits list - updated from personalized_electives to stem.additional_science accordingly."], "ncaa_approved": true },
+
+    {
+      "id": "sci-biology-ap-dc", "title": "Biology AP / Dual Credit", "state_course_code": "3020",
+      "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["sci-biology1", "sci-chemistry1"],
+      "dual_credit": { "institution": "Vincennes University", "college_course": "BIOL 105",
+        "eligibility_paths": [
+          { "type": "gpa_and_class", "min_gpa": 2.6, "unweighted": true, "min_grade_level": "Junior" },
+          { "type": "test_score", "options": [{ "test": "Ivy_Tech_Knowledge_Assessment" }] }
+        ]},
+      "special_notes": ["8 mandatory labs; students required to take AP exam in May; summer work may be assigned"],
+      "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science"], "ncaa_approved": true
+    },
+    {
+      "id": "sci-chemistry-ap-dc", "title": "Chemistry AP / Dual Credit", "state_course_code": "3060",
+      "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["math-algebra2"],
+      "special_notes": ["Recommended: Honors Chemistry I or Chemistry I"],
+      "dual_credit": { "institution": "Ivy Tech Community College", "college_course": "CHEM 125", "crosswalk_code": "3090/CCCH",
+        "eligibility_paths": [
+          { "type": "gpa_and_class", "min_gpa": 2.6, "unweighted": true, "min_grade_level": "Junior" },
+          { "type": "test_score", "options": [{ "test": "Ivy_Tech_Knowledge_Assessment_precalc" }] }
+        ]},
+      "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science", "seal.enrollment_honors_chemistry_required"], "ncaa_approved": true
+    },
+
+    { "id": "sci-forensic-science", "title": "Forensic Science", "state_course_code": "3092", "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Recommended Chemistry or ICP" }], "special_notes": ["Contains true crime case studies with sensitive/trigger-warning content per department description.", "Shares code 3092 ('Advanced Science Special Topics') with Bioethics and the Biology of Happiness - this appears to be a generic state code covering multiple locally-designed advanced science electives, not an error."], "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science"], "ncaa_approved": true },
+
+    { "id": "sci-environmental-science-ap", "title": "Environmental Science AP", "state_course_code": "3012", "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["sci-biology1", "sci-chemistry1"], "special_notes": ["Students required to take AP exam in May"], "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science"], "ncaa_approved": true },
+    { "id": "sci-science-research", "title": "Science Research", "state_course_code": "3008", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "any_of", "courses": ["sci-biology1-honors", "sci-biology1"] }], "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science"], "ncaa_approved": false },
+    {
+      "id": "sci-physics2-ap-dc", "title": "Physics II AP / Dual Credit", "state_course_code": "3086",
+      "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["sci-physics1-ap-dc"],
+      "special_notes": ["Concurrent enrollment in Pre-Calculus expected"],
+      "dual_credit": { "institution": "Ivy Tech Community College", "college_course": "PHYS 216/216L",
+        "eligibility_paths": [{ "type": "prior_course_grade", "course": "DC Precalculus Sem 1", "min_grade": "C" }, { "type": "test_score", "options": [{ "test": "AP_Precalculus_exam" }] }] },
+      "special_notes_2": ["Students required to take AP exam in May"],
+      "diploma_requirement_id": "stem.additional_science", "flexible_category_tags": ["lab_science"], "ncaa_approved": true
+    }
+  ],
+
+  "_flags_for_owner_review": [
+    "RESOLVED by owner: all three courses now have confirmed state codes and correctly count toward stem.additional_science.",
+    "Enrollment Honors Seal science requirement needs BOTH Chemistry AND (Physics OR 2 credits of another Advanced Lab Science) - tagged the relevant courses individually, but this combination rule itself lives in the readiness-seals-rules.json file, not on individual courses."
+  ]
+}

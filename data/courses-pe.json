@@ -1,0 +1,78 @@
+{
+  "department": "Physical Education",
+  "source_docs": ["PHYSICAL_EDUCATION_2627.pdf", "1_16_25_Memo_2627_Indiana_Diploma_Course_Eligibility.pdf"],
+
+  "courses": [
+    {
+      "id": "pe-physical-ed-1-2", "title": "Physical Education I-II", "state_course_code": "3542 / 3544",
+      "grades": [9,10,11,12], "semesters": "1-2", "credits": "1-2", "prerequisites": [],
+      "special_notes": [
+        "Class of 2029 needs PE I OR II, not both - modeled as a diploma-rule special case, not a normal 'take both' sequence.",
+        "Swimming is a required, graded phase of the course.",
+        "At least one of the two required semesters must be taken in person."
+      ],
+      "diploma_requirement_id": "pe.physical_education", "ncaa_approved": false
+    },
+    {
+      "id": "pe-alternative-2", "title": "Alternative PE - II (sports/activity-based)", "state_course_code": "3544",
+      "grades": [11,12], "semesters": 1, "credits": 1,
+      "prerequisites": [{ "type": "requirement", "note": "IHSAA sport or FC-qualifying activity (cheer, WGI percussion/color guard, ISSMA show choir/marching band)" }],
+      "special_notes": [
+        "ACTIVE ONLY for Class of 2027 & 2028 per department guide - explicitly sunsetting, similar pattern to Social Studies' Personal Financial Literacy course.",
+        "Requires 1 additional in-person PE credit (summer or school year) plus an Edmentum online academic component."
+      ],
+      "diploma_requirement_id": "pe.physical_education", "active_2026_27": true, "sunset_after_class_of": 2028, "ncaa_approved": false
+    },
+    {
+      "id": "pe-applied-1-2", "title": "Applied Physical Education I-II", "state_course_code": null,
+      "grades": [9,10,11,12], "semesters": "1-2", "credits": "1-2", "prerequisites": [],
+      "special_notes": ["Determined by case conference committee, least restrictive environment", "Class of 2029 needs PE I or II, not both - same rule as standard PE"],
+      "diploma_requirement_id": "pe.physical_education", "ncaa_approved": false
+    },
+
+    { "id": "pe-health-wellness", "title": "Health and Wellness", "state_course_code": "3506", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "pe.health_wellness", "ncaa_approved": false },
+
+    { "id": "pe-elective-weight-training", "title": "Elective PE (Weight Training)", "state_course_code": "3560", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": ["pe-physical-ed-1-2"], "diploma_requirement_id": "personalized_electives", "special_notes": ["Counts toward 8-credit combined-elective-PE cap"], "ncaa_approved": false },
+    {
+      "id": "pe-elective-advanced-weight-training", "title": "Elective PE (Advanced Weight Training)", "state_course_code": "3560",
+      "grades": [9,10,11,12], "semesters": "1-2", "credits": "1 per semester",
+      "prerequisites": [{ "type": "requirement", "note": "IHSAA-sanctioned athlete who's completed PE, OR non-athlete with instructor approval" }],
+      "special_notes": ["Sport-specific weight track (A/B/C) recommended by staff", "Counts toward 8-credit combined-elective-PE cap"],
+      "diploma_requirement_id": "personalized_electives", "ncaa_approved": false
+    },
+    { "id": "pe-elective-basketball101", "title": "Elective PE (Basketball 101)", "state_course_code": "3560", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": ["pe-physical-ed-1-2"], "diploma_requirement_id": "personalized_electives", "special_notes": ["Counts toward 8-credit combined-elective-PE cap"], "ncaa_approved": false },
+    { "id": "pe-elective-coed-rec-games", "title": "Elective PE (Coeducational Recreation Games)", "state_course_code": "3560", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": ["pe-physical-ed-1-2"], "diploma_requirement_id": "personalized_electives", "special_notes": ["Counts toward 8-credit combined-elective-PE cap"], "ncaa_approved": false },
+    { "id": "pe-elective-lifetime-activities", "title": "Elective PE (Lifetime Activities)", "state_course_code": "3560", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": ["pe-physical-ed-1-2"], "diploma_requirement_id": "personalized_electives", "special_notes": ["Counts toward 8-credit combined-elective-PE cap"], "ncaa_approved": false },
+    {
+      "id": "pe-elective-lifeguard-training", "title": "Elective PE (Lifeguard Training)", "state_course_code": "3560",
+      "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": ["pe-physical-ed-1-2"],
+      "special_notes": ["American Red Cross certification possible with 80%+ scores", "Pretest required in week 1 (swim/tread/rescue skills)", "Counts toward 8-credit combined-elective-PE cap"],
+      "certifications": [{ "name": "American Red Cross Lifeguard Certification" }],
+      "diploma_requirement_id": "personalized_electives", "ncaa_approved": false
+    },
+    { "id": "pe-elective-swimming-water-games", "title": "Elective PE (Swimming & Water Games)", "state_course_code": "3560", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": ["pe-physical-ed-1-2"], "diploma_requirement_id": "personalized_electives", "special_notes": ["Counts toward 8-credit combined-elective-PE cap"], "ncaa_approved": false },
+    { "id": "pe-elective-team-sports", "title": "Elective PE (Team Sports)", "state_course_code": "3560", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": ["pe-physical-ed-1-2"], "special_notes": ["Can only be taken once during a student's high school career", "Counts toward 8-credit combined-elective-PE cap"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+
+    {
+      "id": "pe-advanced-lifeguarding-internship", "title": "Advanced Lifeguarding (Career Exploration Internship)", "state_course_code": null,
+      "grades": [10,11,12], "semesters": "1-2", "credits": "1-2",
+      "prerequisites": [{ "type": "requirement", "note": "Lifeguard certification / swim instructor recommendation" }],
+      "diploma_requirement_id": "personalized_electives", "ncaa_approved": false
+    },
+    {
+      "id": "pe-applied-pe-assistant-internship", "title": "Applied PE Assistant (Career Exploration Internship)", "state_course_code": null,
+      "grades": [10,11,12], "semesters": "1-2", "credits": "1-2",
+      "prerequisites": [{ "type": "requirement", "note": "B average or better, successful completion of PE I, instructor approval" }],
+      "diploma_requirement_id": "personalized_electives", "ncaa_approved": false
+    }
+  ],
+
+  "_department_wide_rules": [
+    "Maximum 8 credits total can be earned across ALL combined Elective PE courses - this is a cap the progress tracker should enforce, not just display, per department guide.",
+    "Class of 2029 needs PE I OR PE II, not both, for standard and Applied PE - different from older classes who may need both."
+  ],
+
+  "_flags_for_owner_review": [
+    "pe-alternative-2 (Alternative PE-II): department guide says 'Class of 27 & 28 only' but the CTD/eligibility documents don't explicitly confirm this sunset date independently - confirmed from FCHS's own document only. Low risk but noting the single-source nature."
+  ]
+}

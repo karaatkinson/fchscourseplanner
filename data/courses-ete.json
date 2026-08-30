@@ -1,0 +1,87 @@
+{
+  "department": "Engineering and Technology Education",
+  "source_docs": ["ENGINEERING_AND_TECHNOLOGY_EDUCATION_2627.pdf", "1_16_25_Memo_2627_Indiana_Diploma_Course_Eligibility.pdf"],
+
+  "courses": [
+    {
+      "id": "ete-construction-principles", "title": "Principles of Construction Trades", "state_course_code": "7130/CC",
+      "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [],
+      "pathways": [
+        { "pathway_name": "Architecture & Construction - Carpentry", "leads_to": ["ete-construction-general-carpentry"] },
+        { "pathway_name": "Architecture & Construction - Civil Construction", "leads_to": ["ete-civil-construction-fundamentals"] }
+      ],
+      "dual_credit": { "institution": null, "college_course": "BCTI 100 (Intro to Construction Technology)" },
+      "certifications": [{ "name": "OSHA 10" }, { "name": "NCCER Core Certification" }],
+      "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.construction"], "ncaa_approved": false
+    },
+    {
+      "id": "ete-construction-general-carpentry", "title": "Construction Trades: General Carpentry", "state_course_code": "7123/CC",
+      "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["ete-construction-principles"],
+      "dual_credit": { "institution": null, "college_course": "BCTI 101 (Intro to Carpentry, Part 1) & BCTI 102 (Intro to Carpentry, Part 2)" },
+      "certifications": [{ "name": "NCCER Carpentry Level 1", "requires_prior_certification_from_course": "ete-construction-principles" }],
+      "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.construction"], "ncaa_approved": false
+    },
+    {
+      "id": "ete-construction-framing-finishing", "title": "Construction Trades: Framing and Finishing", "state_course_code": "7122",
+      "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["ete-construction-principles", "ete-construction-general-carpentry"],
+      "dual_credit": { "institution": null, "college_course": "BCTI 103 (Carpentry Finishing/Framing, Part 1) & BCTI 104 (Carpentry Finishing/Framing, Part 2)" },
+      "certifications": [{ "name": "OSHA 30", "requires_prior_certification": "OSHA 10" }, { "name": "NCCER Carpentry Level 2", "requires_prior_certification_from_course": "ete-construction-general-carpentry" }],
+      "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.construction"], "ncaa_approved": false
+    },
+
+    {
+      "id": "ete-civil-construction-fundamentals", "title": "Civil Construction Fundamentals", "state_course_code": null,
+      "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["ete-construction-principles"],
+      "certifications": [{ "name": "Flagging Certification" }],
+      "special_notes": ["First half of NCCER Heavy Highway Construction Level 1 - certificate not awarded until Advanced Civil Construction is also completed."],
+      "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.construction"], "ncaa_approved": false
+    },
+    {
+      "id": "ete-advanced-civil-construction", "title": "Advanced Civil Construction", "state_course_code": null,
+      "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["ete-construction-principles", "ete-civil-construction-fundamentals"],
+      "certifications": [{ "name": "OSHA 30" }, { "name": "NCCER Heavy Highway Construction Level 1", "requires_prior_certification_from_course": "ete-civil-construction-fundamentals" }],
+      "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.construction"], "ncaa_approved": false
+    },
+
+    {
+      "id": "ete-ied-dc", "title": "Introduction to Engineering Design Dual Credit", "state_course_code": "4802",
+      "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "C or better in middle school Math" }],
+      "special_notes": ["Required to complete the STEM-Engineering (PLTW) Pathway", "Part of Project Lead the Way (PLTW) sequence"],
+      "dual_credit": { "institution": "Ivy Tech Community College", "college_credits": 6, "college_course": "DESN 101 (Intro to Design Technology) & DESN 113 (2D Computer Aided Design)" },
+      "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.engineering_pltw", "seal.enrollment_honors_stem_pairing"], "ncaa_approved": false
+    },
+    {
+      "id": "ete-poe-dc", "title": "Principles of Engineering Dual Credit", "state_course_code": "5644",
+      "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "C or better in Algebra I" }, "ete-ied-dc"],
+      "special_notes": ["Required to complete the STEM-Engineering (PLTW) Pathway"],
+      "dual_credit": { "institution": "Ivy Tech Community College", "college_credits": 3, "college_course": "DESN 104 (Mechanical Graphics)", "eligibility_paths": [{ "type": "requirement", "note": "Must have earned dual credit in Introduction to Engineering Design" }] },
+      "diploma_requirement_id": "stem.stem_focused", "flexible_category_tags": ["cte_pathway.engineering_pltw"], "ncaa_approved": false
+    },
+    {
+      "id": "ete-cea-dc", "title": "Civil Engineering and Architecture Dual Credit", "state_course_code": "5650",
+      "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "C or better in Algebra I" }, "ete-ied-dc", "ete-poe-dc"],
+      "dual_credit": { "institution": "Ivy Tech Community College", "college_credits": 3, "college_course": "DESN 105 (Architectural Design I)", "eligibility_paths": [{ "type": "requirement", "note": "Must have earned dual credit in Introduction to Engineering Design" }] },
+      "diploma_requirement_id": "stem.stem_focused", "flexible_category_tags": ["cte_pathway.engineering_pltw"], "ncaa_approved": false
+    },
+    {
+      "id": "ete-aerospace-engineering", "title": "Aerospace Engineering", "state_course_code": "5518",
+      "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "C or better in Algebra I" }, "ete-ied-dc", "ete-poe-dc"],
+      "diploma_requirement_id": "stem.stem_focused", "flexible_category_tags": ["cte_pathway.engineering_pltw"], "ncaa_approved": false
+    },
+    {
+      "id": "ete-cim", "title": "Computer-Integrated Manufacturing", "state_course_code": "5534",
+      "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "C or better in Algebra I" }, "ete-ied-dc", "ete-poe-dc"],
+      "diploma_requirement_id": "stem.stem_focused", "flexible_category_tags": ["cte_pathway.engineering_pltw"], "ncaa_approved": false
+    },
+
+    { "id": "ete-principles-broadcasting-ref", "title": "Principles of Broadcasting", "note": "Cross-reference - full record lives in ELA department file (ete-principles-broadcasting), state code 7139 confirmed by owner." },
+
+    { "id": "ete-career-exploration-internship", "title": "Career Exploration Internship", "state_course_code": null, "grades": [12], "semesters": "1-2", "credits": "1-2 per semester", "prerequisites": [], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false }
+  ],
+
+  "_flags_for_owner_review": [
+    "RESOLVED: all dual-credit college course numbers now confirmed (BCTI series for Construction Trades, DESN series for Introduction to Engineering Design).",
+    "STILL OPEN: state K-12 course codes (the kind used elsewhere to match against diploma requirement lists, e.g. Math's '2520') were not provided for any Construction Trades, Civil Construction, or Introduction to Engineering Design courses - owner left this section blank on the checklist. These courses currently do NOT count toward any diploma requirement (default: personalized_electives) until state codes are confirmed. Recommend checking the CTD Companion Document's Construction/Architecture tab specifically.",
+    "Note for build phase: Construction Trades entry course appears in TWO pathways (Carpentry and Civil Construction) exactly like the Business department's branching pattern - schema handles this correctly via the 'pathways' array."
+  ]
+}

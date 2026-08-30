@@ -1,0 +1,115 @@
+{
+  "department": "Business",
+  "source_docs": ["BUSINESS_DEPARTMENT_2627.pdf", "CTD Companion Document"],
+
+  "courses": [
+    {
+      "id": "business-principles-mgmt", "title": "Principles of Business Management", "state_course_code": "4562",
+      "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [],
+      "pathways": [
+        { "pathway_name": "Finance and Investment", "leads_to": ["business-accounting-fundamentals", "business-finance-investment"] },
+        { "pathway_name": "Business Management & Administration", "leads_to": ["business-management-fundamentals-dc", "business-admin-capstone-dc"] },
+        { "pathway_name": "Marketing & Sales", "leads_to": ["business-marketing-fundamentals-dc", "business-digital-marketing-dc"] }
+      ],
+      "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.business"], "ncaa_approved": false
+    },
+    { "id": "business-accounting-fundamentals", "title": "Accounting Fundamentals", "state_course_code": "4524", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["business-principles-mgmt"], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.business"], "ncaa_approved": false },
+    { "id": "business-finance-investment", "title": "Finance and Investment", "state_course_code": "5258", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["business-accounting-fundamentals"], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.business"], "ncaa_approved": false },
+
+    {
+      "id": "business-management-fundamentals-dc", "title": "Management Fundamentals (McCormick's Cafe) Dual Credit", "state_course_code": "7143/CC",
+      "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["business-principles-mgmt"],
+      "dual_credit": { "institution": "Ivy Tech Community College", "college_course": "BUSN 105 (Principles of Management) & BUSN 201 (Business Law)",
+        "eligibility_paths": [
+          { "type": "gpa_and_class", "min_gpa": 2.6, "unweighted": true, "min_grade_level": "Junior" },
+          { "type": "test_score", "options": [{ "test": "Ivy_Tech_Knowledge_Assessment" }] }
+        ]},
+      "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.business"], "ncaa_approved": false
+    },
+    {
+      "id": "business-admin-capstone-dc", "title": "Business Administration Capstone (McCormick's Cafe) Dual Credit", "state_course_code": "7256/CC",
+      "grades": [11,12], "semesters": 2, "credits": "2 (max 6, repeatable up to 3x)",
+      "prerequisites": ["business-management-fundamentals-dc"],
+      "special_notes": ["Pre or co-req: Accounting Fundamentals", "Application required"],
+      "dual_credit": { "institution": "Ivy Tech Community College", "college_course": "OTEC 216 (Business Communications) & BUSN 202 (Human Resource Management)" },
+      "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.business"], "ncaa_approved": false
+    },
+
+    {
+      "id": "business-marketing-fundamentals-dc", "title": "Marketing Fundamentals (Spirit Shop) Dual Credit", "state_course_code": "5914",
+      "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["business-principles-mgmt"],
+      "dual_credit": { "institution": "Ivy Tech Community College", "college_course": "MKTG 101 (Principles of Marketing) & MKTG 102 (Principles of Selling)",
+        "eligibility_paths": [
+          { "type": "gpa_and_class", "min_gpa": 2.6, "unweighted": true, "min_grade_level": "Junior" },
+          { "type": "test_score", "options": [{ "test": "Ivy_Tech_Knowledge_Assessment" }] }
+        ]},
+      "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.business"], "ncaa_approved": false
+    },
+    {
+      "id": "business-digital-marketing-dc", "title": "Digital Marketing Dual Credit", "state_course_code": "7145",
+      "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["business-marketing-fundamentals-dc"],
+      "dual_credit": { "institution": "Ivy Tech Community College", "college_course": "MKTG 252 (Introduction to Digital Marketing) & MKTG 257 (Digital Marketing Management)",
+        "eligibility_paths": [
+          { "type": "gpa_and_class", "min_gpa": 2.6, "unweighted": true, "min_grade_level": "Junior" },
+          { "type": "test_score", "options": [{ "test": "Ivy_Tech_Knowledge_Assessment" }] }
+        ]},
+      "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.business"], "ncaa_approved": false
+    },
+
+    {
+      "id": "business-principles-computing-dc", "title": "Principles of Computing Dual Credit", "state_course_code": "7183",
+      "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [],
+      "special_notes": ["Recommended B in Algebra I"],
+      "dual_credit": { "institution": "Ivy Tech Community College", "college_course": "COMP 177", "eligibility_paths": [{ "type": "requirement", "note": "Recommended B in Algebra I" }] },
+      "diploma_requirement_id": "stem.computer_science",
+      "special_diploma_note": "Per CTD/eligibility memo, 7183 must be paired with a second qualifying course (e.g. Software Development, Website & Database Development) to fully satisfy the Computer Science requirement.",
+      "flexible_category_tags": ["cte_pathway.software_dev", "seal.enrollment_honors_stem_pairing"],
+      "ncaa_approved": false
+    },
+    {
+      "id": "business-software-dev-dc", "title": "Software Development Dual Credit", "state_course_code": "7184",
+      "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["business-principles-computing-dc"],
+      "dual_credit": { "institution": "Ivy Tech Community College", "college_course": "COMP 203", "eligibility_paths": [{ "type": "prior_course_grade", "course": "DC Principles of Computing", "min_grade": "C" }] },
+      "diploma_requirement_id": "stem.computer_science", "flexible_category_tags": ["cte_pathway.software_dev"], "ncaa_approved": false
+    },
+    {
+      "id": "business-website-db-dev", "title": "Website and Database Development", "state_course_code": "7185",
+      "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["business-principles-computing-dc"],
+      "diploma_requirement_id": "stem.computer_science", "flexible_category_tags": ["cte_pathway.software_dev"], "ncaa_approved": false
+    },
+    {
+      "id": "business-software-dev-capstone", "title": "Software Development Capstone", "state_course_code": "7353",
+      "grades": [11,12], "semesters": 2, "credits": "2 (max 6, repeatable up to 3x)",
+      "prerequisites": ["business-software-dev-dc", "business-website-db-dev"],
+      "special_notes": ["Application required"],
+      "diploma_requirement_id": "stem.stem_focused", "flexible_category_tags": ["cte_pathway.software_dev"], "ncaa_approved": false
+    },
+
+    { "id": "business-digital-design-principles", "title": "Principles of Digital Design", "state_course_code": "7140", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.digital_design"], "ncaa_approved": false },
+    { "id": "business-digital-design-graphics", "title": "Digital Design Graphics", "state_course_code": "7141", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["business-digital-design-principles"], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.digital_design"], "ncaa_approved": false },
+    { "id": "business-interactive-media", "title": "Interactive Media", "state_course_code": "7138", "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["business-digital-design-graphics"], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.digital_design"], "ncaa_approved": false },
+
+    { "id": "business-math", "title": "Business Math", "state_course_code": "4512", "grades": [11,12], "semesters": "1-2", "credits": "1-2", "prerequisites": [{ "type": "requirement", "note": "Counselor approval" }], "diploma_requirement_id": "math.additional_credits", "ncaa_approved": false },
+    { "id": "business-ap-compsci-java", "title": "AP Computer Science A (Java)", "state_course_code": "4570", "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["business-principles-computing-dc"], "diploma_requirement_id": "stem.computer_science", "flexible_category_tags": ["cte_pathway.software_dev"], "ncaa_approved": false },
+    { "id": "business-computing-foundations", "title": "Computing Foundations for a Digital Age", "state_course_code": "4565", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "stem.computer_science", "special_notes": ["Cannot also be used for STEM-Focused credit - it's the one science-list course explicitly excluded from that category per CTD."], "ncaa_approved": false },
+    { "id": "business-intro-business", "title": "Introduction to Business", "state_course_code": "4518", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "business-it-support-cyberflashes", "title": "IT Support - Cyberflashes", "state_course_code": "4578", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Recommended: Principles of Computing; application required" }], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.software_dev"], "ncaa_approved": false },
+    { "id": "business-personal-financial-responsibility", "title": "Personal Financial Responsibility", "state_course_code": "4540", "grades": [12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "math.personal_finance", "ncaa_approved": false },
+    {
+      "id": "business-entrepreneurship-dc", "title": "Principles of Entrepreneurship Dual Credit", "state_course_code": "7154/CC",
+      "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": [],
+      "dual_credit": { "institution": "Ivy Tech Community College", "college_course": "ENTR 100 (Entrepreneurial Mindset) & ENTR 200 (Entrepreneurial Enterprise)",
+        "eligibility_paths": [
+          { "type": "gpa_and_class", "min_gpa": 2.6, "unweighted": true, "min_grade_level": "Junior" },
+          { "type": "test_score", "options": [{ "test": "Ivy_Tech_Knowledge_Assessment" }] }
+        ]},
+      "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["cte_pathway.business"], "ncaa_approved": false
+    },
+    { "id": "business-career-exploration-internship", "title": "Career Exploration Internship", "state_course_code": null, "grades": [12], "semesters": "1-2", "credits": "1-2 per semester", "prerequisites": [], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false }
+  ],
+
+  "_flags_for_owner_review": [
+    "RESOLVED by owner: all state course codes now confirmed and populated above. NOTE: none of these codes appeared on the state eligibility memo's Math/Science/STEM flexible-category lists, so they remain tagged as personalized_electives - the codes are for identification/dual-credit tracking purposes, not diploma-requirement credit, unless further confirmed otherwise.",
+    "business-principles-computing-dc / software-dev / website-db-dev: tagged as satisfying stem.computer_science or stem.stem_focused based on matching the state eligibility list. Since Business department also has its own 'Software Development' pathway distinct from identically-named Engineering/Tech courses, confirm there's no double-counting risk if a student takes similarly-named courses from two departments. STILL OPEN."
+  ]
+}
