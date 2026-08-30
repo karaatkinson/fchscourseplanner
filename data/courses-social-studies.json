@@ -1,0 +1,56 @@
+{
+  "department": "Social Studies",
+  "source_docs": ["SOCIAL_STUDIES_2627.pdf", "1_16_25_Memo_2627_Indiana_Diploma_Course_Eligibility.pdf"],
+
+  "courses": [
+    { "id": "ss-geo-history-world", "title": "Geography & History of the World", "state_course_code": "1570", "grades": [9], "semesters": 2, "credits": 2, "prerequisites": [], "diploma_requirement_id": "ss.world_perspectives", "ncaa_approved": false },
+    { "id": "ss-geo-history-world-honors", "title": "Geography & History of the World Honors", "state_course_code": "1570", "grades": [9], "semesters": 2, "credits": 2, "prerequisites": [], "diploma_requirement_id": "ss.world_perspectives", "ncaa_approved": false },
+    { "id": "ss-geo-history-world-earlycollege", "title": "Early College Geography & History of the World", "state_course_code": "1570", "grades": [9], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Accepted admittance into Early College Cohort" }], "diploma_requirement_id": "ss.world_perspectives", "ncaa_approved": false },
+    { "id": "ss-world-history-civ", "title": "World History & Civilization", "state_course_code": "1548", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": [], "diploma_requirement_id": "ss.world_perspectives", "ncaa_approved": false },
+    { "id": "ss-world-history-ap", "title": "World History AP", "state_course_code": "1612", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [], "special_notes": ["Students required to take AP exam in May"], "diploma_requirement_id": "ss.world_perspectives", "ncaa_approved": false },
+
+    { "id": "ss-us-history", "title": "US History", "state_course_code": "1542", "grades": [11], "semesters": 2, "credits": 2, "prerequisites": [], "diploma_requirement_id": "ss.us_history", "ncaa_approved": false },
+    {
+      "id": "ss-us-history-ap-dc", "title": "US History AP / Dual Credit", "state_course_code": "1562",
+      "grades": [11], "semesters": 2, "credits": 2, "prerequisites": [],
+      "special_notes": ["Recommended: Honors English and/or Honors GHW", "Students required to take AP exam in May"],
+      "dual_credit": { "institution": "Vincennes University", "college_course": "HIST 139 & HIST 140", "college_credits": 6,
+        "eligibility_paths": [
+          { "type": "gpa_and_class", "min_gpa": 2.7, "unweighted": true, "min_grade_level": "Junior" },
+          { "type": "test_score", "options": [{ "test": "ACT_english", "min_score": 17 }, { "test": "SAT_ebrw", "min_score": 510 }] }
+        ]},
+      "diploma_requirement_id": "ss.us_history", "ncaa_approved": true
+    },
+
+    { "id": "ss-us-government", "title": "US Government", "state_course_code": "1540", "grades": [12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "ss.us_government", "ncaa_approved": false },
+    { "id": "ss-us-government-wethepeople-dc", "title": "US Government (We the People) Dual Credit", "state_course_code": "1574/CCWP", "grades": [12], "semesters": 1, "credits": 1, "prerequisites": [{ "type": "requirement", "note": "Application required, accepted by instructor" }], "diploma_requirement_id": "ss.us_government", "special_notes": ["Confirmed by owner as distinct dual-credit code (not same as standard US Government's 1540)."], "ncaa_approved": false },
+    {
+      "id": "ss-us-government-ap-dc", "title": "US Government AP / Dual Credit", "state_course_code": "1560",
+      "grades": [12], "semesters": 1, "credits": 1, "prerequisites": [],
+      "special_notes": ["Recommended: AP US History", "Grants 3 credit hours from Vincennes (POLS 111)"],
+      "dual_credit": { "institution": "Vincennes University", "college_course": "POLS 111 (American National Government)", "college_credits": 3, "crosswalk_code": "1574/CCGV" },
+      "diploma_requirement_id": "ss.us_government", "flexible_category_tags": [], "ncaa_approved": false
+    },
+
+    { "id": "ss-economics", "title": "Economics", "state_course_code": "1514", "grades": [12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_ss_sixth_credit"], "special_notes": ["Not a required base-diploma course under the new Indiana Diploma (unlike the old Core 40)."], "ncaa_approved": false },
+    { "id": "ss-macroeconomics-ap", "title": "Macroeconomics AP", "state_course_code": "1564", "grades": [12], "semesters": 1, "credits": 1, "prerequisites": [], "special_notes": ["Recommended AP US History or AP World History", "Students required to take AP exam in May"], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_ss_sixth_credit"], "ncaa_approved": false },
+
+    { "id": "ss-human-geography-ap", "title": "Human Geography AP", "state_course_code": "1572", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": [], "special_notes": ["Recommended: Honors GHW or World History", "Students required to take AP exam in May"], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_ss_sixth_credit"], "ncaa_approved": false },
+    { "id": "ss-comparative-govt-ap", "title": "Comparative Government and Politics AP", "state_course_code": null, "active_2026_27": false, "grades": [12], "semesters": 1, "credits": 1, "prerequisites": [], "special_notes": ["CONFIRMED INACTIVE by owner: FCHS does not offer this course - what they actually offer is United States Government. Excluded from active course list. The 1574/CCGV code initially associated with this entry actually belongs to US Government AP/Dual Credit - corrected there instead."], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "ss-psychology", "title": "Psychology", "state_course_code": "1532", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_ss_sixth_credit"], "ncaa_approved": false },
+    { "id": "ss-psychology-ap", "title": "Psychology AP", "state_course_code": "1558", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": [], "special_notes": ["Students required to take AP exam in May"], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_ss_sixth_credit"], "ncaa_approved": false },
+    { "id": "ss-sociology", "title": "Sociology", "state_course_code": "1534", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_ss_sixth_credit"], "ncaa_approved": false },
+    { "id": "ss-indiana-studies", "title": "Indiana Studies", "state_course_code": "1518", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_ss_sixth_credit"], "ncaa_approved": false },
+    { "id": "ss-ethnic-studies", "title": "Ethnic Studies", "state_course_code": null, "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [], "active_2026_27": false, "special_notes": ["CONFIRMED INACTIVE by owner: not on FCHS master schedule for 2026-27. Excluded from active course list."], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "ss-european-history-ap", "title": "European History AP", "state_course_code": "1556", "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Grade 10 students who completed AP World History also eligible" }], "special_notes": ["Students required to take AP exam in May"], "diploma_requirement_id": "personalized_electives", "flexible_category_tags": ["seal.enrollment_honors_ss_sixth_credit"], "ncaa_approved": false },
+    { "id": "ss-law-education", "title": "Law Education", "state_course_code": "1526", "grades": [11,12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+
+    { "id": "ss-personal-financial-literacy", "title": "Personal Financial Literacy", "state_course_code": null, "grades": [12], "semesters": 1, "credits": 1, "prerequisites": [], "special_notes": ["NOT YET ACTIVE: starts 2027-28 school year per department guide. Excluded from 2026-27 active course list, kept here for forward reference only."], "diploma_requirement_id": null, "active_2026_27": false, "ncaa_approved": false }
+  ],
+
+  "_flags_for_owner_review": [
+    "ss-us-government-wethepeople-dc: assumed same state code as standard US Government course; department guide doesn't give a distinct code for this honors/dual-credit-style offering. Confirm.",
+    "ss-comparative-govt-ap, ss-ethnic-studies, ss-law-education: no state course code located in reviewed documents. Defaulted to personalized_electives.",
+    "ss-ethnic-studies: CTD Companion Document's 'Discontinued Courses' list shows Ethnic Studies (code 1516) discontinued for 2026-2027, but it's still listed in your department's course guide for 26-27. Please confirm whether it's actually being offered this year."
+  ]
+}
