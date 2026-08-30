@@ -1,0 +1,48 @@
+{
+  "department": "Visual Arts",
+  "source_docs": ["VISUAL_ARTS_2627.pdf", "CTD Companion Document"],
+
+  "courses": [
+    { "id": "visualarts-intro-2d", "title": "Introduction to 2 Dimensional Art", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-advanced-2d", "title": "Advanced 2 Dimensional Art", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": ["visualarts-intro-2d"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-photography", "title": "Photography", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": ["visualarts-intro-2d"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-printmaking", "title": "Printmaking", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [{ "type": "any_of", "courses": ["visualarts-intro-2d", "visualarts-intro-3d"] }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    {
+      "id": "visualarts-visual-communication", "title": "Visual Communication", "state_course_code": "4086",
+      "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": ["visualarts-intro-2d"],
+      "diploma_requirement_id_options": ["english.communications_focused", "personalized_electives"],
+      "special_notes": ["Explicitly confirmed by both the FCHS course guide and the CTD Companion Document as able to fulfill the Communications-Focused English requirement for Class of 2029+. If used this way, cannot also count as a free elective credit (one-credit-one-requirement rule)."],
+      "ncaa_approved": false
+    },
+    { "id": "visualarts-drawing1-painting1", "title": "Drawing I / Painting I", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["visualarts-advanced-2d"], "special_notes": ["C or better in Advanced 2D Art required"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-drawing2-painting2", "title": "Drawing II / Painting II", "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["visualarts-drawing1-painting1"], "special_notes": ["Teacher approval required"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-drawing3-painting3", "title": "Drawing III / Painting III", "grades": [12], "semesters": 2, "credits": 2, "prerequisites": ["visualarts-drawing2-painting2"], "special_notes": ["Teacher approval required"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-ap-drawing", "title": "AP Drawing", "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Minimum 2 years of 2D Art + teacher approval" }], "special_notes": ["Not exam-based - portfolio submission to College Board instead"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-ap-2d-design", "title": "AP 2 Dimensional Design", "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Minimum 2 years of 2D Art + teacher approval" }], "special_notes": ["Not exam-based - portfolio submission to College Board instead"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+
+    { "id": "visualarts-intro-3d", "title": "Introduction to 3 Dimensional Art", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-advanced-3d", "title": "Advanced 3 Dimensional Art", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": ["visualarts-intro-3d"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-fiber-arts", "title": "Fiber Arts", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [{ "type": "any_of", "courses": ["visualarts-intro-3d", "visualarts-intro-2d"] }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-jewelry", "title": "Jewelry", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [{ "type": "any_of", "courses": ["visualarts-intro-3d", "visualarts-intro-2d"] }], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-ceramics1", "title": "Ceramics I", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["visualarts-advanced-3d"], "special_notes": ["C or better in Advanced 3D Art required"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-sculpture1", "title": "Sculpture I", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["visualarts-advanced-3d"], "special_notes": ["C or better in Advanced 3D Art required"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-ceramics2", "title": "Ceramics II", "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["visualarts-ceramics1"], "special_notes": ["C or better in Ceramics I required"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-sculpture2", "title": "Sculpture II", "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["visualarts-sculpture1"], "special_notes": ["C or better in Sculpture I required"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-ceramics3", "title": "Ceramics III", "grades": [12], "semesters": 2, "credits": 2, "prerequisites": ["visualarts-ceramics2"], "special_notes": ["Teacher approval required"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-sculpture3", "title": "Sculpture III", "grades": [12], "semesters": 2, "credits": 2, "prerequisites": ["visualarts-sculpture2"], "special_notes": ["Teacher approval required"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "visualarts-ap-3d-design", "title": "AP 3 Dimensional Design", "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Minimum 2 years of 3D Art + teacher recommendation" }], "special_notes": ["Not exam-based - portfolio submission to College Board instead"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+
+    {
+      "id": "visualarts-art-appreciation-dc", "title": "Art Appreciation Dual Credit", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [],
+      "dual_credit": { "institution": "Vincennes University", "college_course": "ARTT 110",
+        "eligibility_paths": [
+          { "type": "gpa_and_class", "min_gpa": 2.7, "unweighted": true, "min_grade_level": "Junior" },
+          { "type": "test_score", "options": [{ "test": "Accuplacer" }] }
+        ]},
+      "special_notes": ["No prior art knowledge/experience needed - lecture/history course, not artmaking"],
+      "diploma_requirement_id": "personalized_electives", "ncaa_approved": false
+    }
+  ],
+
+  "_flags_for_owner_review": []
+}

@@ -1,0 +1,88 @@
+{
+  "department": "English Language Arts",
+  "source_docs": ["ENGLISH_LANGUAGE_ARTS_DEPARTMENT_C_O_2029_2627.pdf", "CTD Companion Document"],
+
+  "courses": [
+    { "id": "ela-english9", "title": "English 9", "state_course_code": "1002", "grades": [9], "semesters": 2, "credits": 2, "prerequisites": [], "diploma_requirement_id": "english.english9", "ncaa_approved": true },
+    { "id": "ela-english9-honors", "title": "English 9 Honors", "state_course_code": "1002", "grades": [9], "semesters": 2, "credits": 2, "prerequisites": [], "special_notes": ["Recommended A or B in 8th grade English"], "diploma_requirement_id": "english.english9", "ncaa_approved": true },
+    { "id": "ela-english9-earlycollege", "title": "English 9 Early College", "state_course_code": "1002", "grades": [9], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Accepted admittance into Early College Cohort" }], "diploma_requirement_id": "english.english9", "ncaa_approved": true },
+
+    { "id": "ela-english10", "title": "English 10", "state_course_code": "1004", "grades": [10], "semesters": 2, "credits": 2, "prerequisites": ["ela-english9"], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+    { "id": "ela-english10-honors", "title": "English 10 Honors", "state_course_code": "1004", "grades": [10], "semesters": 2, "credits": 2, "prerequisites": ["ela-english9"], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+    { "id": "ela-english10-earlycollege", "title": "English 10 Early College", "state_course_code": "1004", "grades": [10], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Accepted admittance into Early College Cohort" }], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+
+    { "id": "ela-english11", "title": "English 11", "state_course_code": "1006", "grades": [11], "semesters": 2, "credits": 2, "prerequisites": ["ela-english10"], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+    {
+      "id": "ela-dc-composition", "title": "Dual Credit Composition", "state_course_code": "1124",
+      "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["ela-english10"],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "semesters": [
+          { "semester": 1, "college_course": "ENGL 101", "college_credits": 3, "eligibility_paths": [
+            { "type": "gpa_and_class", "min_gpa": 2.7, "unweighted": true, "min_grade_level": "Junior" },
+            { "type": "test_score", "options": [{ "test": "ACT_english", "min_score": 21 }, { "test": "SAT_ebrw", "min_score": 510 }] }
+          ]},
+          { "semester": 2, "college_course": "ENGL 102", "college_credits": 3, "eligibility_paths": [{ "type": "prior_course_grade", "course": "ENGL 101", "min_grade": "C" }] }
+        ]
+      },
+      "diploma_requirement_id_options": ["english.additional_english", "english.communications_focused"],
+      "special_notes": ["CONFIRMED by owner: this course counts as EITHER an additional English course OR a Communications-focused course, depending on individual student need. Either/or modeling is correct."],
+      "ncaa_approved": true
+    },
+    { "id": "ela-earlycollege-dc-composition", "title": "Early College Dual Credit Composition", "state_course_code": "1124", "grades": [11], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "Accepted admittance into Early College Cohort" }], "diploma_requirement_id_options": ["english.additional_english", "english.communications_focused"], "ncaa_approved": true },
+    { "id": "ela-ap-lang", "title": "English 11 AP Language & Composition", "state_course_code": "1056", "grades": [11], "semesters": 2, "credits": 2, "prerequisites": ["ela-english10"], "special_notes": ["Students required to take AP exam in May"], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+
+    { "id": "ela-themes-endoftheworld", "title": "Themes in Literature: End of the World", "state_course_code": "1048", "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["ela-english10"], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+    { "id": "ela-themes-truecrime", "title": "Themes in Literature: True Crime", "state_course_code": "1048", "grades": [11,12], "semesters": 1, "credits": 1, "prerequisites": ["ela-english10"], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+    { "id": "ela-themes-tragedytriumph", "title": "Themes in Literature: Tragedy and Triumph", "state_course_code": "1048", "grades": [11,12], "semesters": 1, "credits": 1, "prerequisites": ["ela-english10"], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+    { "id": "ela-themes-sportssociety", "title": "Themes in Literature: Sports and Society", "state_course_code": "1048", "grades": [11,12], "semesters": 1, "credits": 1, "prerequisites": ["ela-english10"], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+    { "id": "ela-themes-monsters", "title": "Themes in Literature: Monsters and the Monstrous", "state_course_code": "1048", "grades": [11,12], "semesters": 1, "credits": 1, "prerequisites": ["ela-english10"], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+    { "id": "ela-themes-fantasy", "title": "Themes in Literature: Fantasy", "state_course_code": "1048", "grades": [11,12], "semesters": 1, "credits": 1, "prerequisites": ["ela-english10"], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+    { "id": "ela-indiana-lit", "title": "Indiana Literature: Hoosier Hysteria", "state_course_code": "1038", "grades": [11,12], "semesters": 1, "credits": 1, "prerequisites": ["ela-english10"], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+    { "id": "ela-film-lit", "title": "Film Literature", "state_course_code": "1034", "grades": [11,12], "semesters": 1, "credits": 1, "prerequisites": ["ela-english10"], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+
+    { "id": "ela-english12", "title": "English 12", "state_course_code": "1008", "grades": [12], "semesters": 1, "credits": 1, "prerequisites": [{ "type": "requirement", "note": "6 HS ELA credits" }], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+    { "id": "ela-ap-lit", "title": "English 12 AP Literature & Composition", "state_course_code": "1058", "grades": [12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "6 HS ELA credits; AP Lang or DC English 11 Honors recommended" }], "special_notes": ["Students required to take AP exam in May"], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+
+    { "id": "ela-creative-writing", "title": "Creative Writing", "state_course_code": "1092", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+    {
+      "id": "ela-dc-speech", "title": "Dual Credit Speech", "state_course_code": "1076/1078",
+      "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [],
+      "dual_credit": { "institution": "Vincennes University", "college_course": "COMM 143", "college_credits": 3,
+        "eligibility_paths": [
+          { "type": "gpa_and_class", "min_gpa": 2.7, "unweighted": true, "min_grade_level": "Junior" },
+          { "type": "test_score", "options": [{ "test": "ACT_english", "min_score": 17 }, { "test": "SAT_ebrw", "min_score": 510 }] }
+        ]
+      },
+      "diploma_requirement_id_options": ["english.communications_focused"],
+      "counts_toward_communications_or_additional_english": "either_or_not_both",
+      "ncaa_approved": true
+    },
+    { "id": "ela-dc-creative-writing", "title": "Dual Credit Creative Writing", "state_course_code": "1092", "grades": [12], "semesters": 1, "credits": 1, "prerequisites": [{ "type": "requirement", "note": "DC Composition Sem 1 with C+ or AP Language score 3-5" }], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+    { "id": "ela-dc-world-lit", "title": "Dual Credit World Literature", "state_course_code": "1052", "grades": [12], "semesters": 1, "credits": 1, "prerequisites": [{ "type": "requirement", "note": "DC Composition Sem 1 with C+ or AP Language score 3-5" }], "diploma_requirement_id": "english.additional_english", "ncaa_approved": true },
+    { "id": "ela-enl", "title": "English as a New Language", "state_course_code": "1012 / 2188", "grades": [9,10,11,12], "semesters": "1-2", "credits": "1-2", "prerequisites": [{ "type": "requirement", "note": "By placement only (WIDA testing)" }], "diploma_requirement_id_options": ["english.additional_english", "english.communications_focused"], "special_notes": ["State list shows 1012 under Additional English and 2188 under Communications-Focused - likely two distinct course offerings under one FCHS title. FLAGGED for confirmation."], "ncaa_approved": false },
+
+    { "id": "ela-journalism", "title": "Journalism", "state_course_code": "1080", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": [{ "type": "requirement", "note": "Recommended A or B in English" }], "diploma_requirement_id": "english.communications_focused", "ncaa_approved": true },
+    { "id": "ela-linguistics", "title": "Linguistics", "state_course_code": "1064", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": ["ela-english9"], "diploma_requirement_id": "english.communications_focused", "ncaa_approved": true },
+    { "id": "ela-speech", "title": "Speech", "state_course_code": "1076", "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "english.communications_focused", "ncaa_approved": true },
+    { "id": "ela-technical-comm", "title": "Technical Communication", "state_course_code": "1096", "grades": [11,12], "semesters": 1, "credits": 1, "prerequisites": [{ "type": "requirement", "note": "4 HS ELA credits" }], "diploma_requirement_id": "english.communications_focused", "ncaa_approved": false },
+    { "id": "ela-student-media-broadcasting", "title": "Student Media (Broadcasting)", "state_course_code": "1086", "grades": [10,11,12], "semesters": 1, "credits": 1, "prerequisites": [{ "type": "any_of", "courses": ["ete-principles-broadcasting", "ela-journalism"] }], "diploma_requirement_id": "english.communications_focused", "ncaa_approved": false },
+    { "id": "ela-student-media-yearbook", "title": "Student Media (Yearbook)", "state_course_code": "1086", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["ela-english9"], "special_notes": ["Recommended A or B in English; by approval; enrollment may be limited"], "diploma_requirement_id": "english.communications_focused", "ncaa_approved": false },
+
+    { "id": "ela-visual-communication-ref", "title": "Visual Communications", "note": "Cross-listed - full record lives in Visual Arts department file (visualarts-visual-communication)", "grades": [9,10,11,12], "diploma_requirement_id": "english.communications_focused" },
+
+    { "id": "ela-library-media", "title": "Library Media", "state_course_code": null, "grades": [9,10,11,12], "semesters": 1, "credits": 1, "prerequisites": [], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "ela-library-media-career-internship", "title": "Library Media/Career Exploration Internship", "state_course_code": null, "grades": [10,11,12], "semesters": "1-2", "credits": "1-2", "prerequisites": ["ela-library-media"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+
+    { "id": "ete-principles-broadcasting", "title": "Principles of Broadcasting", "state_course_code": "7139", "grades": [9,10,11,12], "semesters": 2, "credits": 2, "prerequisites": [], "special_notes": ["Graduation Pathway course per department doc"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false },
+    { "id": "ete-av-production-essentials", "title": "Audio and Video Production Essentials", "state_course_code": "7306", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["ete-principles-broadcasting"], "diploma_requirement_id": "english.communications_focused", "ncaa_approved": false },
+    { "id": "ete-dc-mass-media-production", "title": "Dual Credit Mass Media Production", "state_course_code": "7307", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": ["ete-av-production-essentials"], "diploma_requirement_id": "english.communications_focused", "ncaa_approved": false },
+    { "id": "ete-dc-radiotv-capstone", "title": "Dual Credit Radio & TV Broadcasting Capstone", "state_course_code": "7308", "grades": [10,11,12], "semesters": 2, "credits": 2, "prerequisites": [{ "type": "requirement", "note": "DC Mass Media Production with C or better" }], "diploma_requirement_id": "english.communications_focused", "ncaa_approved": false },
+    { "id": "ete-avtech-special-topics", "title": "Arts, AV Tech and Communication: Special Topics", "state_course_code": null, "grades": [11,12], "semesters": 2, "credits": 2, "prerequisites": ["ete-dc-radiotv-capstone"], "diploma_requirement_id": "personalized_electives", "ncaa_approved": false }
+  ],
+
+  "_flags_for_owner_review": [
+    "RESOLVED: DC Composition either/or confirmed correct. Principles of Broadcasting code confirmed (7139) - still defaults to personalized_electives since 7139 doesn't appear on any diploma-requirement course list reviewed so far.",
+    "STILL OPEN, LOW PRIORITY: ela-enl (English as a New Language) - owner wasn't sure what this question was asking. To clarify: the state memo lists TWO different course codes for English as a New Language (1012 under the Additional English list, and 2188 marked 'NEW' under the Communications-Focused list). FCHS's course guide only shows one course by this name. The question is simply whether FCHS's ENL offering is really one single course, or actually two distinct leveled/tracked offerings that happen to share a title in the guide - and if it's one course, which of the two diploma categories it should map to. Not urgent since ENL is placement-only and likely a small population."
+  ]
+}

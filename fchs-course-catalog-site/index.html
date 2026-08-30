@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FCHS Course Catalog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <h1>FCHS Course Catalog</h1>
+    <p class="masthead-sub">2026&ndash;2027 &middot; browse every course, department by department</p>
+  </div>
+  <div class="search-wrap">
+    <input type="text" id="searchInput" placeholder="Search courses&hellip;" autocomplete="off">
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="dept-rail" id="deptRail" aria-label="Departments">
+    <!-- populated by app.js -->
+  </nav>
+
+  <main class="catalog" id="catalog">
+    <!-- populated by app.js -->
+  </main>
+</div>
+
+<div class="detail-panel" id="detailPanel">
+  <button class="detail-close" id="detailClose" aria-label="Close">&times;</button>
+  <div id="detailContent"></div>
+</div>
+<div class="scrim" id="scrim"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
