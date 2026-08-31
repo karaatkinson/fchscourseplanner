@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FCHS Course Catalog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="setup-overlay" id="setupOverlay">
+  <div class="setup-card">
+    <img src="assets/logo.png" alt="Franklin Central High School" class="setup-logo">
+    <div id="setupModeStep">
+      <h2>How do you want to plan?</h2>
+      <p>You can change this later.</p>
+      <div class="setup-options">
+        <button class="setup-option" id="pickQuick">
+          <strong>Quick Build</strong>
+          <span>Just build this year's schedule</span>
+        </button>
+        <button class="setup-option" id="pickBuilder">
+          <strong>Four-Year Builder</strong>
+          <span>Plan ahead and/or log previous years to track your full diploma progress</span>
+        </button>
+      </div>
+    </div>
+    <div id="setupGradeStep" style="display:none;">
+      <h2>What grade are you in?</h2>
+      <p>Earlier grades will be marked as completed so you can log what you've already taken. You can edit this anytime.</p>
+      <div class="setup-options grade-options">
+        <button class="setup-option" data-grade="9">9th &mdash; Freshman</button>
+        <button class="setup-option" data-grade="10">10th &mdash; Sophomore</button>
+        <button class="setup-option" data-grade="11">11th &mdash; Junior</button>
+        <button class="setup-option" data-grade="12">12th &mdash; Senior</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <img src="assets/logo.png" alt="Franklin Central High School" class="masthead-logo">
+    <div>
+      <h1>Course Catalog</h1>
+      <p class="masthead-sub">2026&ndash;2027 &middot; browse every course, department by department</p>
+    </div>
+  </div>
+  <div class="search-wrap">
+    <input type="text" id="searchInput" placeholder="Search courses&hellip;" autocomplete="off">
+    <button class="change-plan-btn" id="changePlanBtn">Change Plan</button>
+  </div>
+</header>
+
+<nav class="year-tabs" id="yearTabs" style="display:none;">
+  <!-- populated by app.js in Four-Year Builder mode -->
+</nav>
+
+<section class="schedule-tray" id="scheduleTray">
+  <div class="schedule-tray-header">
+    <h2 id="scheduleTitle">My Schedule</h2>
+    <span class="schedule-count" id="scheduleCount">0 / 7 classes</span>
+  </div>
+  <div class="semester-columns">
+    <div class="semester-col">
+      <h3>Semester 1</h3>
+      <div id="sem1Items"><p class="schedule-empty">No courses yet.</p></div>
+    </div>
+    <div class="semester-col">
+      <h3>Semester 2</h3>
+      <div id="sem2Items"><p class="schedule-empty">No courses yet.</p></div>
+    </div>
+  </div>
+  <div class="alternates-section">
+    <h3>Alternatives <span class="alt-note">(beyond your 7 classes)</span></h3>
+    <div id="alternateItems"><p class="schedule-empty">None yet.</p></div>
+  </div>
+</section>
+
+<nav class="view-tabs">
+  <button class="view-tab active" data-view="catalog">Course Catalog</button>
+  <button class="view-tab" data-view="progress">My Progress</button>
+</nav>
+
+<div class="layout" id="catalogView">
+  <nav class="dept-rail" id="deptRail" aria-label="Departments">
+    <!-- populated by app.js -->
+  </nav>
+
+  <main class="catalog" id="catalog">
+    <!-- populated by app.js -->
+  </main>
+</div>
+
+<div class="progress-view" id="progressView" style="display:none;">
+  <!-- populated by app.js -->
+</div>
+
+<div class="detail-panel" id="detailPanel">
+  <button class="detail-close" id="detailClose" aria-label="Close">&times;</button>
+  <div id="detailContent"></div>
+  <button class="add-btn" id="addBtn">Add to Schedule</button>
+</div>
+<div class="scrim" id="scrim"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
