@@ -1,0 +1,600 @@
+{
+  "department": "Business",
+  "source_docs": [
+    "BUSINESS_DEPARTMENT_2627.pdf",
+    "CTD Companion Document"
+  ],
+  "courses": [
+    {
+      "id": "business-principles-mgmt",
+      "title": "Principles of Business Management",
+      "state_course_code": "4562",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [],
+      "pathways": [
+        {
+          "pathway_name": "Finance and Investment",
+          "leads_to": [
+            "business-accounting-fundamentals",
+            "business-finance-investment"
+          ]
+        },
+        {
+          "pathway_name": "Business Management & Administration",
+          "leads_to": [
+            "business-management-fundamentals-dc",
+            "business-admin-capstone-dc"
+          ]
+        },
+        {
+          "pathway_name": "Marketing & Sales",
+          "leads_to": [
+            "business-marketing-fundamentals-dc",
+            "business-digital-marketing-dc"
+          ]
+        }
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.business"
+      ],
+      "ncaa_approved": false,
+      "description": "Examines business ownership, organization principles and problems, management, control facilities, administration, financial management, and development practices of business enterprises. This class is the diving board for many of the business pathways at FC. Students have the opportunity to compete in scholarship competitions like Knowledge Matters business simulations and Innovate WithIN pitch contests. MOS Excel certification completion is available upon request."
+    },
+    {
+      "id": "business-accounting-fundamentals",
+      "title": "Accounting Fundamentals",
+      "state_course_code": "4524",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "business-principles-mgmt"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.business"
+      ],
+      "ncaa_approved": false,
+      "description": "Introduces the language of business using Generally Accepted Accounting Principles (GAAP) and procedures for proprietorships and partnerships using double-entry accounting. Students practice accounting skills through hands-on work for the school stores. As future workers, small business owners, and entrepreneurs, students who understand accounting principles can more knowledgeably manage their companies' financial resources and their own economic futures."
+    },
+    {
+      "id": "business-finance-investment",
+      "title": "Finance and Investment",
+      "state_course_code": "5258",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "business-accounting-fundamentals"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.business"
+      ],
+      "ncaa_approved": false,
+      "description": "Prepares students for careers in the finance industry, analyzing and synthesizing skills needed for careers in banking and investment. Students learn banking, investments, and other finance fundamentals related to financial institutions, business and personal financial services, investment and securities, risk management products, and corporate finance through hands-on opportunities such as games and simulations."
+    },
+    {
+      "id": "business-management-fundamentals-dc",
+      "title": "Management Fundamentals (McCormick's Cafe) Dual Credit",
+      "state_course_code": "7143/CC",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "business-principles-mgmt"
+      ],
+      "dual_credit": {
+        "institution": "Ivy Tech Community College",
+        "college_course": "BUSN 105 (Principles of Management) & BUSN 201 (Business Law)",
+        "eligibility_paths": [
+          {
+            "type": "gpa_and_class",
+            "min_gpa": 2.6,
+            "unweighted": true,
+            "min_grade_level": "Junior"
+          },
+          {
+            "type": "test_score",
+            "options": [
+              {
+                "test": "Ivy_Tech_Knowledge_Assessment"
+              }
+            ]
+          }
+        ]
+      },
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.business"
+      ],
+      "ncaa_approved": false,
+      "description": "A specialized marketing course providing instruction in marketing practices that support the sale of products to retail consumers, emphasizing oral/written communication, problem solving, and critical thinking as they relate to product design, selling, pricing, distribution, retail promotion, visual merchandising, and career opportunities. Focuses on running McCormick's, a coffee shop in the school's Main Cafeteria, with a standards-based training plan for participating in the shop."
+    },
+    {
+      "id": "business-admin-capstone-dc",
+      "title": "Business Administration Capstone (McCormick's Cafe) Dual Credit",
+      "state_course_code": "7256/CC",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": "2 (max 6, repeatable up to 3x)",
+      "prerequisites": [
+        "business-management-fundamentals-dc"
+      ],
+      "special_notes": [
+        "Pre or co-req: Accounting Fundamentals",
+        "Application required"
+      ],
+      "dual_credit": {
+        "institution": "Ivy Tech Community College",
+        "college_course": "OTEC 216 (Business Communications) & BUSN 202 (Human Resource Management)"
+      },
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.business"
+      ],
+      "ncaa_approved": false,
+      "description": "Allows students to explore advanced topics in business leadership including Human Resources and Business Communications, developing communication skills through work leading other students in McCormick's coffee shop. Represents key business competencies required by nearly all postsecondary business schools. Students must have completed one year of Management Fundamentals prior to the year they take this capstone.",
+      "repeatable": {
+        "max_times": 3,
+        "max_credits": 6,
+        "source": "FCHS course guide: 'Can Be Taken Up to 3 Times (6 credits max)'"
+      }
+    },
+    {
+      "id": "business-marketing-fundamentals-dc",
+      "title": "Marketing Fundamentals (Spirit Shop) Dual Credit",
+      "state_course_code": "5914",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "business-principles-mgmt"
+      ],
+      "dual_credit": {
+        "institution": "Ivy Tech Community College",
+        "college_course": "MKTG 101 (Principles of Marketing) & MKTG 102 (Principles of Selling)",
+        "eligibility_paths": [
+          {
+            "type": "gpa_and_class",
+            "min_gpa": 2.6,
+            "unweighted": true,
+            "min_grade_level": "Junior"
+          },
+          {
+            "type": "test_score",
+            "options": [
+              {
+                "test": "Ivy_Tech_Knowledge_Assessment"
+              }
+            ]
+          }
+        ]
+      },
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.business"
+      ],
+      "ncaa_approved": false,
+      "description": "Provides a basic introduction to the scope and importance of marketing in the global economy, emphasizing oral/written communication, mathematical applications, problem-solving, and critical thinking as related to advertising/promotion/selling, distribution, financing, marketing information management, pricing, and product/service management. Students work on hands-on marketing efforts for the school spirit shop."
+    },
+    {
+      "id": "business-digital-marketing-dc",
+      "title": "Digital Marketing Dual Credit",
+      "state_course_code": "7145",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "business-marketing-fundamentals-dc"
+      ],
+      "dual_credit": {
+        "institution": "Ivy Tech Community College",
+        "college_course": "MKTG 252 (Introduction to Digital Marketing) & MKTG 257 (Digital Marketing Management)",
+        "eligibility_paths": [
+          {
+            "type": "gpa_and_class",
+            "min_gpa": 2.6,
+            "unweighted": true,
+            "min_grade_level": "Junior"
+          },
+          {
+            "type": "test_score",
+            "options": [
+              {
+                "test": "Ivy_Tech_Knowledge_Assessment"
+              }
+            ]
+          }
+        ]
+      },
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.business"
+      ],
+      "ncaa_approved": false,
+      "description": "Provides an introduction to e-commerce and digital marketing media, covering how to integrate digital media and e-commerce into organizational and marketing strategy. Students explore e-commerce applications and popular digital marketing tactics like Social Media Marketing, and work collaboratively to build branding for the school spirit shop."
+    },
+    {
+      "id": "business-principles-computing-dc",
+      "title": "Principles of Computing Dual Credit",
+      "state_course_code": "7183",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [],
+      "special_notes": [
+        "Recommended B in Algebra I"
+      ],
+      "dual_credit": {
+        "institution": "Ivy Tech Community College",
+        "college_course": "COMP 177",
+        "eligibility_paths": [
+          {
+            "type": "requirement",
+            "note": "Recommended B in Algebra I"
+          }
+        ]
+      },
+      "diploma_requirement_id": "stem.computer_science",
+      "special_diploma_note": "Per CTD/eligibility memo, 7183 must be paired with a second qualifying course (e.g. Software Development, Website & Database Development) to fully satisfy the Computer Science requirement.",
+      "flexible_category_tags": [
+        "cte_pathway.software_dev",
+        "seal.enrollment_honors_stem_pairing"
+      ],
+      "ncaa_approved": false,
+      "description": "The introductory course for the Computer Science program at FCHS. Students learn to frame problems in ways that can be solved by a computer. First semester focuses on foundational Python programming skills; second semester focuses on applications and impacts of computing. Both semesters end in a project demonstrating understanding of these concepts. After completion, students have access to more advanced Computer Science courses."
+    },
+    {
+      "id": "business-software-dev-dc",
+      "title": "Software Development Dual Credit",
+      "state_course_code": "7184",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "business-principles-computing-dc"
+      ],
+      "dual_credit": {
+        "institution": "Ivy Tech Community College",
+        "college_course": "COMP 203",
+        "eligibility_paths": [
+          {
+            "type": "prior_course_grade",
+            "course": "DC Principles of Computing",
+            "min_grade": "C"
+          }
+        ]
+      },
+      "diploma_requirement_id": "stem.computer_science",
+      "flexible_category_tags": [
+        "cte_pathway.software_dev"
+      ],
+      "ncaa_approved": false,
+      "description": "A challenging and rewarding course focused on good collaborative practices, object-oriented principles, and maintainable coding practices. Students use a game engine, version control software, and an integrated development environment to build video games together, with attention to the software development life cycle including planning and documentation of project proposals."
+    },
+    {
+      "id": "business-website-db-dev",
+      "title": "Website and Database Development",
+      "state_course_code": "7185",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "business-principles-computing-dc"
+      ],
+      "diploma_requirement_id": "stem.computer_science",
+      "flexible_category_tags": [
+        "cte_pathway.software_dev"
+      ],
+      "ncaa_approved": false,
+      "description": "Provides a basic understanding of essential Web and Database skills and business practices related to Internet technologies. Students learn to develop websites using HTML, CSS, JavaScript/JQuery, and frameworks like Bootstrap, and are introduced to database concepts including types of databases, design, normalization, tables, queries, reports, applications, and ANSI Standard SQL, as well as data warehousing, mining, and Big Data."
+    },
+    {
+      "id": "business-software-dev-capstone",
+      "title": "Software Development Capstone",
+      "state_course_code": "7353",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": "2 (max 6, repeatable up to 3x)",
+      "prerequisites": [
+        "business-software-dev-dc",
+        "business-website-db-dev"
+      ],
+      "special_notes": [
+        "Application required"
+      ],
+      "diploma_requirement_id": "stem.stem_focused",
+      "flexible_category_tags": [
+        "cte_pathway.software_dev"
+      ],
+      "ncaa_approved": false,
+      "description": "Provides a deeper understanding of fundamental concepts in object-oriented programming. Can be taken more than once - the first year focuses on building an API for a web service and a mobile application to consume that API; students taking it again propose and execute their own projects. Intended to prepare students for a university computer science program.",
+      "repeatable": {
+        "max_times": 3,
+        "max_credits": 6,
+        "source": "FCHS course guide: 'Can Be Taken Up to 3 Times (6 credits max)'"
+      }
+    },
+    {
+      "id": "business-digital-design-principles",
+      "title": "Principles of Digital Design",
+      "state_course_code": "7140",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [],
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.digital_design"
+      ],
+      "ncaa_approved": false,
+      "description": "Introduces students to fundamental design theory, including investigations into design theory and color dynamics, applying design theory and creative problem solving, critical peer evaluation, and presentation skills. Students apply design theory through basic photographic theory including image capture, processing, output methods, and light, creating designs like logos and sublimated products for the school bookstore and clubs. Students can earn Adobe Photoshop certification."
+    },
+    {
+      "id": "business-digital-design-graphics",
+      "title": "Digital Design Graphics",
+      "state_course_code": "7141",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "business-digital-design-principles"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.digital_design"
+      ],
+      "ncaa_approved": false,
+      "description": "Helps students understand and create the most common types of computer graphics used in visual communications, developing skills through professional vector-based and page layout software. Students are introduced to a full range of image input technology and manipulation including digital imaging and computer scanners, and can work toward the Adobe Illustrator industry certification."
+    },
+    {
+      "id": "business-interactive-media",
+      "title": "Interactive Media",
+      "state_course_code": "7138",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "business-digital-design-graphics"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.digital_design"
+      ],
+      "ncaa_approved": false,
+      "description": "Focuses on the tools, strategies, and techniques for interactive design and emerging technologies like web design and social media. Students learn the basics of planning, shooting, editing, and post-producing video and sound, working toward a certification in Adobe Premiere Pro, and explore integrating text, graphics, audio, and video for effective communication."
+    },
+    {
+      "id": "business-math",
+      "title": "Business Math",
+      "state_course_code": "4512",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": "1-2",
+      "credits": "1-2",
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "Counselor approval"
+        }
+      ],
+      "diploma_requirement_id": "math.additional_credits",
+      "ncaa_approved": false,
+      "description": "Designed to prepare students for roles as entrepreneurs, producers, and business leaders, developing abilities that are part of any business environment. A solid understanding of algebra, basic geometry, statistics, and probability provides the foundation for careers in business and skilled trades. Content includes mathematical operations related to accounting, banking and finance, marketing, and management. Not recommended for students planning to enter a 4-year college."
+    },
+    {
+      "id": "business-ap-compsci-java",
+      "title": "AP Computer Science A (Java)",
+      "state_course_code": "4570",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "business-principles-computing-dc"
+      ],
+      "diploma_requirement_id": "stem.computer_science",
+      "flexible_category_tags": [
+        "cte_pathway.software_dev"
+      ],
+      "ncaa_approved": false,
+      "description": "Through the Java programming language, students cultivate a deeper understanding of computer science fundamentals through analyzing, writing, and testing code, learning to use Java and object-oriented programming to create more powerful applications. Serves as preparation for the AP Computer Science A examination."
+    },
+    {
+      "id": "business-computing-foundations",
+      "title": "Computing Foundations for a Digital Age",
+      "state_course_code": "4565",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [],
+      "diploma_requirement_id": "stem.computer_science",
+      "special_notes": [
+        "Cannot also be used for STEM-Focused credit - it's the one science-list course explicitly excluded from that category per CTD."
+      ],
+      "ncaa_approved": false,
+      "description": "Designed to introduce students to five major topics within computer science: computing systems, networks and the internet, data and analysis, algorithms and planning, and impacts of computing. Introduces foundational computing concepts while exploring current events and building critical thinking, collaboration, and problem-solving skills."
+    },
+    {
+      "id": "business-intro-business",
+      "title": "Introduction to Business",
+      "state_course_code": "4518",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Introduces students to the world of business, including the concepts, functions, and skills required for operating a business in the 21st century on a local, national, or international scale. Covers business management, entrepreneurship, marketing fundamentals, and business ethics and law, developing business vocabulary and providing an overview of business's role in economic, social, and political environments."
+    },
+    {
+      "id": "business-it-support-cyberflashes",
+      "title": "IT Support - Cyberflashes",
+      "state_course_code": "4578",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "Recommended: Principles of Computing; application required"
+        }
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.software_dev"
+      ],
+      "ncaa_approved": false,
+      "description": "Allows students to explore how computers work, learning the functionality of hardware and software components as well as best practices in maintenance and safety. Through hands-on activities and labs, students learn how to assemble and configure a computer, install operating systems and software, and troubleshoot hardware and software problems."
+    },
+    {
+      "id": "business-personal-financial-responsibility",
+      "title": "Personal Financial Responsibility",
+      "state_course_code": "4540",
+      "grades": [
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [],
+      "diploma_requirement_id": "math.personal_finance",
+      "ncaa_approved": false,
+      "description": "Addresses the identification and management of personal financial resources to meet the financial needs and wants of individuals and families, considering economic, social, cultural, technological, environmental, and maintenance factors. Builds skills in financial responsibility and decision making, identifying sources of income, saving and investing, and understanding banking, budgeting, record-keeping, and managing risk, insurance, and credit card debt."
+    },
+    {
+      "id": "business-entrepreneurship-dc",
+      "title": "Principles of Entrepreneurship Dual Credit",
+      "state_course_code": "7154/CC",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [],
+      "dual_credit": {
+        "institution": "Ivy Tech Community College",
+        "college_course": "ENTR 100 (Entrepreneurial Mindset) & ENTR 200 (Entrepreneurial Enterprise)",
+        "eligibility_paths": [
+          {
+            "type": "gpa_and_class",
+            "min_gpa": 2.6,
+            "unweighted": true,
+            "min_grade_level": "Junior"
+          },
+          {
+            "type": "test_score",
+            "options": [
+              {
+                "test": "Ivy_Tech_Knowledge_Assessment"
+              }
+            ]
+          }
+        ]
+      },
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.business"
+      ],
+      "ncaa_approved": false,
+      "description": "Provides an overview of what it means to be an entrepreneur, covering starting and operating a business, marketing products and services, and finding resources for a new venture. Uses a student's own business idea as a case study to explore funding, forecasting, marketing, competition, and operations, ending with a complete business plan and pitch presentation."
+    },
+    {
+      "id": "business-career-exploration-internship",
+      "title": "Career Exploration Internship",
+      "state_course_code": null,
+      "grades": [
+        12
+      ],
+      "semesters": "1-2",
+      "credits": "1-2 per semester",
+      "prerequisites": [],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "A paid or unpaid work experience in the public or private sector providing workplace learning in an area of student career interests, exposing students to broad aspects of an industry or career cluster by rotating through work sites or departments. Students participate in regularly scheduled meetings or seminars connecting academic learning to work-related experiences."
+    }
+  ],
+  "_flags_for_owner_review": [
+    "RESOLVED by owner: all state course codes now confirmed and populated above. NOTE: none of these codes appeared on the state eligibility memo's Math/Science/STEM flexible-category lists, so they remain tagged as personalized_electives - the codes are for identification/dual-credit tracking purposes, not diploma-requirement credit, unless further confirmed otherwise.",
+    "business-principles-computing-dc / software-dev / website-db-dev: tagged as satisfying stem.computer_science or stem.stem_focused based on matching the state eligibility list. Since Business department also has its own 'Software Development' pathway distinct from identically-named Engineering/Tech courses, confirm there's no double-counting risk if a student takes similarly-named courses from two departments. STILL OPEN."
+  ]
+}
