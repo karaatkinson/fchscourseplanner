@@ -1,0 +1,818 @@
+{
+  "department": "English Language Arts",
+  "source_docs": [
+    "ENGLISH_LANGUAGE_ARTS_DEPARTMENT_C_O_2029_2627.pdf",
+    "CTD Companion Document"
+  ],
+  "courses": [
+    {
+      "id": "ela-english9",
+      "title": "English 9",
+      "state_course_code": "1002",
+      "grades": [
+        9
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [],
+      "diploma_requirement_id": "english.english9",
+      "ncaa_approved": true,
+      "description": "English 9, an integrated English course based on the Indiana Academic Standards for English/Language Arts in Grades 9-10, is a study of language, literature, composition, and oral communication, focusing on literature within an appropriate level of complexity for this grade band. Students use literary interpretation, analysis, comparisons, and evaluation to read and respond to representative works of historical or cultural significance in classic and contemporary literature balanced with nonfiction. Students write responses to literature, expository, narrative, and argumentative/persuasive compositions, and sustained research assignments. Novels and plays read in the entirety include Of Mice and Men and The Other Wes Moore."
+    },
+    {
+      "id": "ela-english9-honors",
+      "title": "English 9 Honors",
+      "state_course_code": "1002",
+      "grades": [
+        9
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [],
+      "special_notes": [
+        "Recommended A or B in 8th grade English"
+      ],
+      "diploma_requirement_id": "english.english9",
+      "ncaa_approved": true,
+      "description": "Honors English 9 is a course designed to expand upon the college-bound English 9 curriculum. Students will study a more expansive variety of genres and authors with an emphasis on a more in-depth analysis of said authors. A major emphasis is improving student writing across the curriculum through a variety of writing styles. This class is intended to begin preparing students for AP and Dual Credit courses at FCHS. Novels and plays read in their entirety include Fahrenheit 451, Lord of the Flies, and Much Ado About Nothing."
+    },
+    {
+      "id": "ela-english9-earlycollege",
+      "title": "English 9 Early College",
+      "state_course_code": "1002",
+      "grades": [
+        9
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "Accepted admittance into Early College Cohort"
+        }
+      ],
+      "diploma_requirement_id": "english.english9",
+      "ncaa_approved": true,
+      "description": "An advanced, integrated English course based on the Indiana Academic Standards for English/Language Arts in Grades 9-10. A major emphasis is improving student writing across the curriculum through responses to literature and various composition types. Assignments are often coordinated with the Geography and History of the World course to emphasize reading and writing across the curriculum. This course bridges AP and Dual Credit courses. Novels and plays read in their entirety include The Other Wes Moore, Fahrenheit 451, The Odyssey, and Of Mice and Men."
+    },
+    {
+      "id": "ela-english10",
+      "title": "English 10",
+      "state_course_code": "1004",
+      "grades": [
+        10
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "ela-english9"
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "English 10, an integrated English course based on the Indiana Academic Standards for English/Language Arts in Grades 9-10, focuses on literature with an appropriate level of complexity for this grade band. Students write responses to literature, expository and argumentative/persuasive compositions, and sustained research assignments. Designed to prepare students to work more efficiently toward gaining skills in language usage. Novels and plays read in their entirety include Night, Up From the Sea, 12 Angry Men, American Born Chinese, and Animal Farm."
+    },
+    {
+      "id": "ela-english10-honors",
+      "title": "English 10 Honors",
+      "state_course_code": "1004",
+      "grades": [
+        10
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "ela-english9"
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "Honors English 10 is a course designed to expand upon the English 10 curriculum. Students will study a more expansive variety of genres and authors with an emphasis on a more in-depth analysis of said authors, improving writing across the curriculum. Intended to begin preparing students for AP and Dual Credit courses. Novels and plays read in their entirety include Oedipus, American Born Chinese, Macbeth, The Book Thief, and The Nickel Boys."
+    },
+    {
+      "id": "ela-english10-earlycollege",
+      "title": "English 10 Early College",
+      "state_course_code": "1004",
+      "grades": [
+        10
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "Accepted admittance into Early College Cohort"
+        }
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "An advanced, integrated English course aligned with the Indiana Academic Standards for Grades 9-10, focused on college readiness through a wider range of genres and authors, in-depth literary discussion, and analytical writing. Students refine public speaking skills and develop media literacy. Novels and plays read in their entirety include Macbeth, Oedipus, The Book Thief, American-Born Chinese, and The Nickel Boys."
+    },
+    {
+      "id": "ela-english11",
+      "title": "English 11",
+      "state_course_code": "1006",
+      "grades": [
+        11
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "ela-english10"
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "English 11, based on the Indiana Academic Standards for Grades 11-12, focuses on literature with an appropriate level of complexity for this grade band. Students write narratives, responses to literature, academic essays, and more sustained research assignments incorporating visual information such as pictures, graphs, and charts, and deliver grade-appropriate multimedia presentations. Readings include The Crucible, Code Talker, The Great Gatsby, and A Raisin in the Sun."
+    },
+    {
+      "id": "ela-dc-composition",
+      "title": "Dual Credit Composition",
+      "state_course_code": "1124",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "ela-english10"
+      ],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "semesters": [
+          {
+            "semester": 1,
+            "college_course": "ENGL 101",
+            "college_credits": 3,
+            "eligibility_paths": [
+              {
+                "type": "gpa_and_class",
+                "min_gpa": 2.7,
+                "unweighted": true,
+                "min_grade_level": "Junior"
+              },
+              {
+                "type": "test_score",
+                "options": [
+                  {
+                    "test": "ACT_english",
+                    "min_score": 21
+                  },
+                  {
+                    "test": "SAT_ebrw",
+                    "min_score": 510
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "semester": 2,
+            "college_course": "ENGL 102",
+            "college_credits": 3,
+            "eligibility_paths": [
+              {
+                "type": "prior_course_grade",
+                "course": "ENGL 101",
+                "min_grade": "C"
+              }
+            ]
+          }
+        ]
+      },
+      "diploma_requirement_id_options": [
+        "english.additional_english",
+        "english.communications_focused"
+      ],
+      "special_notes": [
+        "CONFIRMED by owner: this course counts as EITHER an additional English course OR a Communications-focused course, depending on individual student need. Either/or modeling is correct."
+      ],
+      "ncaa_approved": true,
+      "description": "This course encompasses Vincennes University ENGL 101 - English Composition I and ENGL 102 - English Composition II. English Composition is a college-level course in critical reading and writing designed to help students develop their ability to think critically, organize their thoughts, and express ideas clearly and effectively, covering process, description, narration, comparison, cause/effect, and analysis, with significant focus on argumentation and research. All students are required to write a longer investigative paper fully documented according to MLA standards."
+    },
+    {
+      "id": "ela-earlycollege-dc-composition",
+      "title": "Early College Dual Credit Composition",
+      "state_course_code": "1124",
+      "grades": [
+        11
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "Accepted admittance into Early College Cohort"
+        }
+      ],
+      "diploma_requirement_id_options": [
+        "english.additional_english",
+        "english.communications_focused"
+      ],
+      "ncaa_approved": true,
+      "description": "This course encompasses Vincennes University ENGL 101 - English Composition I and ENGL 102 - English Composition II, for students in the Early College Cohort. Focuses on critical reading and writing, the modes of expository writing, and argumentation and research, culminating in a longer investigative paper fully documented according to MLA standards."
+    },
+    {
+      "id": "ela-ap-lang",
+      "title": "English 11 AP Language & Composition",
+      "state_course_code": "1056",
+      "grades": [
+        11
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "ela-english10"
+      ],
+      "special_notes": [
+        "Students required to take AP exam in May"
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "The purpose of AP Language and Composition is to help students write effectively and confidently in college courses across the curriculum and in their professional and personal lives. Students read critically, think analytically, and communicate clearly in writing and speech, becoming sophisticated consumers and creators of a variety of texts. Students signing up are required to take the AP exam in May. Readings include The Scarlet Letter, The Great Gatsby, and A Raisin in the Sun."
+    },
+    {
+      "id": "ela-themes-endoftheworld",
+      "title": "Themes in Literature: End of the World",
+      "state_course_code": "1048",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "ela-english10"
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "This course explores end-of-the-world scenarios in literary works: what apocalyptic and post-apocalyptic literature reveals about an author's viewpoint on humanity, the world, and religion, and what modern science reveals about disaster scenarios. Students develop skills in summarizing, close reading, literary analysis, critical thinking, synthesis, and research, examining texts including excerpts from The Hitchhiker's Guide to the Galaxy, I-Robot, World War Z, and The Walking Dead."
+    },
+    {
+      "id": "ela-themes-truecrime",
+      "title": "Themes in Literature: True Crime",
+      "state_course_code": "1048",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "ela-english10"
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "This course explores true crime in literary works, examining how a true story is told effectively, how American culture reacts to stories of crime, and how justice is served. Students build skills in summarizing, close reading, literary analysis, critical thinking, argumentation, and research. Readings include material on the Lizzie Borden Murders and Catch Me If You Can."
+    },
+    {
+      "id": "ela-themes-tragedytriumph",
+      "title": "Themes in Literature: Tragedy and Triumph",
+      "state_course_code": "1048",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "ela-english10"
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "This course explores the roots of the human condition and how, as Americans, we connect with it, traveling through time analyzing short excerpts beginning with World War I, then reading the graphic novel Maus (a father and son deal with the aftermath of the Holocaust), then exploring the Vietnam War, the countercultural movement, 9/11, and modern American literature. Novels and plays read in their entirety include Maus and Buried Child."
+    },
+    {
+      "id": "ela-themes-sportssociety",
+      "title": "Themes in Literature: Sports and Society",
+      "state_course_code": "1048",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "ela-english10"
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "This course uses high-interest readings that challenge readers to explore athletics as more than entertainment, examining social issues through the lens of sport and how sports have taken on such a large role in society. Students examine representative works by authors of diverse eras and analyze how themes illuminate humanity's struggle to understand the human condition. Readings include Friday Night Lights."
+    },
+    {
+      "id": "ela-themes-monsters",
+      "title": "Themes in Literature: Monsters and the Monstrous",
+      "state_course_code": "1048",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "ela-english10"
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "This course explores monsters and the monstrous in literary works and other mediums, asking what monsters reveal about a culture's ideas of acceptable behavior and what they tell us about the desires, hopes, and fears of the cultures from which they emerge. Students develop skills in summarizing, close reading, literary analysis, critical thinking, argumentation, and research. Readings include Dracula and Frankenstein."
+    },
+    {
+      "id": "ela-themes-fantasy",
+      "title": "Themes in Literature: Fantasy",
+      "state_course_code": "1048",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "ela-english10"
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "This course examines the many ways fantasy writing brings joy, meaning, and the promise of triumph over hardship to readers. Includes Fantasy Theory, influential modern authors such as JRR Tolkien (The Lord of the Rings), a close look at the Hero's Journey and other narrative concepts, Dungeons & Dragons, and a book study of the student's choice. Skills covered include reading fiction and nonfiction, research, interpersonal communication, creative writing, and multimedia composition."
+    },
+    {
+      "id": "ela-indiana-lit",
+      "title": "Indiana Literature: Hoosier Hysteria",
+      "state_course_code": "1038",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "ela-english10"
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "A study of works produced by those born in, raised, or who lived most of their lives in Indiana. Studies excerpts from John Green's YA novels as well as notable Franklin Central alumni such as Francesca Zappia, and famed Hoosiers including James Whitcomb Riley, Ernie Pyle, Kurt Vonnegut, Mari Evans, and Etheridge Knight. Includes a field trip downtown to tour Lockerbie Street and see the Mari Evans and Kurt Vonnegut murals."
+    },
+    {
+      "id": "ela-film-lit",
+      "title": "Film Literature",
+      "state_course_code": "1034",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "ela-english10"
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "This course examines adaptations of textual narratives into film - how character development, plot, narrative, symbols, and language are translated from literary texts to film, and the limitations of film adaptation. Students choose to read one of: Jurassic Park, Breakfast at Tiffany's, Crazy Rich Asians, I Am Legend, The Princess Bride, Prestige, or The Devil Wears Prada."
+    },
+    {
+      "id": "ela-english12",
+      "title": "English 12",
+      "state_course_code": "1008",
+      "grades": [
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "6 HS ELA credits"
+        }
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "English 12, based on the Indiana Academic Standards for Grades 11-12, is a study of language, literature, composition, and oral communication focusing on an exploration of point of view or perspective across a wide variety of genres. This course also integrates job-relevant skills such as resume-building, professional email, and interview skills. Readings include Death of a Salesman and The Last Lecture."
+    },
+    {
+      "id": "ela-ap-lit",
+      "title": "English 12 AP Literature & Composition",
+      "state_course_code": "1058",
+      "grades": [
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "6 HS ELA credits; AP Lang or DC English 11 Honors recommended"
+        }
+      ],
+      "special_notes": [
+        "Students required to take AP exam in May"
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "A college-level course in which students can, by earning a qualifying score on the AP Exam in May, obtain up to one year of college credit in English. Includes the reading, analysis, and discussion of poetry and prose and the study of the writing process. In-session reading includes Hamlet, How to Read Literature Like a Professor, Frankenstein, and The Kite Runner, with a choice between The Night Watchman, Beloved, or Bless Me, Ultima."
+    },
+    {
+      "id": "ela-creative-writing",
+      "title": "Creative Writing",
+      "state_course_code": "1092",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "No academic writing allowed! This course teaches students how to kick-start the creative writing process, tap into their imagination, draw from everyday experiences and memories, give structure to their writing, and use character and dialogue. Students learn to pen different types of creative writing including vignettes, fractured fairy tales, mystery, comedy sketches, parodies, satires, poetry (including SLAM! poetry), nonfiction poetry, play scripts, historical fiction, and diary entries."
+    },
+    {
+      "id": "ela-dc-speech",
+      "title": "Dual Credit Speech",
+      "state_course_code": "1076/1078",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "college_course": "COMM 143",
+        "college_credits": 3,
+        "eligibility_paths": [
+          {
+            "type": "gpa_and_class",
+            "min_gpa": 2.7,
+            "unweighted": true,
+            "min_grade_level": "Junior"
+          },
+          {
+            "type": "test_score",
+            "options": [
+              {
+                "test": "ACT_english",
+                "min_score": 17
+              },
+              {
+                "test": "SAT_ebrw",
+                "min_score": 510
+              }
+            ]
+          }
+        ]
+      },
+      "diploma_requirement_id_options": [
+        "english.communications_focused"
+      ],
+      "counts_toward_communications_or_additional_english": "either_or_not_both",
+      "ncaa_approved": true,
+      "description": "COMM 143 - Dual Credit Speech introduces fundamental concepts and skills for effective public speaking, including audience analysis, outlining, research, delivery, critical listening and evaluation, and the use of visual aids/technology."
+    },
+    {
+      "id": "ela-dc-creative-writing",
+      "title": "Dual Credit Creative Writing",
+      "state_course_code": "1092",
+      "grades": [
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "DC Composition Sem 1 with C+ or AP Language score 3-5"
+        }
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "Introduces students to opportunities for self-expression in two or more literary genres - fiction, poetry, drama, and creative nonfiction. Students compose original works, apply elements of a writer's craft including imagery, point of view, and meter, demonstrate a high degree of competency in Standard English conventions, and evaluate and revise original works using instructor and/or peer feedback."
+    },
+    {
+      "id": "ela-dc-world-lit",
+      "title": "Dual Credit World Literature",
+      "state_course_code": "1052",
+      "grades": [
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "DC Composition Sem 1 with C+ or AP Language score 3-5"
+        }
+      ],
+      "diploma_requirement_id": "english.additional_english",
+      "ncaa_approved": true,
+      "description": "Introduces students to influential world literature from the mid-17th century through present times, including discussion of the major historical, cultural, intellectual, and political events that shaped this literature. Novels and plays read in their entirety include Tartuffe, Notes from the Underground Part I, The Metamorphosis, The Picture of Dorian Gray, The Cherry Orchard, The Book of Imaginary Beings, Snow Country Part One, and Master Harold and the Boys."
+    },
+    {
+      "id": "ela-enl",
+      "title": "English as a New Language",
+      "state_course_code": "1012 / 2188",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": "1-2",
+      "credits": "1-2",
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "By placement only (WIDA testing)"
+        }
+      ],
+      "diploma_requirement_id_options": [
+        "english.additional_english",
+        "english.communications_focused"
+      ],
+      "special_notes": [
+        "State list shows 1012 under Additional English and 2188 under Communications-Focused - likely two distinct course offerings under one FCHS title. FLAGGED for confirmation."
+      ],
+      "ncaa_approved": false,
+      "description": "Provides non-native English speaking students with instruction in English to improve proficiency in listening, speaking, reading, and writing in academic English, helping students function within the general education setting and English-speaking society. Required for students who test into the ENL program through English proficiency testing (WIDA)."
+    },
+    {
+      "id": "ela-journalism",
+      "title": "Journalism",
+      "state_course_code": "1080",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "Recommended A or B in English"
+        }
+      ],
+      "diploma_requirement_id": "english.communications_focused",
+      "ncaa_approved": true,
+      "description": "Journalism provides students with the opportunity to improve their writing skills in the specialized field of newspaper publishing. Students create a portfolio of journalistic writing including news, features, sports, and editorial articles, and analyze both professional and student media for ethical and design concerns. Covers research and interviewing techniques, AP style, and headline/lead writing, preparing students for positions on the school newspaper staff.",
+      "special_notes": [
+        "Owner-confirmed: NOT repeatable - can only be taken once, unlike Student Media which is repeatable."
+      ]
+    },
+    {
+      "id": "ela-linguistics",
+      "title": "Linguistics",
+      "state_course_code": "1064",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "ela-english9"
+      ],
+      "diploma_requirement_id": "english.communications_focused",
+      "ncaa_approved": true,
+      "description": "Linguistics is the study of language structures that enable humans to communicate. Students examine semantics, syntax, morphology, phonology, sociolinguistics, and etymology, using these concepts to either examine a real-world language or create a fictional language in the course's major projects. Intended for students who love independent work, language, writing, and exploring human minds and cultures."
+    },
+    {
+      "id": "ela-speech",
+      "title": "Speech",
+      "state_course_code": "1076",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [],
+      "diploma_requirement_id": "english.communications_focused",
+      "ncaa_approved": true,
+      "description": "Speech, based on the Indiana Academic Standards for English/Language Arts, is the study and application of the basic principles and techniques of effective oral communication. Students deliver focused and coherent speeches using gestures, tone, and vocabulary appropriate to audience and purpose, including narrative, demonstration, informative, persuasive, and impromptu presentations."
+    },
+    {
+      "id": "ela-technical-comm",
+      "title": "Technical Communication",
+      "state_course_code": "1096",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "4 HS ELA credits"
+        }
+      ],
+      "diploma_requirement_id": "english.communications_focused",
+      "ncaa_approved": false,
+      "description": "Technical Communication (Business and Entrepreneurial Writing) builds essential communication skills for success in business, entrepreneurship, and skilled trades. Students learn to write resumes, prepare for job interviews, and practice professional communication through email, customer service, and workplace interactions, including hands-on projects such as designing an instruction manual and a career research presentation."
+    },
+    {
+      "id": "ela-student-media-broadcasting",
+      "title": "Student Media (Broadcasting)",
+      "state_course_code": "1086",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        {
+          "type": "any_of",
+          "courses": [
+            "ete-principles-broadcasting",
+            "ela-journalism"
+          ]
+        }
+      ],
+      "diploma_requirement_id": "english.communications_focused",
+      "ncaa_approved": false,
+      "description": "Continuation of the study of Journalism. Students demonstrate journalistic writing and design for high school media, follow the ethical principles and legal boundaries that guide scholastic journalism, and work on high school media staff to prepare for career paths in journalism, communications, writing, or related fields.",
+      "repeatable": {
+        "max_times": null,
+        "max_credits": null,
+        "source": "Owner-confirmed: FCHS allows retaking Student Media (Yearbook/newspaper) for credit; no specific cap given."
+      }
+    },
+    {
+      "id": "ela-student-media-yearbook",
+      "title": "Student Media (Yearbook)",
+      "state_course_code": "1086",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "ela-english9"
+      ],
+      "special_notes": [
+        "Recommended A or B in English; by approval; enrollment may be limited"
+      ],
+      "diploma_requirement_id": "english.communications_focused",
+      "ncaa_approved": false,
+      "description": "An English elective designed for students who desire the practical experience of producing the high school yearbook. Enrollment may be limited; spots are determined by past academic performance and the recommendation of English teachers.",
+      "repeatable": {
+        "max_times": null,
+        "max_credits": null,
+        "source": "Owner-confirmed: FCHS allows retaking Student Media (Yearbook/newspaper) for credit; no specific cap given."
+      }
+    },
+    {
+      "id": "ela-visual-communication-ref",
+      "title": "Visual Communications",
+      "note": "Cross-listed - full record lives in Visual Arts department file (visualarts-visual-communication)",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "diploma_requirement_id": "english.communications_focused"
+    },
+    {
+      "id": "ela-library-media",
+      "title": "Library Media",
+      "state_course_code": null,
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Provides instruction and practice in using procedures based on library science and information science theory. Emphasis is placed on knowledge of specific organizational systems, standardized records, and database research, with creativity encouraged for book promotion."
+    },
+    {
+      "id": "ela-library-media-career-internship",
+      "title": "Library Media/Career Exploration Internship",
+      "state_course_code": null,
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": "1-2",
+      "credits": "1-2",
+      "prerequisites": [
+        "ela-library-media"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "A continuation of Library Media within the framework of the Career Exploration Internship course."
+    },
+    {
+      "id": "ete-principles-broadcasting",
+      "title": "Principles of Broadcasting",
+      "state_course_code": "7139",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [],
+      "special_notes": [
+        "Graduation Pathway course per department doc"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Students are introduced to the FC Media program's technology and facility, getting hands-on experience in the sound studios, radio studios, and television studio (multiple video cameras, news desk, and green screen wall). Students are introduced to the Adobe Suite (Premiere, Audition, Photoshop, After Effects) and learn audio/video editing, broadcast journalism, podcasting, and radio and television hosting, reporting, and anchoring."
+    },
+    {
+      "id": "ete-av-production-essentials",
+      "title": "Audio and Video Production Essentials",
+      "state_course_code": "7306",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "ete-principles-broadcasting"
+      ],
+      "diploma_requirement_id": "english.communications_focused",
+      "ncaa_approved": false,
+      "description": "Provides an in-depth study of audio and video production techniques for radio, television, and digital technologies. Students learn skills for audio production and on-air work used in radio and other digital formats, and gain experience in video production including message development, directing, camera, video switcher, and character generator operations."
+    },
+    {
+      "id": "ete-dc-mass-media-production",
+      "title": "Dual Credit Mass Media Production",
+      "state_course_code": "7307",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "ete-av-production-essentials"
+      ],
+      "diploma_requirement_id": "english.communications_focused",
+      "ncaa_approved": false,
+      "description": "Focuses on the study of theory and practice in the voice and visual aspects of radio and television performance, and introduces the skills used to acquire and deliver news stories in a digital media format - researching issues and events, interviewing news sources, interacting with law enforcement and government officials, and writing in a comprehensive news style."
+    },
+    {
+      "id": "ete-dc-radiotv-capstone",
+      "title": "Dual Credit Radio & TV Broadcasting Capstone",
+      "state_course_code": "7308",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "DC Mass Media Production with C or better"
+        }
+      ],
+      "diploma_requirement_id": "english.communications_focused",
+      "ncaa_approved": false,
+      "description": "Covers a variety of domains further building on skills in video production and broadcast industry practices specific to radio, television, and digital media, with attention to cross-industry synergies, emerging technologies, and the global market for media. Students are highly encouraged to complete a video newscast or radio practicum, often through a school-based enterprise."
+    },
+    {
+      "id": "ete-avtech-special-topics",
+      "title": "Arts, AV Tech and Communication: Special Topics",
+      "state_course_code": null,
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "ete-dc-radiotv-capstone"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "An extended learning experience addressing the advancement and specialization of careers within the career cluster, providing a specialized course for a specific workforce need in the school's region. Students learn and practice technical skills under the direction of an appropriately licensed professional, focusing on employment opportunities and knowledge, skills, and attitudes essential for success in specific occupations."
+    }
+  ],
+  "_flags_for_owner_review": [
+    "RESOLVED: DC Composition either/or confirmed correct. Principles of Broadcasting code confirmed (7139) - still defaults to personalized_electives since 7139 doesn't appear on any diploma-requirement course list reviewed so far.",
+    "STILL OPEN, LOW PRIORITY: ela-enl (English as a New Language) - owner wasn't sure what this question was asking. To clarify: the state memo lists TWO different course codes for English as a New Language (1012 under the Additional English list, and 2188 marked 'NEW' under the Communications-Focused list). FCHS's course guide only shows one course by this name. The question is simply whether FCHS's ENL offering is really one single course, or actually two distinct leveled/tracked offerings that happen to share a title in the guide - and if it's one course, which of the two diploma categories it should map to. Not urgent since ENL is placement-only and likely a small population."
+  ]
+}
