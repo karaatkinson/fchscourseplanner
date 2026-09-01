@@ -1,0 +1,368 @@
+{
+  "department": "Engineering and Technology Education",
+  "source_docs": [
+    "ENGINEERING_AND_TECHNOLOGY_EDUCATION_2627.pdf",
+    "1_16_25_Memo_2627_Indiana_Diploma_Course_Eligibility.pdf"
+  ],
+  "courses": [
+    {
+      "id": "ete-construction-principles",
+      "title": "Principles of Construction Trades",
+      "state_course_code": "7130/CC",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [],
+      "pathways": [
+        {
+          "pathway_name": "Architecture & Construction - Carpentry",
+          "leads_to": [
+            "ete-construction-general-carpentry"
+          ]
+        },
+        {
+          "pathway_name": "Architecture & Construction - Civil Construction",
+          "leads_to": [
+            "ete-civil-construction-fundamentals"
+          ]
+        }
+      ],
+      "dual_credit": {
+        "institution": null,
+        "college_course": "BCTI 100 (Intro to Construction Technology)"
+      },
+      "certifications": [
+        {
+          "name": "OSHA 10"
+        },
+        {
+          "name": "NCCER Core Certification",
+          "credential_of_value": "Foundational (Industry Credential, no numeric score) - National Center for Construction Education & Research"
+        }
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.construction"
+      ],
+      "ncaa_approved": false,
+      "description": "Prepares students with the basic skills needed to continue in a construction trade field, including an introduction to common hand and power tools, construction drawing terminology, and basic safety. Students study the roles of individuals and companies within the construction industry and reinforce mathematical and communication skills necessary for success in the field. Students earn OSHA 10 and NCCER Core Certification."
+    },
+    {
+      "id": "ete-construction-general-carpentry",
+      "title": "Construction Trades: General Carpentry",
+      "state_course_code": "7123/CC",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "ete-construction-principles"
+      ],
+      "dual_credit": {
+        "institution": null,
+        "college_course": "BCTI 101 (Intro to Carpentry, Part 1) & BCTI 102 (Intro to Carpentry, Part 2)"
+      },
+      "certifications": [
+        {
+          "name": "NCCER Carpentry Level 1",
+          "requires_prior_certification_from_course": "ete-construction-principles",
+          "credential_of_value": "Final COV Score: 3.6"
+        }
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.construction"
+      ],
+      "ncaa_approved": false,
+      "description": "Builds upon skills learned in Principles of Construction Trades, examining the basics of framing, including procedures for laying out and constructing floor systems, wall systems, ceiling joists, and roof framing, plus basic stair layout. Students are introduced to building envelope systems and earn NCCER Carpentry Level 1 Certification."
+    },
+    {
+      "id": "ete-construction-framing-finishing",
+      "title": "Construction Trades: Framing and Finishing",
+      "state_course_code": "7122",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "ete-construction-principles",
+        "ete-construction-general-carpentry"
+      ],
+      "dual_credit": {
+        "institution": null,
+        "college_course": "BCTI 103 (Carpentry Finishing/Framing, Part 1) & BCTI 104 (Carpentry Finishing/Framing, Part 2)"
+      },
+      "certifications": [
+        {
+          "name": "OSHA 30",
+          "requires_prior_certification": "OSHA 10"
+        },
+        {
+          "name": "NCCER Carpentry Level 2",
+          "requires_prior_certification_from_course": "ete-construction-general-carpentry",
+          "credential_of_value": "Final COV Score: 3.6"
+        }
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.construction"
+      ],
+      "ncaa_approved": false,
+      "description": "Prepares students with advanced framing skills along with interior and exterior finishing techniques, including roofing applications, thermal and moisture protection, exterior finishing, cold-formed steel framing, drywall installation and finishing, doors and door hardware, suspended ceilings, trim, and cabinet installation. Students earn OSHA 30 and NCCER Carpentry Level 2 Certification."
+    },
+    {
+      "id": "ete-civil-construction-fundamentals",
+      "title": "Civil Construction Fundamentals",
+      "state_course_code": null,
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "ete-construction-principles"
+      ],
+      "certifications": [
+        {
+          "name": "Flagging Certification"
+        }
+      ],
+      "special_notes": [
+        "First half of NCCER Heavy Highway Construction Level 1 - certificate not awarded until Advanced Civil Construction is also completed."
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.construction"
+      ],
+      "ncaa_approved": false,
+      "description": "Covers the first half of NCCER Heavy Highway Construction Level 1, with modules on orientation to the trade, equipment identification, heavy highway construction safety, work-zone safety, soils, site work, excavation math, and interpreting civil drawings. The Level 1 certificate isn't awarded until Advanced Civil Construction is also completed. Students can earn flagging certification."
+    },
+    {
+      "id": "ete-advanced-civil-construction",
+      "title": "Advanced Civil Construction",
+      "state_course_code": null,
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "ete-construction-principles",
+        "ete-civil-construction-fundamentals"
+      ],
+      "certifications": [
+        {
+          "name": "OSHA 30"
+        },
+        {
+          "name": "NCCER Heavy Highway Construction Level 1",
+          "requires_prior_certification_from_course": "ete-civil-construction-fundamentals",
+          "credential_of_value": "Final COV Score: 2.5"
+        }
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.construction"
+      ],
+      "ncaa_approved": false,
+      "description": "Builds on the knowledge and skills from the fundamentals course, covering the second half of NCCER Heavy Highway Construction Level 1, with modules on rigging practices, crane safety and emergency procedures, basic principles of cranes, and crane communications. The NCCER certificate and wallet card are awarded upon completion. Students can earn OSHA 30 certification."
+    },
+    {
+      "id": "ete-ied-dc",
+      "title": "Introduction to Engineering Design Dual Credit",
+      "state_course_code": "4802",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "C or better in middle school Math"
+        }
+      ],
+      "special_notes": [
+        "Required to complete the STEM-Engineering (PLTW) Pathway",
+        "Part of Project Lead the Way (PLTW) sequence"
+      ],
+      "dual_credit": {
+        "institution": "Ivy Tech Community College",
+        "college_credits": 6,
+        "college_course": "DESN 101 (Intro to Design Technology) & DESN 113 (2D Computer Aided Design)"
+      },
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "cte_pathway.engineering_pltw",
+        "seal.enrollment_honors_stem_pairing"
+      ],
+      "ncaa_approved": false,
+      "description": "An introduction to problem-solving with an emphasis on developing three-dimensional computer models. Students progress from sketching simple geometric shapes to using solid modeling software to design real products, learning a problem-solving design process used in industry to manufacture products. Students create industry-standard technical drawings and models, designing, 3D modeling, and building a desktop sign and automata, and opening up a product to learn how it works. Required to complete the STEM-Engineering (PLTW) Pathway."
+    },
+    {
+      "id": "ete-poe-dc",
+      "title": "Principles of Engineering Dual Credit",
+      "state_course_code": "5644",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "C or better in Algebra I"
+        },
+        "ete-ied-dc"
+      ],
+      "special_notes": [
+        "Required to complete the STEM-Engineering (PLTW) Pathway"
+      ],
+      "dual_credit": {
+        "institution": "Ivy Tech Community College",
+        "college_credits": 3,
+        "college_course": "DESN 104 (Mechanical Graphics)",
+        "eligibility_paths": [
+          {
+            "type": "requirement",
+            "note": "Must have earned dual credit in Introduction to Engineering Design"
+          }
+        ]
+      },
+      "diploma_requirement_id": "stem.stem_focused",
+      "flexible_category_tags": [
+        "cte_pathway.engineering_pltw"
+      ],
+      "ncaa_approved": false,
+      "description": "Focuses on the process of applying engineering, technological, scientific, and mathematical principles in the design, production, and operation of products, structures, and systems. A hands-on course exploring specialized fields like civil, mechanical, and materials engineering, engaging students in research, development, planning, design, production, and project management to simulate an engineering career. Topics of ethics and the impacts of engineering decisions are addressed. Required to complete the STEM-Engineering (PLTW) Pathway."
+    },
+    {
+      "id": "ete-cea-dc",
+      "title": "Civil Engineering and Architecture Dual Credit",
+      "state_course_code": "5650",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "C or better in Algebra I"
+        },
+        "ete-ied-dc",
+        "ete-poe-dc"
+      ],
+      "dual_credit": {
+        "institution": "Ivy Tech Community College",
+        "college_credits": 3,
+        "college_course": "DESN 105 (Architectural Design I)",
+        "eligibility_paths": [
+          {
+            "type": "requirement",
+            "note": "Must have earned dual credit in Introduction to Engineering Design"
+          }
+        ]
+      },
+      "diploma_requirement_id": "stem.stem_focused",
+      "flexible_category_tags": [
+        "cte_pathway.engineering_pltw"
+      ],
+      "ncaa_approved": false,
+      "description": "Introduces students to the fundamental design and development aspects of civil engineering and architectural planning, applying mathematical and scientific knowledge alongside application and design principles. Computer software allows students to design, simulate, and evaluate the construction of buildings and communities, with instructional emphasis on transportation, water resources, and environmental issues, including preparation of cost estimates and review of regulatory procedures."
+    },
+    {
+      "id": "ete-aerospace-engineering",
+      "title": "Aerospace Engineering",
+      "state_course_code": "5518",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "C or better in Algebra I"
+        },
+        "ete-ied-dc",
+        "ete-poe-dc"
+      ],
+      "diploma_requirement_id": "stem.stem_focused",
+      "flexible_category_tags": [
+        "cte_pathway.engineering_pltw"
+      ],
+      "ncaa_approved": false,
+      "description": "Provides students with the fundamental knowledge and experience to apply mathematical, scientific, and engineering principles to the design, development, and evolution of aircraft, space vehicles, and their operating systems. Emphasis includes investigation and research on flight characteristics, aerodynamic design analysis, and technology's environmental impact, with software allowing students to design, test, and evaluate air and space vehicles and their launching, guidance, and control procedures."
+    },
+    {
+      "id": "ete-cim",
+      "title": "Computer-Integrated Manufacturing",
+      "state_course_code": "5534",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "C or better in Algebra I"
+        },
+        "ete-ied-dc",
+        "ete-poe-dc"
+      ],
+      "diploma_requirement_id": "stem.stem_focused",
+      "flexible_category_tags": [
+        "cte_pathway.engineering_pltw"
+      ],
+      "ncaa_approved": false,
+      "description": "Applies principles of rapid prototyping, robotics, and automation. Students use computer-controlled prototyping equipment such as CNC mills, laser engravers, and 3D printers to solve problems by constructing actual models of their three-dimensional designs. Students are introduced to the fundamentals of robotics and how equipment is used in an automated manufacturing environment, evaluating design solutions and making appropriate modifications before producing prototypes."
+    },
+    {
+      "id": "ete-principles-broadcasting-ref",
+      "title": "Principles of Broadcasting",
+      "note": "Cross-reference - full record lives in ELA department file (ete-principles-broadcasting), state code 7139 confirmed by owner."
+    },
+    {
+      "id": "ete-career-exploration-internship",
+      "title": "Career Exploration Internship",
+      "state_course_code": null,
+      "grades": [
+        12
+      ],
+      "semesters": "1-2",
+      "credits": "1-2 per semester",
+      "prerequisites": [],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "A paid or unpaid work experience in the public or private sector providing workplace learning in an area of student career interests, exposing students to broad aspects of an industry or career cluster by rotating through work sites or departments. Students participate in regularly scheduled meetings or seminars connecting academic learning to work-related experiences."
+    }
+  ],
+  "_flags_for_owner_review": [
+    "RESOLVED: all dual-credit college course numbers now confirmed (BCTI series for Construction Trades, DESN series for Introduction to Engineering Design).",
+    "STILL OPEN: state K-12 course codes (the kind used elsewhere to match against diploma requirement lists, e.g. Math's '2520') were not provided for any Construction Trades, Civil Construction, or Introduction to Engineering Design courses - owner left this section blank on the checklist. These courses currently do NOT count toward any diploma requirement (default: personalized_electives) until state codes are confirmed. Recommend checking the CTD Companion Document's Construction/Architecture tab specifically.",
+    "Note for build phase: Construction Trades entry course appears in TWO pathways (Carpentry and Civil Construction) exactly like the Business department's branching pattern - schema handles this correctly via the 'pathways' array."
+  ]
+}
