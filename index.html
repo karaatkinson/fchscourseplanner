@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FCHS Course Planner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="setup-overlay" id="setupOverlay">
+  <div class="setup-card">
+    <img src="assets/logo.png" alt="Franklin Central High School" class="setup-logo">
+    <div id="setupGradeStep">
+      <h2>What grade are you in?</h2>
+      <p>Earlier grades will be marked as completed so you can log what you've already taken. You can edit this anytime.</p>
+      <div class="setup-options grade-options">
+        <button class="setup-option" data-grade="9">9th | Freshman</button>
+        <button class="setup-option" data-grade="10">10th | Sophomore</button>
+        <button class="setup-option" data-grade="11">11th | Junior</button>
+        <button class="setup-option" data-grade="12">12th | Senior</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="setup-overlay" id="helpOverlay" style="display:none;">
+  <div class="setup-card">
+    <img src="assets/logo.png" alt="Franklin Central High School" class="setup-logo">
+    <h2>How this site works</h2>
+    <ul class="help-list">
+      <li><strong>Course Catalog</strong> | browse by department, search, or filter (AP, dual credit, pathway, and more). Click a course to see full details.</li>
+      <li><strong>My Schedule</strong> | click "Add to Schedule" on any course. It lands in Semester 1 or 2 automatically; toggle S1/S2 to move it. More than 7 in a semester goes to Alternatives.</li>
+      <li><strong>Year tabs</strong> | Junior High through 12th Grade, each with its own schedule. Mark past years as completed to log real credit.</li>
+      <li><strong>Indiana Diploma Progress</strong> | see how your planned courses add up against graduation requirements and readiness seals. Click any requirement to see exactly which courses count toward it.</li>
+      <li><strong>Indiana College Core</strong> | tracks dual-credit and AP progress toward the 30-credit college certificate.</li>
+    </ul>
+    <button class="setup-option" id="helpCloseBtn" style="text-align:center;font-weight:600;color:var(--blue);">Got it</button>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <img src="assets/logo.png" alt="Franklin Central High School" class="masthead-logo">
+    <div>
+      <h1>Course Planner</h1>
+      <p class="masthead-sub">Build your schedule and track your progress toward graduation, readiness seals, and the Indiana College Core.</p>
+    </div>
+  </div>
+  <div class="masthead-actions">
+    <button class="who-btn" id="whoBtn">&#128100; <span id="whoBtnLabel">My Plan</span></button>
+    <button class="change-plan-btn" id="changePlanBtn">Change Grade</button>
+    <button class="print-btn" id="printOpenBtn">Print / Save</button>
+  </div>
+</header>
+
+<nav class="year-tabs" id="yearTabs" style="display:none;">
+  <!-- populated by app.js in Four-Year Builder mode -->
+</nav>
+
+<section class="schedule-tray" id="scheduleTray">
+  <div class="schedule-tray-header">
+    <h2 id="scheduleTitle">My Schedule</h2>
+    <span class="schedule-count" id="scheduleCount">0 / 7 classes</span>
+    <button class="schedule-collapse-btn" id="scheduleCollapseBtn" aria-label="Collapse schedule">&#9650;</button>
+  </div>
+  <div id="scheduleBody">
+    <div class="semester-columns">
+      <div class="semester-col">
+        <h3>Semester 1</h3>
+        <div id="sem1Items"><p class="schedule-empty">No courses yet.</p></div>
+      </div>
+      <div class="semester-col">
+        <h3>Semester 2</h3>
+        <div id="sem2Items"><p class="schedule-empty">No courses yet.</p></div>
+      </div>
+    </div>
+    <div class="alternates-section">
+      <h3>Alternatives <span class="alt-note">(beyond your 7 classes)</span></h3>
+      <div id="alternateItems"><p class="schedule-empty">None yet.</p></div>
+    </div>
+  </div>
+</section>
+
+<nav class="view-tabs">
+  <button class="view-tab active" data-view="catalog">Course Catalog</button>
+  <button class="view-tab" data-view="progress">Indiana Diploma Progress</button>
+  <button class="view-tab" data-view="icc">Indiana College Core Progress</button>
+</nav>
+
+<div class="filter-row">
+  <div class="search-wrap">
+    <input type="text" id="searchInput" placeholder="Search courses&hellip;" autocomplete="off">
+  </div>
+  <button class="filters-toggle-btn" id="filtersToggleBtn">Filters</button>
+</div>
+<div class="filter-bar" id="filterBar" style="display:none;"><!-- populated by app.js --></div>
+
+
+<div class="layout" id="catalogView">
+  <nav class="dept-rail" id="deptRail" aria-label="Departments">
+    <h3 class="dept-rail-heading">Departments</h3>
+    <div id="deptRailButtons"><!-- populated by app.js --></div>
+  </nav>
+
+  <main class="catalog" id="catalog">
+    <!-- populated by app.js -->
+  </main>
+</div>
+
+<div class="progress-view" id="progressView" style="display:none;">
+  <!-- populated by app.js -->
+</div>
+
+<div class="progress-view" id="iccView" style="display:none;">
+  <!-- populated by app.js -->
+</div>
+
+<div class="detail-panel" id="detailPanel">
+  <button class="detail-close" id="detailClose" aria-label="Close">&times;</button>
+  <div id="detailContent"></div>
+  <div class="add-btn-row" id="addBtnRow">
+    <button class="add-btn" id="addBtn">Add to Schedule</button>
+    <button class="add-btn alt-add-btn" id="addAltBtn">Add as Alternate</button>
+  </div>
+</div>
+<div class="scrim" id="scrim"></div>
+
+<div class="detail-panel" id="reqTrayPanel">
+  <button class="detail-close" id="reqTrayClose" aria-label="Close">&times;</button>
+  <div id="reqTrayContent"></div>
+</div>
+<div class="scrim" id="reqScrim"></div>
+
+<div class="setup-overlay" id="printOverlay" style="display:none;">
+  <div class="setup-card" style="max-width:520px;text-align:left;">
+    <h2 style="text-align:center;">Print / Save</h2>
+    <p style="text-align:center;">Choose what to include, then generate. You'll get the browser's print dialog &mdash; choose "Save as PDF" there to download instead of printing.</p>
+
+    <div class="print-field">
+      <label for="printStudentName">Student name (optional, appears on the document)</label>
+      <input type="text" id="printStudentName" placeholder="e.g. Jordan Smith">
+    </div>
+
+    <div class="print-field">
+      <label>Include</label>
+      <div class="print-checkbox-list">
+        <label><input type="checkbox" id="printSchedule" checked> My Schedule</label>
+        <label><input type="checkbox" id="printDiploma" checked> Indiana Diploma Progress</label>
+        <label><input type="checkbox" id="printICC"> Indiana College Core Progress</label>
+      </div>
+    </div>
+
+    <div class="print-field" id="printYearsField">
+      <label>Which years of the schedule?</label>
+      <div class="print-checkbox-list" id="printYearsList"><!-- populated by app.js --></div>
+    </div>
+
+    <div class="print-field">
+      <label><input type="checkbox" id="printSignatures" checked> Include signature lines (student, parent/guardian, counselor)</label>
+    </div>
+
+    <div class="setup-options" style="margin-top:8px;">
+      <button class="setup-option" id="printGenerateBtn" style="text-align:center;font-weight:600;color:var(--blue);">Generate</button>
+      <button class="setup-option" id="printCancelBtn" style="text-align:center;color:var(--ink-dim);">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<div id="printDoc"></div>
+
+<div class="setup-overlay" id="profileOverlay" style="display:none;">
+  <div class="setup-card" style="max-width:440px;text-align:left;">
+    <h2 style="text-align:center;">Whose plan is this?</h2>
+    <p style="text-align:center;">Switch between students, or add a new one. No password needed &mdash; anyone using this device can switch between profiles.</p>
+
+    <div id="profileList" class="profile-list"><!-- populated by app.js --></div>
+
+    <div class="print-field" style="margin-top:18px;">
+      <label>Add a schedule</label>
+      <div style="display:flex;gap:8px;">
+        <input type="text" id="newChildName" placeholder="e.g. Jordan" style="flex:1;padding:9px 12px;border:1px solid var(--line);border-radius:4px;font-family:var(--font);font-size:0.9rem;">
+        <button class="filter-chip" id="addChildBtn" style="border-radius:4px;">Add</button>
+      </div>
+    </div>
+
+    <button class="setup-option" id="profilePanelCloseBtn" style="text-align:center;color:var(--ink-dim);margin-top:16px;">Close</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
