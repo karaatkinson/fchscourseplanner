@@ -1,0 +1,112 @@
+{
+  "_source": "Final_Diploma_Rule_One_Pager.pdf (Blueprint for Success: Readiness Seals) + 1_16_25 Memo (Enrollment Honors Seal course eligibility section) + Updated_New_Indiana_Diploma_FAQ.pdf",
+  "_note": "This file references 'flexible_category_tags' and 'diploma_requirement_id' values that were attached to individual courses across all department files. It does NOT duplicate course data - it defines the combination rules that get evaluated against whichever courses/credits/scores a student has.",
+
+  "general_rules": [
+    "Students may earn one or multiple seals - they are not mutually exclusive.",
+    "Earning ANY seal satisfies Graduation Pathways requirements automatically. Students who earn NO seal must still complete Graduation Pathways components 2 and 3 separately.",
+    "Diploma (base) requirements CAN simultaneously count toward seal requirements - this is the one exception to the one-credit-one-requirement rule (confirmed FAQ Q42).",
+    "Work-based learning (WBL) hours roll into each other across seals (confirmed FAQ Q45): a student earning 650 total WBL hours (max 3 distinct experiences) simultaneously satisfies the WBL portion of Enrollment Honors Plus (75 hrs), Employment Honors (150 hrs), and Employment Honors Plus (650 hrs total).",
+    "Several inputs here CANNOT be derived from course selection alone and must be self-reported/manually entered by the student: cumulative GPA, SAT/ACT/ASVAB scores, attendance record, WBL hours completed, and 'skill development' verification. The Four-Year Builder needs a manual-entry section for these, separate from automatic course-tracking."
+  ],
+
+  "seals": {
+
+    "enrollment_honors": {
+      "requirements": [
+        { "id": "world_language", "rule": "At least 4 credits tagged seal.enrollment_honors_world_language" },
+        { "id": "social_studies", "rule": "At least 6 Social Studies credits. Base requirements (US History 2 + US Govt 1 + World Perspectives 2 = 5) count toward this, PLUS 1 more credit from courses tagged seal.enrollment_honors_ss_sixth_credit. IMPORTANT: World Language Level III-VI credits used for the base World Perspectives requirement CANNOT also be used for this 6th credit." },
+        { "id": "math", "rule": "At least 8 Math credits: Algebra I (2) + Personal Finance (1) + Geometry (2) = 5 credits minimum baseline, PLUS EITHER [Algebra II (2) + 2 credits tagged seal.enrollment_honors_advanced_math] OR [4 credits tagged seal.enrollment_honors_advanced_math]." },
+        { "id": "science", "rule": "At least 6 Science credits: Biology I (2) required, PLUS Chemistry - a course tagged seal.enrollment_honors_chemistry_required (2 credits), PLUS EITHER a course tagged seal.enrollment_honors_physics_option OR 2 credits tagged lab_science from the seal.enrollment_honors_advanced_lab_science_option list. Note: ICP (Integrated Chemistry-Physics) does NOT satisfy the Chemistry-specific requirement, only the Advanced Lab Science option." },
+        { "id": "grades", "rule": "C or higher in ALL courses AND a cumulative B average or higher - self-reported/manually tracked, not derivable from course selection." },
+        {
+          "id": "rigor_or_scores", "rule": "Complete ONE of the following (manually entered/self-reported):",
+          "options": [
+            "Earn 4 credits in AP, IB, or Cambridge courses AND take the corresponding exams",
+            "Earn 6 college credits (via dual credit)",
+            "Score 1250+ on SAT OR 26+ on ACT",
+            "Earn TWO of the following: at least 3 college credits; 2 AP credits + exams; 2 IB credits + exams; 2 Cambridge credits + exams"
+          ]
+        }
+      ]
+    },
+
+    "enrollment_honors_plus": {
+      "requires": "enrollment_honors (all requirements above)",
+      "additional_requirements": [
+        { "id": "credential_of_value", "rule": "Earn an eligible market-driven Credential of Value (see Credentials of Value list). Examples given: Associate degree, Technical Certificate, Indiana College Core, AP Scholar with Distinction, Cambridge AICE Diploma, IB Diploma." },
+        { "id": "wbl_hours", "rule": "Complete at least 75 hours of work-based learning (may combine up to 3 experiences; paid, unpaid, on-site, or simulated)." },
+        { "id": "skill_development", "rule": "Demonstrate skill development in Communication, Collaboration, and Work Ethic (verified via a form/rubric per district process - see FAQ Q36)." }
+      ],
+      "benefit_note": "Per Senate Enrolled Act 448-2025, graduating with this seal grants automatic admission to all Indiana public state institutions, and some private institutions opt in as well."
+    },
+
+    "employment_honors": {
+      "requirements": [
+        {
+          "id": "credential_or_pathway", "rule": "Complete ONE of the following:",
+          "options": [
+            "A market-driven credential of value aligned to a specific occupation (see Credentials of Value list)",
+            "3 courses within a single CTE pathway (tagged cte_pathway.* - all 3 must share the same pathway tag)",
+            "An approved career preparation experience aligned to Indiana's CSA program",
+            "An approved, locally-created pathway"
+          ]
+        },
+        { "id": "wbl_hours", "rule": "Complete 150 hours of work-based learning (up to 3 experiences; paid, unpaid, on-site, or simulated). Courses tagged seal.employment_honors_wbl_hours_source (Work Based Learning Capstone, Cooperative Education) are common sources but not the only ones." },
+        { "id": "skill_development", "rule": "Demonstrate skill development in Communication, Collaboration, and Work Ethic." },
+        {
+          "id": "attendance", "rule": "Meet ONE of:",
+          "options": [
+            "At least 1 school year with no more than 3 unexcused absences",
+            "At least 150 hours of WBL experience with no more than 3 unexcused absences during that time"
+          ]
+        }
+      ]
+    },
+
+    "employment_honors_plus": {
+      "requires": "employment_honors (all requirements above)",
+      "additional_requirements": [
+        { "id": "credential_of_value", "rule": "Earn a market-driven Credential of Value (Associate degree, Technical Certificate, Indiana College Core, or an industry certification)." },
+        { "id": "wbl_hours", "rule": "Complete additional WBL for a TOTAL of 650 hours across one or more experiences (max 3 distinct experiences) - this total includes hours already counted toward Employment Honors' 150-hour requirement." },
+        { "id": "skill_development", "rule": "Demonstrate skill development in Communication, Collaboration, Work Ethic, plus any additional skills determined locally by the school." }
+      ]
+    },
+
+    "enlistment_service_honors": {
+      "requirements": [
+        {
+          "id": "public_service_prep", "rule": "Complete ONE of the following:",
+          "options": [
+            "Introduction to Public Service course (state-preferred course, code 3524) or an approved locally-created equivalent, with emphasis on physical standards/character required for service",
+            "One year of JROTC or Civil Air Patrol in high school"
+          ]
+        },
+        {
+          "id": "asvab_and_exploration", "rule": "Achieve a score of 31+ on the ASVAB AND complete ONE of the following (manually entered/self-reported):",
+          "options": ["All three components of the Career Exploration Program", "A career exploration tool approved by IDOE"]
+        },
+        { "id": "attendance", "rule": "At least 1 school year with no more than 3 unexcused absences." },
+        { "id": "skill_development", "rule": "Demonstrate skill development in Communication, Collaboration, and Work Ethic, externally verified through a mentorship experience with current military personnel, veterans, or other public safety professionals." }
+      ]
+    },
+
+    "enlistment_service_honors_plus": {
+      "requires": "enlistment_service_honors (all requirements above)",
+      "additional_requirements": [
+        {
+          "id": "advanced_qualification", "rule": "Complete ONE of the following:",
+          "options": ["Achieve a score of 50+ on the ASVAB", "Enrollment in ROTC at the collegiate level", "Acceptance to a service academy"]
+        },
+        {
+          "id": "leadership_excellence", "rule": "Demonstrate excellence in leadership through ONE of the following:",
+          "options": ["Completion of at least 100 hours of public service", "Holding a leadership role in a co-curricular or extracurricular activity", "Completion of two seasons of a team-based physical sport or activity"]
+        }
+      ]
+    }
+  },
+
+  "credentials_of_value": {
+    "_note": "Full scored list lives in 20262027_Credentials_of_Value_List__FULL_COV_List.pdf in the project - hundreds of entries, each with a 'Final COV Score' from issuing institutions like Ivy Tech, Vincennes University, and various certification bodies. This rules file does NOT duplicate that list; the site should query it directly (or a converted version of it) when checking a specific certification against seal requirements, rather than this file trying to re-embed hundreds of rows."
+  }
+}

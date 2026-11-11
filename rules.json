@@ -1,0 +1,709 @@
+{
+ "_about": "Rules the course guides do not state. The site reads course facts from the guides; this file adds Readiness Seal code lists (from the IDOE memo), Indiana College Core placement, shared credit caps and reviewed prerequisite readings. Anything marked review is shown to students as \"needs review\".",
+ "schema": 1,
+ "sources": [
+  "1.16.25 Memo 2627 Indiana Diploma Course Eligibility (IDOE)",
+  "Final Diploma Rule One Pager",
+  "Updated New Indiana Diploma FAQ",
+  "2025-26 Dual Credit Crosswalks (FCHS; FCHS-Vincennes)"
+ ],
+ "world_language_level3_plus_world_perspectives": true,
+ "world_language_seal_all_wl": true,
+ "seal_codes": {
+  "seal.enrollment_honors_math_base": [
+   "2532",
+   "2522"
+  ],
+  "seal.enrollment_honors_advanced_math": [
+   "2530",
+   "2550",
+   "2564",
+   "2566",
+   "2527",
+   "2546",
+   "2595",
+   "2570",
+   "2543",
+   "2562",
+   "2572",
+   "2563",
+   "2544"
+  ],
+  "seal.enrollment_honors_chemistry_required": [
+   "3064",
+   "3066",
+   "3060"
+  ],
+  "seal.enrollment_honors_physics_option": [
+   "3084",
+   "3086",
+   "3080",
+   "3081",
+   "3087",
+   "3089"
+  ],
+  "seal.enrollment_honors_advanced_lab_science_option": [
+   "3026",
+   "3030",
+   "3044",
+   "3046",
+   "3108",
+   "3008",
+   "3010",
+   "3012",
+   "3102",
+   "5276",
+   "3090",
+   "3092",
+   "5216",
+   "5217",
+   "5219",
+   "5070",
+   "5072",
+   "5074"
+  ],
+  "lab_science": [
+   "3026",
+   "3030",
+   "3044",
+   "3046",
+   "3108",
+   "3064",
+   "3066",
+   "3060",
+   "3084",
+   "3086",
+   "3080",
+   "3081",
+   "3087",
+   "3089",
+   "3008",
+   "3010",
+   "3012",
+   "3102",
+   "5276",
+   "3090",
+   "3092",
+   "5216",
+   "5217",
+   "5219",
+   "5070",
+   "5072",
+   "5074"
+  ],
+  "seal.enrollment_honors_ss_sixth_credit": [
+   "1518",
+   "1514",
+   "1532",
+   "1534",
+   "1556",
+   "1558",
+   "1564",
+   "1566",
+   "1572",
+   "4558"
+  ],
+  "seal.enlistment_honors_public_service_requirement": [
+   "3524"
+  ]
+ },
+ "extra_code_requirements": {
+  "1064": [
+   "english.additional_english"
+  ],
+  "1070": [
+   "english.additional_english"
+  ],
+  "1074": [
+   "english.additional_english"
+  ],
+  "1076": [
+   "english.additional_english"
+  ],
+  "1078": [
+   "english.additional_english"
+  ],
+  "1080": [
+   "english.additional_english"
+  ],
+  "1084": [
+   "english.additional_english"
+  ],
+  "1086": [
+   "english.additional_english"
+  ],
+  "1096": [
+   "english.additional_english"
+  ]
+ },
+ "certification_aliases": {
+  "adobe photoshop": "Adobe Certified Professional – Photoshop",
+  "adobe illustrator": "Adobe Certified Professional – Illustrator",
+  "adobe premiere pro": "Adobe Certified Professional – Premiere Pro",
+  "nccer core": "NCCER Core Curriculum"
+ },
+ "prereq_aliases": [
+  {
+   "id": "pe-physical-education-i-ii",
+   "text": "Physical Education I"
+  }
+ ],
+ "course_rules": {
+  "business-principles-of-computing": {
+   "special_diploma_note": "IDOE memo: Principles of Computing (7183) meets the Computer Science requirement only when paired with one of: 7351, 7352, 7178, 7179, 7180, 7181, 7182, 7184 Software Development or 7185 Website and Database Development."
+  },
+  "ela-dual-credit-composition": {
+   "icc": {
+    "category": "written_communication",
+    "credit_hours": 6,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "Sem 1: ENGL 101 (English Composition); Sem 2: ENGL 102 (Composition)",
+   "review": [
+    "Indiana College Core placement was carried over from \"Dual Credit Composition\" but the guide's college course listing is different (Sem 1: ENGL 101 (English Composition); Sem 2: ENGL 102 (Composition)). Verify the placement."
+   ]
+  },
+  "ela-dual-credit-composition-early-college": {
+   "icc": {
+    "category": "written_communication",
+    "credit_hours": 6,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "Sem 1: ENGL 101 (English Composition); Sem 2: ENGL 102 (Composition)"
+  },
+  "ela-english-11-ap-language-and-composition": {
+   "icc": {
+    "category": "written_communication",
+    "credit_hours": 3,
+    "vincennes_sourced": false,
+    "requires_ap_score": true,
+    "min_ap_score": 3,
+    "is_estimate": true
+   },
+   "icc_source": "N/A"
+  },
+  "ela-english-12-ap-literature-and-composition": {
+   "icc": {
+    "category": "humanistic_artistic_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": false,
+    "requires_ap_score": true,
+    "min_ap_score": 3,
+    "is_estimate": true
+   },
+   "icc_source": "N/A"
+  },
+  "ela-speech-dual-credit": {
+   "icc": {
+    "category": "speaking_listening",
+    "credit_hours": 3,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "COMM 143 (Speech)",
+   "counts_toward_communications_or_additional_english": "either_or_not_both"
+  },
+  "ela-creative-writing-dual-credit": {
+   "icc": {
+    "category": "humanistic_artistic_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "ENGL 202 (Creative Writing)",
+   "review": [
+    "With the state course code in the guide (1124/CCCW) this course counts toward english additional_english or english communications_focused. The 2026-27 build counted it toward english additional_english (old code 1092)."
+   ]
+  },
+  "ela-world-literature-dual-credit": {
+   "icc": {
+    "category": "humanistic_artistic_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "LITR 221 (Introduction to World Literature II)",
+   "review": [
+    "With the state course code in the guide (1124/CCWL) this course counts toward english additional_english or english communications_focused. The 2026-27 build counted it toward english additional_english (old code 1052)."
+   ]
+  },
+  "math-precalculus-dual-credit": {
+   "icc": {
+    "category": "quantitative_reasoning",
+    "credit_hours": 6,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "Sem 1: MATH 102 (College Algebra); Sem 2: MATH 104 (Trigonometry)",
+   "review": [
+    "Indiana College Core placement was carried over from \"Pre-Calculus Dual Credit\" but the guide's college course listing is different (Sem 1: MATH 102 (College Algebra); Sem 2: MATH 104 (Trigonometry)). Verify the placement."
+   ]
+  },
+  "math-precalculus-advanced-placement": {
+   "icc": {
+    "category": "quantitative_reasoning",
+    "credit_hours": 3,
+    "vincennes_sourced": false,
+    "requires_ap_score": true,
+    "min_ap_score": 3,
+    "is_estimate": true
+   },
+   "icc_source": "N/A"
+  },
+  "math-calculus-dual-credit": {
+   "icc": {
+    "category": "quantitative_reasoning",
+    "credit_hours": 5,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "MATH 118 (Calculus with Analytic Geometry I)"
+  },
+  "math-calculus-ab-advanced-placement": {
+   "icc": {
+    "category": "quantitative_reasoning",
+    "credit_hours": 4,
+    "vincennes_sourced": false,
+    "requires_ap_score": true,
+    "min_ap_score": 3,
+    "is_estimate": true
+   },
+   "icc_source": "N/A"
+  },
+  "math-calculus-bc-advanced-placement": {
+   "icc": {
+    "category": "quantitative_reasoning",
+    "credit_hours": 5,
+    "vincennes_sourced": false,
+    "requires_ap_score": true,
+    "min_ap_score": 3,
+    "is_estimate": true
+   },
+   "icc_source": "N/A"
+  },
+  "math-statistics-advanced-placement": {
+   "icc": {
+    "category": "quantitative_reasoning",
+    "credit_hours": 3,
+    "vincennes_sourced": false,
+    "requires_ap_score": true,
+    "min_ap_score": 3,
+    "is_estimate": true
+   },
+   "icc_source": "N/A"
+  },
+  "math-finite-mathematics-dual-credit": {
+   "icc": {
+    "category": "quantitative_reasoning",
+    "credit_hours": 3,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "MATH 111 (Finite Math)"
+  },
+  "math-quantitative-reasoning-dual-credit": {
+   "icc": {
+    "category": "quantitative_reasoning",
+    "credit_hours": 3,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "MATH 103 (Quantitative Reasoning)"
+  },
+  "multi-work-based-learning-capstone": {
+   "extra_tags": [
+    "seal.employment_honors_wbl_hours_source"
+   ]
+  },
+  "pa-theatre-appreciation-dual-credit": {
+   "icc": {
+    "category": "humanistic_artistic_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "THEA 100 Theater Appreciation (3 credits)"
+  },
+  "pa-music-theory-and-composition-advanced-placement": {
+   "icc": {
+    "category": "humanistic_artistic_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": false,
+    "requires_ap_score": true,
+    "min_ap_score": 3,
+    "is_estimate": true
+   },
+   "icc_source": "N/A"
+  },
+  "pa-music-appreciation-dual-credit": {
+   "icc": {
+    "category": "humanistic_artistic_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "MUSI 218 Music Appreciation (3 credits)"
+  },
+  "pe-elective-physical-education-weight-training": {
+   "shared_pool": "pe_elective",
+   "diploma_requirement_id": "personalized_electives",
+   "override_reason": "IDOE lists 3560 as eligible for the PE requirement, but the guide says the Class of 2029+ PE requirement is Physical Education I or II. Elective PE is counted as an elective until the school confirms otherwise."
+  },
+  "pe-elective-physical-education-advanced-weight-training": {
+   "shared_pool": "pe_elective",
+   "diploma_requirement_id": "personalized_electives",
+   "override_reason": "IDOE lists 3560 as eligible for the PE requirement, but the guide says the Class of 2029+ PE requirement is Physical Education I or II. Elective PE is counted as an elective until the school confirms otherwise."
+  },
+  "pe-elective-physical-education-basketball-101": {
+   "shared_pool": "pe_elective",
+   "diploma_requirement_id": "personalized_electives",
+   "override_reason": "IDOE lists 3560 as eligible for the PE requirement, but the guide says the Class of 2029+ PE requirement is Physical Education I or II. Elective PE is counted as an elective until the school confirms otherwise."
+  },
+  "pe-elective-physical-education-coeducational-recreation-games": {
+   "shared_pool": "pe_elective",
+   "diploma_requirement_id": "personalized_electives",
+   "override_reason": "IDOE lists 3560 as eligible for the PE requirement, but the guide says the Class of 2029+ PE requirement is Physical Education I or II. Elective PE is counted as an elective until the school confirms otherwise."
+  },
+  "pe-elective-physical-education-lifetime-activities": {
+   "shared_pool": "pe_elective",
+   "diploma_requirement_id": "personalized_electives",
+   "override_reason": "IDOE lists 3560 as eligible for the PE requirement, but the guide says the Class of 2029+ PE requirement is Physical Education I or II. Elective PE is counted as an elective until the school confirms otherwise."
+  },
+  "pe-elective-physical-education-lifeguard-training": {
+   "shared_pool": "pe_elective",
+   "single_take_only": true,
+   "diploma_requirement_id": "personalized_electives",
+   "override_reason": "IDOE lists 3560 as eligible for the PE requirement, but the guide says the Class of 2029+ PE requirement is Physical Education I or II. Elective PE is counted as an elective until the school confirms otherwise."
+  },
+  "pe-elective-physical-education-swimming-and-water-games": {
+   "shared_pool": "pe_elective",
+   "diploma_requirement_id": "personalized_electives",
+   "override_reason": "IDOE lists 3560 as eligible for the PE requirement, but the guide says the Class of 2029+ PE requirement is Physical Education I or II. Elective PE is counted as an elective until the school confirms otherwise."
+  },
+  "pe-elective-physical-education-team-sports": {
+   "shared_pool": "pe_elective",
+   "diploma_requirement_id": "personalized_electives",
+   "override_reason": "IDOE lists 3560 as eligible for the PE requirement, but the guide says the Class of 2029+ PE requirement is Physical Education I or II. Elective PE is counted as an elective until the school confirms otherwise."
+  },
+  "sci-physics-i-advanced-placement-dual-credit": {
+   "icc": {
+    "category": "scientific_ways",
+    "credit_hours": 4,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "PHYS 215/215L General Physics I (4 credits)",
+   "review": [
+    "Readiness Seal categories changed with the guide's code: now [seal.enrollment_honors_advanced_lab_science_option], was [seal.enrollment_honors_physics_option]."
+   ]
+  },
+  "sci-plant-and-animal-biology-dual-credit": {
+   "icc": {
+    "category": "scientific_ways",
+    "credit_hours": 4,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": true
+   },
+   "icc_source": "BIOL 101/101L Plant and Animal Biology"
+  },
+  "sci-biology-advanced-placement-dual-credit": {
+   "icc": {
+    "category": "scientific_ways",
+    "credit_hours": 4,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "BIOL 105 Biology I – Molecular and Cellular Processes (5 credits)"
+  },
+  "sci-chemistry-advanced-placement-dual-credit": {
+   "icc": {
+    "category": "scientific_ways",
+    "credit_hours": 5,
+    "vincennes_sourced": false,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "CHEM 125 General Chemistry I (5 credits)",
+   "review": [
+    "Readiness Seal categories changed with the guide's code: now [seal.enrollment_honors_advanced_lab_science_option], was [seal.enrollment_honors_chemistry_required]."
+   ]
+  },
+  "sci-environmental-science-advanced-placement": {
+   "icc": {
+    "category": "scientific_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": false,
+    "requires_ap_score": true,
+    "min_ap_score": 3,
+    "is_estimate": true
+   },
+   "icc_source": "N/A"
+  },
+  "sci-physics-ii-advanced-placement-dual-credit": {
+   "icc": {
+    "category": "scientific_ways",
+    "credit_hours": 4,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "PHYS 216/216L General Physics II (4 credits)",
+   "review": [
+    "Readiness Seal categories changed with the guide's code: now [seal.enrollment_honors_advanced_lab_science_option], was [seal.enrollment_honors_physics_option]."
+   ]
+  },
+  "ss-united-states-history-advanced-placement-dual-credit": {
+   "icc": {
+    "category": "social_behavioral_ways",
+    "credit_hours": 6,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "HIST 139 & HIST 140 American History I & II (6 credits)",
+   "review": [
+    "With the state course code in the guide (1574) this course counts toward ss world_perspectives. The 2026-27 build counted it toward ss us_history (old code 1562)."
+   ]
+  },
+  "ss-macroeconomics-advanced-placement": {
+   "icc": {
+    "category": "social_behavioral_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": false,
+    "requires_ap_score": true,
+    "min_ap_score": 3,
+    "is_estimate": true
+   },
+   "icc_source": "N/A"
+  },
+  "ss-united-states-government-we-people-dual-credit": {
+   "icc": {
+    "category": "social_behavioral_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "POLS 111 American National Government (3 credits)",
+   "review": [
+    "With the state course code in the guide (1574 (1574/CCWP)) this course counts toward ss world_perspectives. The 2026-27 build counted it toward ss us_government (old code 1574/CCWP)."
+   ]
+  },
+  "ss-united-states-government-advanced-placement-dual-credit": {
+   "icc": {
+    "category": "social_behavioral_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "POLS 111 American National Government (3 credits)",
+   "review": [
+    "With the state course code in the guide (1574) this course counts toward ss world_perspectives. The 2026-27 build counted it toward ss us_government (old code 1560)."
+   ]
+  },
+  "ss-human-geography-advanced-placement": {
+   "icc": {
+    "category": "social_behavioral_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": false,
+    "requires_ap_score": true,
+    "min_ap_score": 3,
+    "is_estimate": true
+   },
+   "icc_source": "N/A"
+  },
+  "ss-psychology-advanced-placement": {
+   "icc": {
+    "category": "social_behavioral_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": false,
+    "requires_ap_score": true,
+    "min_ap_score": 3,
+    "is_estimate": true
+   },
+   "icc_source": "N/A"
+  },
+  "ss-european-history-advanced-placement": {
+   "icc": {
+    "category": "social_behavioral_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": false,
+    "requires_ap_score": true,
+    "min_ap_score": 3,
+    "is_estimate": true
+   },
+   "icc_source": "N/A"
+  },
+  "va-drawing-advanced-placement": {
+   "icc": {
+    "category": "humanistic_artistic_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": false,
+    "requires_ap_score": true,
+    "min_ap_score": 3,
+    "is_estimate": true
+   },
+   "icc_source": "N/A"
+  },
+  "va-2-dimensional-design-advanced-placement": {
+   "icc": {
+    "category": "humanistic_artistic_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": false,
+    "requires_ap_score": true,
+    "min_ap_score": 3,
+    "is_estimate": true
+   },
+   "icc_source": "N/A"
+  },
+  "va-3-dimensional-design-advanced-placement": {
+   "icc": {
+    "category": "humanistic_artistic_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": false,
+    "requires_ap_score": true,
+    "min_ap_score": 3,
+    "is_estimate": true
+   },
+   "icc_source": "N/A"
+  },
+  "va-art-appreciation-dual-credit": {
+   "icc": {
+    "category": "humanistic_artistic_ways",
+    "credit_hours": 3,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "ARTT 110 Art Appreciation – EC Edition (3 credits)"
+  },
+  "wl-spanish-iii-honors-dual-credit": {
+   "icc": {
+    "category": "humanistic_artistic_ways",
+    "credit_hours": 8,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "SPAN 101 & SPAN 103 Spanish Level I & II (8 credits; SPAN 101 fall, SPAN 103 spring)",
+   "review": [
+    "Indiana College Core placement was carried over from \"Spanish III Honors / Dual Credit\" but the guide's college course listing is different (SPAN 101 & SPAN 103 Spanish Level I & II (8 credits; SPAN 101 fall, SPAN 103 spring)). Verify the placement."
+   ]
+  },
+  "wl-spanish-iv-dual-credit": {
+   "icc": {
+    "category": "humanistic_artistic_ways",
+    "credit_hours": 6,
+    "vincennes_sourced": true,
+    "requires_ap_score": false,
+    "min_ap_score": null,
+    "is_estimate": false
+   },
+   "icc_source": "SPAN 201 & SPAN 203 Spanish Level III & IV (6 credits; SPAN 201 fall, SPAN 203 spring)",
+   "review": [
+    "Indiana College Core placement was carried over from \"Spanish IV Dual Credit\" but the guide's college course listing is different (SPAN 201 & SPAN 203 Spanish Level III & IV (6 credits; SPAN 201 fall, SPAN 203 spring)). Verify the placement."
+   ]
+  },
+  "business-software-development": {
+   "special_diploma_note": "IDOE memo: Principles of Computing (7183) meets the Computer Science requirement only when paired with one of: 7351, 7352, 7178, 7179, 7180, 7181, 7182, 7184 Software Development or 7185 Website and Database Development.",
+   "review": [
+    "With the state course code in the guide (7184) this course counts toward personalized_electives. The 2026-27 build counted it toward stem computer_science (old code 7184)."
+   ]
+  },
+  "business-website-and-database-development": {
+   "special_diploma_note": "IDOE memo: Principles of Computing (7183) meets the Computer Science requirement only when paired with one of: 7351, 7352, 7178, 7179, 7180, 7181, 7182, 7184 Software Development or 7185 Website and Database Development.",
+   "review": [
+    "With the state course code in the guide (7185) this course counts toward personalized_electives. The 2026-27 build counted it toward stem computer_science (old code 7185)."
+   ]
+  },
+  "ss-personal-financial-responsibility-economics": {
+   "review": [
+    "Readiness Seal categories changed with the guide's code: now [seal.enrollment_honors_ss_sixth_credit], was [none]."
+   ]
+  },
+  "va-visual-communication": {
+   "review": [
+    "With the state course code in the guide (4086) this course counts toward english communications_focused. The 2026-27 build counted it toward english communications_focused or personalized_electives (old code 4086)."
+   ]
+  }
+ },
+ "prereq_overrides": {
+  "math-geometry-honors": {
+   "source": "Completed Algebra I and Algebra II by 8th grade; OR recommended: completed 9th grade Algebra I Honors, or a recommendation from the Algebra I teacher",
+   "items": [
+    {
+     "type": "requirement",
+     "note": "Completed Algebra I and Algebra II by 8th grade; OR recommended: completed 9th grade Algebra I Honors, or a recommendation from the Algebra I teacher"
+    }
+   ],
+   "reason": "Algebra I and II are completed before high school, so they cannot be checked against a high school schedule. Shown as text only."
+  },
+  "math-calculus-ab-advanced-placement": {
+   "source": "Precalculus (AP or Dual Credit); Recommended: C or better in AP Precalculus or A in Dual Credit Precalculus",
+   "items": [
+    {
+     "type": "any_of",
+     "courses": [
+      "math-precalculus-advanced-placement",
+      "math-precalculus-dual-credit"
+     ]
+    }
+   ],
+   "reason": "Guide says \"Precalculus (AP or Dual Credit)\". Read as either of those two courses. Please confirm."
+  },
+  "wl-spanish-iv-dual-credit": {
+   "source": "C or better in both semesters of Spanish III Dual Credit For Dual Credit Sem 1 (SPAN 201): Dual Credit Spanish III (SPAN 103) with a grade of C or better OR PTS2 placement score of 70+ For Dual Credit Sem 2 (SPAN 203): SPAN 201 with a grade of C or better",
+   "items": [
+    {
+     "type": "any_of",
+     "courses": [
+      "wl-spanish-iii-honors-dual-credit"
+     ]
+    },
+    {
+     "type": "requirement",
+     "note": "C or better in both semesters of Spanish III Dual Credit For Dual Credit Sem 1 (SPAN 201): Dual Credit Spanish III (SPAN 103) with a grade of C or better OR PTS2 placement score of 70+ For Dual Credit Sem 2 (SPAN 203): SPAN 201 with a grade of C or better"
+    }
+   ],
+   "reason": "Guide names Spanish III Dual Credit specifically (not regular Spanish III)."
+  }
+ }
+}
