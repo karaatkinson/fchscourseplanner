@@ -1,0 +1,644 @@
+{
+  "department": "Science",
+  "source_docs": [
+    "SCIENCE_C_O_2029_2627.pdf",
+    "1_16_25_Memo_2627_Indiana_Diploma_Course_Eligibility.pdf"
+  ],
+  "courses": [
+    {
+      "id": "sci-biology1",
+      "title": "Biology I",
+      "state_course_code": "3024",
+      "grades": [
+        9
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [],
+      "ncaa_approved": true,
+      "description": "An introductory course designed to study living organisms and their physical environment. Students apply scientific methods of inquiry and research in examining biochemistry, cell structure/function/reproduction, cell energy, molecular basis of genetics, natural selection and diversity, and ecology. Required for graduation.",
+      "diploma_requirement_id": "stem.biology1_required",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-biology1-honors",
+      "title": "Biology I Honors",
+      "state_course_code": "3024",
+      "grades": [
+        9
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [],
+      "special_notes": [
+        "A or B average in 8th grade science"
+      ],
+      "ncaa_approved": true,
+      "description": "Designed for students with excellent reading, comprehension, and study skills, at a rapid pace with an emphasis on critical thinking. A laboratory/project-based course studying living organisms and their physical environment, examining biochemistry, cell structure and function, cell energy, molecular basis of genetics, natural selection and diversity, and ecology. Required for graduation.",
+      "diploma_requirement_id": "stem.biology1_required",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-chemistry1",
+      "title": "Chemistry I",
+      "state_course_code": "3064",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "math-algebra1",
+        {
+          "type": "any_of",
+          "courses": [
+            "sci-biology1-honors",
+            "sci-biology1"
+          ]
+        }
+      ],
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_chemistry_required"
+      ],
+      "ncaa_approved": true,
+      "description": "Designed primarily for the college-bound student, a mathematics and laboratory-based science class covering atomic structure, chemical reactions, stoichiometry, solutions, gas laws, and acids and bases. Proficiency in Algebra I skills is required and more advanced mathematics is strongly recommended.",
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-chemistry1-earlycollege",
+      "title": "Chemistry I Early College",
+      "state_course_code": "3064",
+      "grades": [
+        10
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "math-algebra1",
+        {
+          "type": "any_of",
+          "courses": [
+            "sci-biology1-honors",
+            "sci-biology1"
+          ]
+        },
+        {
+          "type": "requirement",
+          "note": "Accepted admittance into Early College Cohort"
+        }
+      ],
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_chemistry_required"
+      ],
+      "ncaa_approved": true,
+      "description": "A laboratory-based science course designed for Early College Cohort students, exploring the principles that explain how matter behaves and changes, covering atomic structure, chemical reactions, stoichiometry, solutions, gas laws, and acids and bases. Students develop problem-solving and critical-thinking skills through hands-on experiments and inquiry-based learning.",
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-chemistry1-honors",
+      "title": "Chemistry I Honors",
+      "state_course_code": "3064",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "math-algebra1"
+      ],
+      "special_notes": [
+        "Recommended: Honors Biology"
+      ],
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_chemistry_required"
+      ],
+      "ncaa_approved": true,
+      "description": "Designed primarily for the self-motivated student with strong reading comprehension, critical thinking, and study skills, at a rapid pace using inquiry to cover atomic structure, chemical reactions, stoichiometry, solutions, gas laws, and acids and bases. Proficiency in Algebra I skills is required and more advanced mathematics is strongly recommended.",
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-icp",
+      "title": "Integrated Chemistry - Physics",
+      "state_course_code": "3108",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "math-algebra1"
+      ],
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_advanced_lab_science_option"
+      ],
+      "special_notes": [
+        "Does NOT satisfy the Enrollment Honors Seal Chemistry-specific requirement - only counts as an Advanced Lab Science option."
+      ],
+      "ncaa_approved": true,
+      "description": "An engaging course exploring key principles of both Chemistry and Physics through hands-on and conceptual learning. Moves at a steady pace, encouraging critical thinking, problem-solving, and real-world connections. With consistent effort and curiosity, all students can find success and even excel in this course.",
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-physics1",
+      "title": "Physics I",
+      "state_course_code": "3084",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "sci-biology1"
+      ],
+      "special_notes": [
+        "Chemistry recommended"
+      ],
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_physics_option"
+      ],
+      "ncaa_approved": true,
+      "description": "The search for the fundamental laws that govern the behavior of objects in the universe - the nature of motion, forces, energy, matter, electricity, magnetism, and the composition of atoms. Emphasis is on developing a conceptual understanding of these laws and phenomena, giving students a deeper appreciation for the natural world as revealed by modern science.",
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-physics1-ap-dc",
+      "title": "Physics I AP / Dual Credit",
+      "state_course_code": "3080",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "math-algebra2",
+        "math-geometry"
+      ],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "college_course": "PHYS 215/215L",
+        "eligibility_paths": [
+          {
+            "type": "prior_course_grade",
+            "course": "DC Precalculus Sem 1",
+            "min_grade": "C"
+          },
+          {
+            "type": "test_score",
+            "options": [
+              {
+                "test": "AP_Precalculus_exam"
+              }
+            ]
+          }
+        ],
+        "crosswalk_correction": "Corrected from Ivy Tech to Vincennes per Dual Credit Crosswalk document (course codes use /Vin or /Vinc suffix)."
+      },
+      "special_notes": [
+        "Students required to take AP exam in May"
+      ],
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_physics_option"
+      ],
+      "ncaa_approved": true,
+      "description": "The equivalent of a first-semester college course in algebra-based physics, covering Newtonian mechanics, work, energy, power, mechanical waves and sound, plus heat, thermodynamic principles, and fluid dynamics for the Ivy Tech Physics 101 credit. Through inquiry-based learning, students develop scientific critical thinking and reasoning skills. Students required to take the AP exam in May.",
+      "icc": {
+        "category": "scientific_ways",
+        "credit_hours": 4,
+        "vincennes_sourced": true,
+        "requires_ap_score": false,
+        "min_ap_score": null,
+        "is_estimate": false
+      },
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-anatomy-physiology",
+      "title": "Anatomy & Physiology",
+      "state_course_code": "5276",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "sci-biology1"
+      ],
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_advanced_lab_science_option"
+      ],
+      "ncaa_approved": true,
+      "description": "Students investigate and apply concepts associated with human anatomy and physiology, including the process of homeostasis and the essentials of human function at the level of genes, cells, tissues, and organ systems. Understanding the structure, organization, and function of the human body applies to all health-related fields. Animal dissection is part of the laboratory component.",
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-earth-space",
+      "title": "Earth & Space Science I",
+      "state_course_code": "3044",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "sci-biology1"
+      ],
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_advanced_lab_science_option"
+      ],
+      "ncaa_approved": true,
+      "description": "Helps students explore the world and universe around them, mastering Earth Science topics including meteorology, geology (minerals, rocks, plate tectonics, volcanoes, earthquakes), and astronomy. Students analyze and describe Earth's interconnected systems, with labs and hands-on activities relating science to everyday life.",
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-plant-animal-bio-dc",
+      "title": "Dual Credit Plant and Animal Biology",
+      "state_course_code": "3090/CCPA",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "sci-biology1"
+      ],
+      "special_notes": [
+        "Recommended: ICP or Chemistry"
+      ],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "college_course": "BIOL 101/101L",
+        "eligibility_paths": [
+          {
+            "type": "gpa_and_class",
+            "min_gpa": 2.7,
+            "unweighted": true,
+            "min_grade_level": "Junior",
+            "and_also": "B- or better in Algebra II (2nd semester)"
+          },
+          {
+            "type": "test_score",
+            "options": [
+              {
+                "test": "Accuplacer"
+              }
+            ]
+          }
+        ]
+      },
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_advanced_lab_science_option"
+      ],
+      "ncaa_approved": true,
+      "description": "Introduces the study of plants and animals and how they interact within ecosystems. Students learn how scientists identify and classify living organisms, examine key structures and functions, and explore how plants and animals depend on one another and their environments to survive. Hands-on lab activities and dissection are a major part of this course, emphasizing the connections that sustain life on Earth.",
+      "icc": {
+        "category": "scientific_ways",
+        "credit_hours": 4,
+        "vincennes_sourced": true,
+        "requires_ap_score": false,
+        "min_ap_score": null,
+        "is_estimate": true
+      },
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-biology2-zoology",
+      "title": "Biology II / Zoology",
+      "state_course_code": "3026",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "sci-biology1"
+      ],
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_advanced_lab_science_option"
+      ],
+      "ncaa_approved": true,
+      "description": "Explores the structure, function, diversity, and evolution of the ten major phyla of the animal kingdom, with students participating in dissection of organisms from each phyla. A mixture of lectures, dissections, and labs including animal and human diseases, ecology, biodiversity studies, and physiological studies of animals. Great for sophomores, juniors, or seniors considering vet or medical school.",
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-bioethics-happiness",
+      "title": "Bioethics and the Biology of Happiness",
+      "state_course_code": "3092",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "sci-biology1"
+      ],
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_advanced_lab_science_option"
+      ],
+      "special_notes": [
+        "Code 3092 = 'Advanced Science Special Topics', which IS on the state's Additional Science Credits list - updated from personalized_electives to stem.additional_science accordingly."
+      ],
+      "ncaa_approved": true,
+      "description": "First semester covers the biology of happiness, studying the physiological underpinnings of the psychological experience of happiness through theory and practice, including how the nervous and endocrine systems work together to create thought and emotion, culminating in a student-designed project promoting happiness. Second semester covers bioethics, integrating concepts from anatomy/physiology, botany, ecology, and biochemistry into ethical scenarios, culminating in a student-designed action project on a bioethical issue.",
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-biology-ap-dc",
+      "title": "Biology AP / Dual Credit",
+      "state_course_code": "3020",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "sci-biology1",
+        "sci-chemistry1"
+      ],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "college_course": "BIOL 105",
+        "eligibility_paths": [
+          {
+            "type": "gpa_and_class",
+            "min_gpa": 2.6,
+            "unweighted": true,
+            "min_grade_level": "Junior"
+          },
+          {
+            "type": "test_score",
+            "options": [
+              {
+                "test": "Ivy_Tech_Knowledge_Assessment"
+              }
+            ]
+          }
+        ]
+      },
+      "special_notes": [
+        "8 mandatory labs; students required to take AP exam in May; summer work may be assigned"
+      ],
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_advanced_lab_science_option"
+      ],
+      "ncaa_approved": true,
+      "description": "A rigorous and fast-paced course intended for students pursuing advanced credit in the life sciences, preparing students for the AP exam as well as eight mandatory labs completed during the course. Summer work may be assigned prior to the start of school. Students must take the AP exam in May and meet Vincennes University prerequisites to earn Dual Credit.",
+      "icc": {
+        "category": "scientific_ways",
+        "credit_hours": 4,
+        "vincennes_sourced": true,
+        "requires_ap_score": false,
+        "min_ap_score": null,
+        "is_estimate": false
+      },
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-chemistry-ap-dc",
+      "title": "Chemistry AP / Dual Credit",
+      "state_course_code": "3060",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "math-algebra2"
+      ],
+      "special_notes": [
+        "Recommended: Honors Chemistry I or Chemistry I"
+      ],
+      "dual_credit": {
+        "institution": "Ivy Tech Community College",
+        "college_course": "CHEM 125",
+        "crosswalk_code": "3090/CCCH",
+        "eligibility_paths": [
+          {
+            "type": "gpa_and_class",
+            "min_gpa": 2.6,
+            "unweighted": true,
+            "min_grade_level": "Junior"
+          },
+          {
+            "type": "test_score",
+            "options": [
+              {
+                "test": "Ivy_Tech_Knowledge_Assessment_precalc"
+              }
+            ]
+          }
+        ]
+      },
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_chemistry_required"
+      ],
+      "ncaa_approved": true,
+      "description": "Designed to prepare students for the AP Chemistry exam, covering the equivalent of one full year of college-level general chemistry. A rigorous math-based course with a strong laboratory component, including more in-depth analysis of Chemistry I material plus new topics: kinetics, equilibrium, thermodynamics, electrochemistry, and nuclear chemistry. Students required to take the AP exam in May.",
+      "icc": {
+        "category": "scientific_ways",
+        "credit_hours": 5,
+        "vincennes_sourced": false,
+        "requires_ap_score": false,
+        "min_ap_score": null,
+        "is_estimate": false
+      },
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-forensic-science",
+      "title": "Forensic Science",
+      "state_course_code": "3092",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "Recommended Chemistry or ICP"
+        }
+      ],
+      "special_notes": [
+        "Contains true crime case studies with sensitive/trigger-warning content per department description.",
+        "Shares code 3092 ('Advanced Science Special Topics') with Bioethics and the Biology of Happiness - this appears to be a generic state code covering multiple locally-designed advanced science electives, not an error."
+      ],
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_advanced_lab_science_option"
+      ],
+      "ncaa_approved": true,
+      "description": "An application of science (chemistry, physics, and biology) to the criminal and civil laws enforced by police agencies, focusing on the analysis of evidence collected at crime scenes and during autopsies. Topics include the history of forensic science, crime scene investigation, evidence collection and analysis, fingerprinting, blood spatter analysis, forensic toxicology, and hair/fiber analysis. Sensitivity note: students research true crime including sensitive and trigger-warning topics.",
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-environmental-science-ap",
+      "title": "Environmental Science AP",
+      "state_course_code": "3012",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "sci-biology1",
+        "sci-chemistry1"
+      ],
+      "special_notes": [
+        "Students required to take AP exam in May"
+      ],
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_advanced_lab_science_option"
+      ],
+      "ncaa_approved": true,
+      "description": "A rigorous and fast-paced course covering national and global environmental systems, including ecosystems, population dynamics, resource management, and environmental consequences of natural and anthropogenic processes. Highly recommended for students considering a career related to Earth or Environmental Science. Laboratory and field experiences are required components. Students required to take the AP exam in May.",
+      "icc": {
+        "category": "scientific_ways",
+        "credit_hours": 3,
+        "vincennes_sourced": false,
+        "requires_ap_score": true,
+        "min_ap_score": 3,
+        "is_estimate": true
+      },
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-science-research",
+      "title": "Science Research",
+      "state_course_code": "3008",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "any_of",
+          "courses": [
+            "sci-biology1-honors",
+            "sci-biology1"
+          ]
+        }
+      ],
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_advanced_lab_science_option"
+      ],
+      "ncaa_approved": false,
+      "description": "In the first semester, students practice and learn various lab techniques (gel electrophoresis, microscopy, aseptic technique, statistical analysis, chromatography) while designing their own research project and writing a background research paper. In the second semester, students conduct their experiments, record findings, and present at the regional science fair, potentially advancing to higher-level science fairs.",
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    },
+    {
+      "id": "sci-physics2-ap-dc",
+      "title": "Physics II AP / Dual Credit",
+      "state_course_code": "3086",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "sci-physics1-ap-dc"
+      ],
+      "special_notes": [
+        "Concurrent enrollment in Pre-Calculus expected"
+      ],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "college_course": "PHYS 216/216L",
+        "eligibility_paths": [
+          {
+            "type": "prior_course_grade",
+            "course": "DC Precalculus Sem 1",
+            "min_grade": "C"
+          },
+          {
+            "type": "test_score",
+            "options": [
+              {
+                "test": "AP_Precalculus_exam"
+              }
+            ]
+          }
+        ],
+        "crosswalk_correction": "Corrected from Ivy Tech to Vincennes per Dual Credit Crosswalk document (course codes use /Vin or /Vinc suffix)."
+      },
+      "special_notes_2": [
+        "Students required to take AP exam in May"
+      ],
+      "flexible_category_tags": [
+        "lab_science",
+        "seal.enrollment_honors_physics_option"
+      ],
+      "ncaa_approved": true,
+      "description": "The equivalent of a second-semester college course in algebra-based physics, covering fluid mechanics, thermodynamics, electricity and magnetism, optics, and atomic and nuclear physics. Through inquiry-based learning, students develop scientific critical thinking and reasoning skills. Students required to take the AP exam in May.",
+      "icc": {
+        "category": "scientific_ways",
+        "credit_hours": 4,
+        "vincennes_sourced": true,
+        "requires_ap_score": false,
+        "min_ap_score": null,
+        "is_estimate": false
+      },
+      "diploma_requirement_id": "stem.additional_science",
+      "diploma_requirement_id_fallback": "stem.stem_focused"
+    }
+  ],
+  "_flags_for_owner_review": [
+    "RESOLVED by owner: all three courses now have confirmed state codes and correctly count toward stem.additional_science.",
+    "Enrollment Honors Seal science requirement needs BOTH Chemistry AND (Physics OR 2 credits of another Advanced Lab Science) - tagged the relevant courses individually, but this combination rule itself lives in the readiness-seals-rules.json file, not on individual courses."
+  ]
+}

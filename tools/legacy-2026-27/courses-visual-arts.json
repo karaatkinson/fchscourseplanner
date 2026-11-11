@@ -1,0 +1,496 @@
+{
+  "department": "Visual Arts",
+  "source_docs": [
+    "VISUAL_ARTS_2627.pdf",
+    "CTD Companion Document"
+  ],
+  "courses": [
+    {
+      "id": "visualarts-intro-2d",
+      "title": "Introduction to 2 Dimensional Art",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "An introduction to the utilization of the elements and principles of design through various media on a flat surface, exploring and developing observational skills, visual problem-solving, craftsmanship, and an introduction to planning and executing individual ideas and concepts."
+    },
+    {
+      "id": "visualarts-advanced-2d",
+      "title": "Advanced 2 Dimensional Art",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "visualarts-intro-2d"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Students continue exploring a variety of media with a focus on refining skills and techniques, continuing to utilize elements of art and principles of design while furthering observation skills and visual problem solving. Students unlearn bad drawing habits and experience growth in their artistic journey."
+    },
+    {
+      "id": "visualarts-photography",
+      "title": "Photography",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "visualarts-intro-2d"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Students study a variety of digital photography methods, learning the advanced settings on their digital camera, tips for shooting different subjects, and creating good composition using the elements and principles of design. Students also learn to edit photographs and add artistic effects using Adobe Lightroom."
+    },
+    {
+      "id": "visualarts-printmaking",
+      "title": "Printmaking",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        {
+          "type": "any_of",
+          "courses": [
+            "visualarts-intro-2d",
+            "visualarts-intro-3d"
+          ]
+        }
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Students learn to make multiple reproductions of a single design using a variety of printmaking processes including monoprint, cyanotype, linocut, and screenprinting. Students reflect upon and revise their work, relate to other disciplines, and explore the historical and cultural background of each process, planning most designs digitally while practicing digital citizenship policies regarding copyrighted material and fair use."
+    },
+    {
+      "id": "visualarts-visual-communication",
+      "title": "Visual Communication",
+      "state_course_code": "4086",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "visualarts-intro-2d"
+      ],
+      "diploma_requirement_id_options": [
+        "english.communications_focused",
+        "personalized_electives"
+      ],
+      "special_notes": [
+        "Explicitly confirmed by both the FCHS course guide and the CTD Companion Document as able to fulfill the Communications-Focused English requirement for Class of 2029+. If used this way, cannot also count as a free elective credit (one-credit-one-requirement rule)."
+      ],
+      "ncaa_approved": false,
+      "description": "Students learn how to use computer-based technology to create expressive and unique pieces of visual art, sometimes using technology to plan traditional art forms and other times using traditional materials to prepare for a software-created finished product. Uses Krita, Adobe Illustrator, TinkerCAD, and other tools focused on digital imagery and 3D design, understanding the capabilities of these tools and how to utilize them creatively and communicatively."
+    },
+    {
+      "id": "visualarts-drawing1-painting1",
+      "title": "Drawing I / Painting I",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "visualarts-advanced-2d"
+      ],
+      "special_notes": [
+        "C or better in Advanced 2D Art required"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "A reinforcement and expansion of the Advanced 2-D Art course. Students continue exploring a variety of media and art styles as they begin to understand and refine their own artistic preferences, with planning and proposing ideas for student-driven work introduced in the second semester. Students engage in individual and group critiques to assess their growth as emerging artists."
+    },
+    {
+      "id": "visualarts-drawing2-painting2",
+      "title": "Drawing II / Painting II",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "visualarts-drawing1-painting1"
+      ],
+      "special_notes": [
+        "Teacher approval required"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Structured so that students work more independently, with portfolio-quality work and preparation as part of the course for those wishing to apply to a university art program. Thorough planning, proposing, and execution of ideas/concepts is a standard expectation."
+    },
+    {
+      "id": "visualarts-drawing3-painting3",
+      "title": "Drawing III / Painting III",
+      "grades": [
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "visualarts-drawing2-painting2"
+      ],
+      "special_notes": [
+        "Teacher approval required"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Structured so that students work more independently, with portfolio-quality work and preparation as part of the course for those wishing to apply to a university art program. Thorough planning, proposing, and execution of ideas/concepts is a standard expectation."
+    },
+    {
+      "id": "visualarts-ap-drawing",
+      "title": "AP Drawing",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "Minimum 2 years of 2D Art + teacher approval"
+        }
+      ],
+      "special_notes": [
+        "Not exam-based - portfolio submission to College Board instead"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Designed for students seriously interested in art. Not based on a written exam - instead, students submit portfolios of their artwork for evaluation at the end of the school year, choosing from Drawing, 2D Design, or 3D Design portfolios. Provides the opportunity to earn college credit while in high school, based on the premise that college-level material can be successfully taught to secondary school students.",
+      "icc": {
+        "category": "humanistic_artistic_ways",
+        "credit_hours": 3,
+        "vincennes_sourced": false,
+        "requires_ap_score": true,
+        "min_ap_score": 3,
+        "is_estimate": true
+      }
+    },
+    {
+      "id": "visualarts-ap-2d-design",
+      "title": "AP 2 Dimensional Design",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "Minimum 2 years of 2D Art + teacher approval"
+        }
+      ],
+      "special_notes": [
+        "Not exam-based - portfolio submission to College Board instead"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Designed for students seriously interested in art. Not based on a written exam - instead, students submit portfolios of their artwork for evaluation at the end of the school year, choosing from Drawing, 2D Design, or 3D Design portfolios. Provides the opportunity to earn college credit while in high school, based on the premise that college-level material can be successfully taught to secondary school students.",
+      "icc": {
+        "category": "humanistic_artistic_ways",
+        "credit_hours": 3,
+        "vincennes_sourced": false,
+        "requires_ap_score": true,
+        "min_ap_score": 3,
+        "is_estimate": true
+      }
+    },
+    {
+      "id": "visualarts-intro-3d",
+      "title": "Introduction to 3 Dimensional Art",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Students create a variety of 3D objects out of clay, learning techniques like sculpting, carving, slab-building, and coil-building to develop spatial skills, and learning to enhance the surface of projects with glaze and paint. Students reflect upon and revise their work, using elements and principles to create good design."
+    },
+    {
+      "id": "visualarts-advanced-3d",
+      "title": "Advanced 3 Dimensional Art",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "visualarts-intro-3d"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Students build on skills learned in Intro 3D Art to create more complex projects, learning advanced techniques for sculpting, carving, slab-building, and coil-building, as well as advanced techniques for enhancing surfaces with glaze and paint."
+    },
+    {
+      "id": "visualarts-fiber-arts",
+      "title": "Fiber Arts",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        {
+          "type": "any_of",
+          "courses": [
+            "visualarts-intro-3d",
+            "visualarts-intro-2d"
+          ]
+        }
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Students study ways to create art using fibrous materials, learning techniques such as macrame, dip-dying, needle felting, embroidery, fabric painting, sewing, and more, with a focus on using the principles of design to guide the artmaking process."
+    },
+    {
+      "id": "visualarts-jewelry",
+      "title": "Jewelry",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        {
+          "type": "any_of",
+          "courses": [
+            "visualarts-intro-3d",
+            "visualarts-intro-2d"
+          ]
+        }
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Students study the creation of wearable art, using torches and power tools to learn techniques for creating beads, bracelets, necklaces, rings, and pendants, including cutting, forming, and riveting. Students reflect upon and revise their work using the elements and principles to create good design."
+    },
+    {
+      "id": "visualarts-ceramics1",
+      "title": "Ceramics I",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "visualarts-advanced-3d"
+      ],
+      "special_notes": [
+        "C or better in Advanced 3D Art required"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Students engage in sequential learning experiences encompassing art history, aesthetics, and production, leading to portfolio-quality works. Students create art in clay utilizing hand building, molds, wheel throwing, slip and glaze techniques, and firing processes, reflecting on and refining their work while exploring cultural and personal connections."
+    },
+    {
+      "id": "visualarts-sculpture1",
+      "title": "Sculpture I",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "visualarts-advanced-3d"
+      ],
+      "special_notes": [
+        "C or better in Advanced 3D Art required"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Students learn advanced methods of working with 3D materials like clay, polymer clay, stone, and wood, communicating creative ideas and continuing to develop design skills using the elements and principles, expected to begin creating high-quality portfolio-level work."
+    },
+    {
+      "id": "visualarts-ceramics2",
+      "title": "Ceramics II",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "visualarts-ceramics1"
+      ],
+      "special_notes": [
+        "C or better in Ceramics I required"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Students are fully engaged in the 'Creative Process' - the method by which every artist chooses their own artistic adventure, investigates ideas, and masters technical skills. Works are of portfolio quality, demonstrating artists' ability to communicate their message, technique, and breadth of skills."
+    },
+    {
+      "id": "visualarts-sculpture2",
+      "title": "Sculpture II",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "visualarts-sculpture1"
+      ],
+      "special_notes": [
+        "C or better in Sculpture I required"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Students continue gaining mastery of 3D design using a variety of materials, tools, and techniques, fully engaged in the 'Creative Process' and making the majority of choices about what they create to communicate their creative ideas and develop their artistic voice. Works are of portfolio quality."
+    },
+    {
+      "id": "visualarts-ceramics3",
+      "title": "Ceramics III",
+      "grades": [
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "visualarts-ceramics2"
+      ],
+      "special_notes": [
+        "Teacher approval required"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Students are fully engaged in the 'Creative Process' - the method by which every artist chooses their own artistic adventure, investigates ideas, and masters technical skills. Works are of portfolio quality, demonstrating artists' ability to communicate their message, technique, and breadth of skills."
+    },
+    {
+      "id": "visualarts-sculpture3",
+      "title": "Sculpture III",
+      "grades": [
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "visualarts-sculpture2"
+      ],
+      "special_notes": [
+        "Teacher approval required"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Students continue gaining mastery of 3D design using a variety of materials, tools, and techniques, fully engaged in the 'Creative Process' and making the majority of choices about what they create to communicate their creative ideas and develop their artistic voice. Works are of portfolio quality."
+    },
+    {
+      "id": "visualarts-ap-3d-design",
+      "title": "AP 3 Dimensional Design",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "Minimum 2 years of 3D Art + teacher recommendation"
+        }
+      ],
+      "special_notes": [
+        "Not exam-based - portfolio submission to College Board instead"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "An advanced artmaking course demonstrating participation in the most challenging curriculum available, providing the opportunity to earn college credit and/or advanced placement. Students experiment with new ideas and approaches, conduct in-depth exploration of a single topic/media/style, and showcase mastery through Inquiry & Investigation, Making Through Practice/Experimentation/Revision, and Communication & Reflection, submitting a complete portfolio to the College Board.",
+      "icc": {
+        "category": "humanistic_artistic_ways",
+        "credit_hours": 3,
+        "vincennes_sourced": false,
+        "requires_ap_score": true,
+        "min_ap_score": 3,
+        "is_estimate": true
+      }
+    },
+    {
+      "id": "visualarts-art-appreciation-dc",
+      "title": "Art Appreciation Dual Credit",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "college_course": "ARTT 110",
+        "eligibility_paths": [
+          {
+            "type": "gpa_and_class",
+            "min_gpa": 2.7,
+            "unweighted": true,
+            "min_grade_level": "Junior"
+          },
+          {
+            "type": "test_score",
+            "options": [
+              {
+                "test": "Accuplacer"
+              }
+            ]
+          }
+        ]
+      },
+      "special_notes": [
+        "No prior art knowledge/experience needed - lecture/history course, not artmaking"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "An introductory lecture course exploring the creative history and processes of making art utilized by humankind across cultures, from prehistoric through the modern era. No prior art knowledge or experience is needed. Not primarily an artmaking class - emphasizes art language and history with a scholarly approach, using projected images and museum visits, matching the content and rigor of the same course taught at Vincennes University.",
+      "icc": {
+        "category": "humanistic_artistic_ways",
+        "credit_hours": 3,
+        "vincennes_sourced": true,
+        "requires_ap_score": false,
+        "min_ap_score": null,
+        "is_estimate": false
+      }
+    }
+  ],
+  "_flags_for_owner_review": []
+}

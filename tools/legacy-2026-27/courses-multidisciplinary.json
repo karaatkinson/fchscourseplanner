@@ -1,0 +1,136 @@
+{
+  "department": "Multidisciplinary",
+  "source_docs": [
+    "FCHS_Course_Guide_20262027__Multidisciplinary.pdf"
+  ],
+  "_note": "Several internships listed on this page are already fully modeled in their home departments. Listed here as cross-references only, to avoid duplicate/conflicting records.",
+  "courses": [
+    {
+      "id": "multi-career-exploration-internship",
+      "title": "Career Exploration Internship (general)",
+      "state_course_code": null,
+      "grades": [
+        12
+      ],
+      "semesters": "1-2",
+      "credits": "1-2 per semester",
+      "prerequisites": [],
+      "diploma_requirement_id": "personalized_electives",
+      "special_notes": [
+        "General version - department-specific Career Exploration Internships (Business, FACS, Engineering/Tech, etc.) are separate records in their own department files."
+      ],
+      "ncaa_approved": false,
+      "description": "A paid or unpaid work experience in the public or private sector providing workplace learning in an area of student career interests, exposing students to broad aspects of an industry or career cluster. Students participate in regularly scheduled meetings or seminars connecting academic learning to work-related experiences."
+    },
+    {
+      "id": "multi-cip-internship",
+      "title": "CIP Internship",
+      "state_course_code": null,
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": "1-2",
+      "credits": "1-2",
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "Open to grades 9-12 upon consultation with counselor"
+        }
+      ],
+      "special_notes": [
+        "Students work alongside special education teachers with CIP students"
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "Students work alongside special education teachers with CIP (Community Integration Program) students, open to grades 9-12 upon consultation with a counselor."
+    },
+    {
+      "id": "multi-lifeguarding-internship-ref",
+      "title": "Advanced Lifeguarding Internship",
+      "note": "Cross-reference - full record lives in PE department file (pe-advanced-lifeguarding-internship)"
+    },
+    {
+      "id": "multi-applied-pe-internship-ref",
+      "title": "Applied PE Internship",
+      "note": "Cross-reference - full record lives in PE department file (pe-applied-pe-assistant-internship)"
+    },
+    {
+      "id": "multi-library-internship-ref",
+      "title": "Library Internship",
+      "note": "Cross-reference - full record lives in ELA department file (ela-library-media-career-internship). Requires one completed semester of Library Media (course 1082) first, per this doc."
+    },
+    {
+      "id": "multi-work-based-learning-capstone",
+      "title": "Work Based Learning Capstone",
+      "state_course_code": null,
+      "grades": [
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "Must have completed a CTE Principles and Concentrator course"
+        }
+      ],
+      "special_notes": [
+        "By counselor approval only; application process required.",
+        "Student works a real job matched to their CTE Pathway, minimum 5 hours/week, hours must be submitted.",
+        "Grade is part classwork, part job performance.",
+        "Student must remain employed the entire time enrolled in the course."
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "seal.employment_honors_wbl_hours_source"
+      ],
+      "ncaa_approved": false,
+      "description": "Prepares students for college and career, working in a real workplace setting related to a career matched with their CTE Pathway. Students spend one day a week in the classroom for instruction and other days completing on-the-job duties. Purposes include identifying strengths/weaknesses, learning by experience unavailable in the classroom, and guidance on future opportunities. Students must remain employed the entire time, working a minimum of five hours per week. By counselor approval and application only."
+    },
+    {
+      "id": "multi-cooperative-education",
+      "title": "Cooperative Education",
+      "state_course_code": "6162",
+      "grades": [
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [],
+      "special_notes": [
+        "Student works a job of their own choosing (not CTE-pathway matched, unlike Work Based Learning Capstone).",
+        "Minimum 5 hours/week, hours must be submitted.",
+        "Application process required."
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "flexible_category_tags": [
+        "seal.employment_honors_wbl_hours_source"
+      ],
+      "ncaa_approved": false,
+      "description": "Prepares students for college and career, working in a real workplace setting of their own choosing. Students spend one day a week in the classroom for instruction and other days completing on-the-job duties. Purposes include identifying strengths/weaknesses, learning by experience unavailable in the classroom, and guidance on future opportunities. Students must remain employed the entire time, working a minimum of five hours per week. Application required."
+    },
+    {
+      "id": "multi-jag",
+      "title": "Jobs for America's Graduates (JAG)",
+      "state_course_code": "0509",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [],
+      "active_2026_27": false,
+      "special_notes": [
+        "NOT CURRENTLY OFFERED for 2026-27 per department guide - excluded from active course list, kept for forward reference only."
+      ],
+      "diploma_requirement_id": "personalized_electives",
+      "ncaa_approved": false,
+      "description": "A state-based, national non-profit organization dedicated to increasing student success at all levels. JAG's mission is to keep young people in school through graduation and provide work-based learning experiences leading to career advancement or postsecondary enrollment. JAG students receive adult mentoring while in school and one year of follow-up counseling after graduation. Note: not currently offered for 2026-27."
+    }
+  ],
+  "_flags_for_owner_review": []
+}
