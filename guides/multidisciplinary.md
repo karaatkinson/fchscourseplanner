@@ -13,7 +13,7 @@
 | CIP Internship | Work-Based Learning | 88 | 9–12 | 1–2 sem / 1–2 cr per sem | 1 | Counselor approval | No | No | No |
 | Library Internship | Work-Based Learning | 180 | 10–12 | 1–2 sem / 1–2 cr per sem | 1 | Library Media; counselor approval | No | No | No |
 | Work Based Learning Capstone | Work-Based Learning |  | 12 | 2 sem / 2 cr | 1 | CTE Principles and Concentrator course | No | No | No |
-| Study Hall | N/A | N/A | 9–12 | 1 sem / 0 cr |  | None | No | No | No |
+| Study Hall | N/A | N/A | 9–12 | 1 sem / 0 cr | 8 \- one per semester | None | No | No | No |
 | Central Nine Career Center | N/A | N/A | 11–12 | 2 sem (AM or PM) | 1 | See counselor | No | No | No |
 
 # 
@@ -194,7 +194,7 @@
 | **Course Description** | Study hall provides a supervised period for students to complete homework, study, and prepare for tests. Study hall may be scheduled in the fall, in the spring, or at any time during the school year. No credit is awarded. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 1 semester / No credit |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **8 \- once per semester** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | None |
 | **Co-requisite(s)** | N/A |
