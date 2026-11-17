@@ -26,6 +26,7 @@
 | Sociology | N/A | N/A | 10–12 | 1 sem / 1 cr | 1 | None | No | No | Yes |
 | European History – Advanced Placement | N/A | N/A | 11–12 (10 with AP World History) | 2 sem / 2 cr | 1 | None | No | Yes | Yes |
 | Law Education | N/A | N/A | 11–12 | 1 sem / 1 cr | 1 | None | No | No | Yes |
+| Indiana Studies | N/A | N/A | 10-12 | 1 sem / 1 cr | 1 | None | No | No | Yes |
 
 # 
 
@@ -550,6 +551,32 @@
 | **College Course Code(s) & Title(s)** | N/A |
 | **Dual Credit Eligibility (GPA/test scores)** | N/A |
 | **FC / State Course Code** | 1526 |
+| **Other Notes / Footnotes** | N/A |
+| **School Year This Applies To** | 2027–2028 |
+
+# **Indiana Studies**
+
+| Course Title | Indiana Studies |
+| :---- | :---- |
+| **Department** | Social Studies |
+| **Course Description** | Indiana has played a vital role in the development of our nation’s history, economy, government and culture.  This course highlights the Hoosier people, places, culture and events, past and present.   It is designed for students looking for an opportunity to study Indiana history with a deeper, more focused approach through reading, writing, discussion, and mini-projects. Topics covered include: Indiana geography, native peoples, immigration, economics, politics, culture (art, literature and music), and the role of conflict in shaping Indiana’s history, as well as the discussion of current topics in Indiana. Learn more about the accomplishments of our state and its people. |
+| **Grade Level(s)** | 10–12 |
+| **Length & Credits** | 1 semester / 1 credit |
+| **Course may be taken up to \[X\] times** | 1 |
+| **Pathway / Sequence** | N/A |
+| **Prerequisite(s)** | None |
+| **Co-requisite(s)** | N/A |
+| **NCAA Approved** | Yes |
+| **Application / Audition / Approval Required** | No |
+| **Work-Based Learning Hours** | N/A |
+| **AP Course / AP Exam Required** | No |
+| **Required Texts / Novels / Major Works** | N/A |
+| **Industry Certification / Credential Earned** | N/A |
+| **Dual Credit Offered** | No |
+| **Partnering University** | N/A |
+| **College Course Code(s) & Title(s)** | N/A |
+| **Dual Credit Eligibility (GPA/test scores)** | N/A |
+| **FC / State Course Code** | 1518 |
 | **Other Notes / Footnotes** | N/A |
 | **School Year This Applies To** | 2027–2028 |
 

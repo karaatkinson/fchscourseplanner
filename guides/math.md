@@ -26,6 +26,7 @@
 | Finite Mathematics Dual Credit | N/A | N/A | 11–12 | 2 sem / 2 cr | 1 | DC eligibility: Jr/Sr 2.7+ GPA & B- in Alg II, or Accuplacer | Yes | No | Yes |
 | Quantitative Reasoning | N/A | N/A | 11–12 | 1 sem / 1 cr | 1 | Algebra II | No | No | Yes |
 | Quantitative Reasoning Dual Credit | N/A | N/A | 11–12 | 1 sem / 1 cr | 1 | DC eligibility: Jr/Sr 2.7+ GPA & B- in Alg II, or Accuplacer | Yes | No | Yes |
+| Business Math | N/A | 0 | 11–12 | 1–2 sem / 1–2 cr | 1 | Algebra I and counselor approval | No | No | No |
 
 # 
 
@@ -555,3 +556,29 @@
 | **Other Notes / Footnotes** | Must earn at least a C to receive 3 college credit hours. Follows the Vincennes syllabus. No test retakes or reference sheets.  |
 | **School Year This Applies To** | 2027–2028 |
 
+# **Business Math**
+
+| Course Title | Business Math |
+| :---- | :---- |
+| **Department** | Business |
+| **Course Description** | Business Math is a course designed to prepare students for roles as entrepreneurs, producers, and business leaders by developing abilities and skills that are part of any business environment. A solid understanding of math including algebra, basic geometry, statistics, and probability provides the necessary foundation for students interested in careers in business and skilled trade areas. The content includes mathematical operations related to accounting, banking and finance, marketing, and management. This course is not recommended for students planning to enter a 4 year college. |
+| **Grade Level(s)** | 11–12 |
+| **Length & Credits** | 1 or 2 semesters / 1 or 2 credits |
+| **Course may be taken up to \[X\] times** | 1 |
+| **Pathway / Sequence** | N/A |
+| **Prerequisite(s)** | Algebra I and counselor approval |
+| **Co-requisite(s)** | N/A |
+| **NCAA Approved** | No |
+| **Application / Audition / Approval Required** | Yes — counselor approval required |
+| **AP Course / AP Exam Required** | No |
+| **Required Texts / Novels / Major Works** | N/A |
+| **Industry Certification / Credential Earned** | N/A |
+| **Dual Credit Offered** | No |
+| **Partnering University** | N/A |
+| **College Course Code(s) & Title(s)** | N/A |
+| **Dual Credit Eligibility (GPA/test scores)** | N/A |
+| **FC / State Course Code** | 4512 |
+| **Other Notes / Footnotes** | None |
+| **School Year This Applies To** | 2027–2028 |
+
+# 
