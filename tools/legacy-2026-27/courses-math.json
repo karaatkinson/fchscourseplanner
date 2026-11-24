@@ -1,0 +1,613 @@
+{
+  "department": "Mathematics",
+  "source_docs": [
+    "MATHEMATICS_2627.pdf",
+    "202526_Dual_Credit_Crosswalk__FCHS__Vincennes.pdf",
+    "CTD Companion Document"
+  ],
+  "courses": [
+    {
+      "id": "math-algebra1",
+      "title": "Algebra I",
+      "state_course_code": "2520",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.algebra1_required",
+      "ncaa_approved": true,
+      "description": "The focus of this course is the fundamental concepts of algebra. The course will begin with a review of the order of operations. First semester topics include solving equations and inequalities, solving word problems, and writing equations and graphing linear functions. Second semester topics include operations with polynomials, including factoring, systems of equations, operations with radical expressions, and quadratic functions."
+    },
+    {
+      "id": "math-honors-algebra1",
+      "title": "Honors Algebra I",
+      "state_course_code": "2520",
+      "grades": [
+        9
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "Teacher recommendation required"
+        }
+      ],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.algebra1_required",
+      "ncaa_approved": true,
+      "description": "The focus of this course will be the same as the Algebra 1 class but at a much more rigorous level. The differences in the honors class are: rigorous and challenging course, new lesson every day, quiz or test every week, no test/quiz retakes, no late homework accepted, no reference sheets on exams, and must have a good work ethic and feel comfortable asking questions."
+    },
+    {
+      "id": "math-geometry",
+      "title": "Geometry",
+      "state_course_code": "2532",
+      "grades": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "math-algebra1"
+      ],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": [
+        "seal.enrollment_honors_math_base"
+      ],
+      "ncaa_approved": true,
+      "description": "This course acquaints the student with lines, planes, triangles, circles, squares, rectangles, parallelograms, trapezoids, rhombi, and other polygons. Two column proofs are studied. The computation of areas and volumes is also covered along with a basic introduction to trigonometry."
+    },
+    {
+      "id": "math-honors-geometry",
+      "title": "Honors Geometry",
+      "state_course_code": "2532",
+      "grades": [
+        9,
+        10
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "Completed Algebra I and Algebra II at junior high level"
+        }
+      ],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": [
+        "seal.enrollment_honors_math_base"
+      ],
+      "ncaa_approved": true,
+      "description": "This course includes all the concepts taught in Geometry; however, it focuses heavily on proofs and application problems, especially when discussing triangles and trigonometry. Material is covered at a faster pace and no manipulatives, such as formula sheets, foldables, etc. are used on exams. All definitions, postulates, theorems, and formulas must be committed to memory. This course is intended to prepare students for the AP math courses offered in the curriculum. As a result, exam retakes and reference sheets on the exams will not be provided."
+    },
+    {
+      "id": "math-algebra2",
+      "title": "Algebra II",
+      "state_course_code": "2522",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "math-algebra1",
+        "math-geometry"
+      ],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": [
+        "seal.enrollment_honors_math_base"
+      ],
+      "ncaa_approved": true,
+      "description": "This course continues the student's study of advanced algebraic concepts including functions, imaginary and complex numbers, polynomials, quadratics, rational expressions, systems of functions and inequalities, logarithms, conic sections, and matrices. Students will be expected to describe and translate among graphic, algebraic, and numeric representations of relations and use those representations to solve problems. Emphasis will be placed on practical applications and modeling. Appropriate technology, from manipulatives to calculators, will be used regularly for instruction and assessment."
+    },
+    {
+      "id": "math-honors-algebra2",
+      "title": "Honors Algebra II",
+      "state_course_code": "2522",
+      "grades": [
+        10,
+        11
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        {
+          "type": "requirement",
+          "note": "A in Algebra I; Honors Algebra I and Honors Geometry recommended"
+        }
+      ],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": [
+        "seal.enrollment_honors_math_base"
+      ],
+      "ncaa_approved": true,
+      "description": "This course continues the student's study of advanced algebraic concepts including functions, imaginary and complex numbers, polynomials, quadratics, rational expressions, systems of functions and inequalities, logarithms, conic sections, and matrices. Emphasis will be placed on practical applications and modeling. Honors Algebra II is intended to be more challenging than regular Algebra II, providing multiple opportunities for students to take greater responsibility for their learning and preparing students for AP math courses. This course is distinguished by a difference in the quality of work expected rather than merely the quantity of work required. No test retakes or reference sheets will be provided."
+    },
+    {
+      "id": "math-precalc-algebra-dc",
+      "title": "Pre-Calculus Dual Credit",
+      "state_course_code": "2564 + 2566",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "math-algebra1",
+        "math-algebra2",
+        "math-geometry"
+      ],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "semesters": [
+          {
+            "semester": 1,
+            "college_course": "MATH 102",
+            "college_course_name": "College Algebra",
+            "college_credits": 3,
+            "eligibility_paths": [
+              {
+                "type": "gpa_and_class",
+                "min_gpa": 2.7,
+                "unweighted": true,
+                "min_grade_level": "Junior",
+                "and_also": "B- or better in Algebra II (2nd semester)"
+              },
+              {
+                "type": "test_score",
+                "options": [
+                  {
+                    "test": "ACT_math",
+                    "min_score": 22
+                  },
+                  {
+                    "test": "SAT_math",
+                    "min_score": 560
+                  },
+                  {
+                    "test": "Accuplacer_AAF",
+                    "min_score": 255
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "semester": 2,
+            "college_course": "MATH 104",
+            "college_course_name": "Trigonometry",
+            "college_credits": 3,
+            "eligibility_paths": [
+              {
+                "type": "prior_course_grade",
+                "course": "MATH 102",
+                "min_grade": "C"
+              },
+              {
+                "type": "test_score",
+                "options": [
+                  {
+                    "test": "Accuplacer",
+                    "note": "qualifying placement score"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": [
+        "seal.enrollment_honors_advanced_math"
+      ],
+      "ncaa_approved": true,
+      "description": "First semester reviews the skills learned in Algebra 2 and then transitions to analysis of graphs of functions, quadratic functions, polynomial functions of higher degree, rational, power, and root functions, and inverse, exponential, and logarithmic functions. The second semester is the study of trigonometry: solving right triangles and their word problems, graphs of the six trig functions and their inverses, solving oblique triangles, using trigonometric identities, solving trigonometric equations, and the unit circle. No test retakes or reference sheets will be provided. A graphing calculator is required, and the TI-84 edition is recommended.",
+      "icc": {
+        "category": "quantitative_reasoning",
+        "credit_hours": 6,
+        "vincennes_sourced": true,
+        "requires_ap_score": false,
+        "min_ap_score": null,
+        "is_estimate": false
+      }
+    },
+    {
+      "id": "math-precalc-ap",
+      "title": "Pre-Calculus AP",
+      "state_course_code": "2563",
+      "grades": [
+        10,
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "math-algebra1"
+      ],
+      "special_notes": [
+        "A or B in Honors Algebra II recommended"
+      ],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": [
+        "seal.enrollment_honors_advanced_math"
+      ],
+      "ncaa_approved": true,
+      "description": "This course will prepare students for the College Board's Advanced Placement exam for Pre-Calculus. Students signing up for this class are required to take the AP exam in May. No test retakes or reference sheets will be provided. A graphing calculator is required, and the TI-84 edition is recommended.",
+      "icc": {
+        "category": "quantitative_reasoning",
+        "credit_hours": 3,
+        "vincennes_sourced": false,
+        "requires_ap_score": true,
+        "min_ap_score": 3,
+        "is_estimate": true
+      }
+    },
+    {
+      "id": "math-calculus-dc",
+      "title": "Calculus Dual Credit",
+      "state_course_code": "2544",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "math-algebra1",
+        "math-geometry",
+        "math-algebra2",
+        "math-precalc-algebra-dc"
+      ],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "college_course": "MATH 118",
+        "college_course_name": "Calculus w/Analytic Geometry I",
+        "college_credits": 5,
+        "eligibility_paths": [
+          {
+            "type": "prior_course_grade",
+            "course": "DC PreCalculus (both semesters)",
+            "min_grade": "C"
+          },
+          {
+            "type": "test_score",
+            "options": [
+              {
+                "test": "AP_Precalculus_exam",
+                "min_score": 3
+              },
+              {
+                "test": "Accuplacer_QAS",
+                "min_score": 270
+              }
+            ]
+          }
+        ]
+      },
+      "special_notes": [
+        "Not recommended for students planning heavy science/math majors, per department framing - better suited to liberal arts-bound students."
+      ],
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": [
+        "seal.enrollment_honors_advanced_math"
+      ],
+      "ncaa_approved": true,
+      "description": "As a general rule, dual enrollment is likely to be the more efficient option for earning college credit: passing a dual enrollment class guarantees both college and high school credit, though it's not guaranteed those credits will transfer to a targeted 4-year university. AP courses could be the edge needed for a competitive university or scholarships. This course is not recommended for students planning a career that is heavy science/math based - it would be a great fit for liberal arts majors. It is not recommended to move from this course into Calculus BC. No test retakes or reference sheets will be provided. A graphing calculator is required, and the TI-84 edition is recommended.",
+      "icc": {
+        "category": "quantitative_reasoning",
+        "credit_hours": 5,
+        "vincennes_sourced": true,
+        "requires_ap_score": false,
+        "min_ap_score": null,
+        "is_estimate": false
+      }
+    },
+    {
+      "id": "math-calculus-ab-ap",
+      "title": "Calculus AB AP",
+      "state_course_code": "2562",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "math-precalc-ap"
+      ],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": [
+        "seal.enrollment_honors_advanced_math"
+      ],
+      "ncaa_approved": true,
+      "description": "This course will prepare students for the College Board's Advanced Placement exam for Calculus AB. Students signing up for this class are required to take the AP exam in May. No test retakes or reference sheets will be provided. A graphing calculator is required, and the TI-84 edition is recommended.",
+      "icc": {
+        "category": "quantitative_reasoning",
+        "credit_hours": 4,
+        "vincennes_sourced": false,
+        "requires_ap_score": true,
+        "min_ap_score": 3,
+        "is_estimate": true
+      }
+    },
+    {
+      "id": "math-calculus-bc-ap",
+      "title": "Calculus BC AP",
+      "state_course_code": "2572",
+      "grades": [
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "math-calculus-ab-ap"
+      ],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": [
+        "seal.enrollment_honors_advanced_math"
+      ],
+      "ncaa_approved": true,
+      "description": "This course includes the topics of calculus along with the study of polynomial approximations and series, series of constants, and Taylor series. Students will be prepared for the College Board's Advanced Placement exam for BC Calculus and are required to take the AP exam in May. No test retakes or reference sheets will be provided. A graphing calculator is required, and the TI-84 edition is recommended.",
+      "icc": {
+        "category": "quantitative_reasoning",
+        "credit_hours": 5,
+        "vincennes_sourced": false,
+        "requires_ap_score": true,
+        "min_ap_score": 3,
+        "is_estimate": true
+      }
+    },
+    {
+      "id": "math-prob-stats",
+      "title": "Probability and Statistics",
+      "state_course_code": "2546",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "math-algebra1",
+        "math-geometry",
+        "math-algebra2"
+      ],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": [
+        "seal.enrollment_honors_advanced_math"
+      ],
+      "ncaa_approved": true,
+      "description": "Probability and Statistics includes the concepts and skills needed to apply statistical techniques in everyday decision-making, made up of three strands: Data Analysis, Experimental Design, and Probability. Practical examples based on real experimental data are used throughout, and students plan and conduct experiments or surveys and analyze the resulting data. Very project based - an excellent choice for a college-bound senior who needs another semester of math but is uncertain of their major."
+    },
+    {
+      "id": "math-stats-ap",
+      "title": "Statistics AP",
+      "state_course_code": "2570",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "math-algebra1",
+        "math-honors-algebra2",
+        "math-honors-geometry"
+      ],
+      "special_notes": [
+        "C or better in AP Precalculus or A in DC Precalculus recommended"
+      ],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": [
+        "seal.enrollment_honors_advanced_math"
+      ],
+      "ncaa_approved": true,
+      "description": "This course is an introduction to the major concepts and tools for collecting, analyzing, and drawing conclusions from data. 80% of all college programs require some form of Statistics coursework. Topics include methods of data collection, organization of data, graphical techniques for exhibiting data, measures of central tendency and variation, basic laws of probability, sampling theory, hypothesis testing, and making inferences from samples. Students are required to take the AP exam in May. No test retakes or reference sheets will be provided. A graphing calculator is required, and the TI-84 edition is recommended.",
+      "icc": {
+        "category": "quantitative_reasoning",
+        "credit_hours": 3,
+        "vincennes_sourced": false,
+        "requires_ap_score": true,
+        "min_ap_score": 3,
+        "is_estimate": true
+      }
+    },
+    {
+      "id": "math-finite",
+      "title": "Finite Mathematics",
+      "state_course_code": "2530",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "math-algebra1",
+        "math-geometry",
+        "math-algebra2"
+      ],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": [
+        "seal.enrollment_honors_advanced_math"
+      ],
+      "ncaa_approved": true,
+      "description": "A peek into the world of Finite Math, covering the topics typically most relevant in society and that prepare a student for success in a more rigorous finite course at the university level, including election theory, estate division, and game theory. An excellent choice for a college-bound senior who needs another semester of math but is uncertain of their major. Taught predominantly project-based with a large amount of group work."
+    },
+    {
+      "id": "math-finite-dc",
+      "title": "Finite Mathematics Dual Credit",
+      "state_course_code": "2530",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 2,
+      "credits": 2,
+      "prerequisites": [
+        "math-algebra1",
+        "math-geometry",
+        "math-algebra2"
+      ],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "college_course": "MATH 111",
+        "college_course_name": "Finite Math",
+        "college_credits": 3,
+        "eligibility_paths": [
+          {
+            "type": "gpa_and_class",
+            "min_gpa": 2.7,
+            "unweighted": true,
+            "min_grade_level": "Junior",
+            "and_also": "B- or better in Algebra II (2nd semester)"
+          },
+          {
+            "type": "test_score",
+            "options": [
+              {
+                "test": "ACT_math",
+                "min_score": 22
+              },
+              {
+                "test": "SAT_math",
+                "min_score": 560
+              },
+              {
+                "test": "Accuplacer_AAF",
+                "min_score": 255
+              }
+            ]
+          }
+        ]
+      },
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": [
+        "seal.enrollment_honors_advanced_math"
+      ],
+      "ncaa_approved": true,
+      "description": "This course studies several theories of mathematics, including matrix theory and determinants, graph theory and color mapping, game theory, election theory, estate division, linear programming, and a basic introduction to probability theory, applying these to how businesses make decisions, social choice, elections, competition, and data organization. Structured for students interested in majoring in Business, Accounting, Social Sciences, or Liberal Arts. No test retakes or reference sheets will be provided.",
+      "icc": {
+        "category": "quantitative_reasoning",
+        "credit_hours": 3,
+        "vincennes_sourced": true,
+        "requires_ap_score": false,
+        "min_ap_score": null,
+        "is_estimate": false
+      }
+    },
+    {
+      "id": "math-quant-reasoning",
+      "title": "Quantitative Reasoning",
+      "state_course_code": "2550",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "math-algebra1",
+        "math-geometry",
+        "math-algebra2"
+      ],
+      "dual_credit": null,
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": [
+        "seal.enrollment_honors_advanced_math"
+      ],
+      "special_notes": [
+        "Not an annual requirement under the new Indiana Diploma (only relevant to old Core 40/General diploma through class of 2028)."
+      ],
+      "ncaa_approved": true,
+      "description": "This course is focused on the study of numeracy, ratio, and proportional reasoning, modeling, probabilistic reasoning to assess risk, and statistics. Personal finance and investing money are also major topics. Structured for students planning to pursue postsecondary education but who don't need the rigor of the dual credit course based on their post-secondary plans. Technology, such as computers and graphing calculators, should be used frequently."
+    },
+    {
+      "id": "math-quant-reasoning-dc",
+      "title": "Quantitative Reasoning Dual Credit",
+      "state_course_code": "2550",
+      "grades": [
+        11,
+        12
+      ],
+      "semesters": 1,
+      "credits": 1,
+      "prerequisites": [
+        "math-algebra1",
+        "math-geometry",
+        "math-algebra2"
+      ],
+      "dual_credit": {
+        "institution": "Vincennes University",
+        "college_course": "MATH 103",
+        "college_course_name": "Quantitative Reasoning",
+        "college_credits": 3,
+        "eligibility_paths": [
+          {
+            "type": "gpa_and_class",
+            "min_gpa": 2.7,
+            "unweighted": true,
+            "min_grade_level": "Junior",
+            "and_also": "B- or better in Algebra II (2nd semester)"
+          },
+          {
+            "type": "test_score",
+            "options": [
+              {
+                "test": "ACT_math",
+                "min_score": 22
+              },
+              {
+                "test": "SAT_math",
+                "min_score": 560
+              },
+              {
+                "test": "Accuplacer_AAF",
+                "min_score": 255
+              }
+            ]
+          }
+        ]
+      },
+      "diploma_requirement_id": "math.additional_credits",
+      "flexible_category_tags": [
+        "seal.enrollment_honors_advanced_math"
+      ],
+      "ncaa_approved": true,
+      "description": "This one-semester course introduces students to the mathematics required for informed citizenship, decision making, reasoning from evidence, working with real-world data, and effective communication - solving problems using proportional reasoning, percentages, rates of change, and linear and exponential models with applications from statistics and finance. Follows the Ivy Tech syllabus and is taught with the rigor of a college course, moving faster and delving deeper into content than the standard Quantitative Reasoning course. No test retakes or reference sheets will be provided.",
+      "icc": {
+        "category": "quantitative_reasoning",
+        "credit_hours": 3,
+        "vincennes_sourced": true,
+        "requires_ap_score": false,
+        "min_ap_score": null,
+        "is_estimate": false
+      }
+    }
+  ],
+  "_flags_for_owner_review": []
+}
