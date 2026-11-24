@@ -7,43 +7,43 @@
 
 | Course Title | Pathway | WBL Hours | Grade(s) | Length/Credits | Max Times | \*Prereq (short) | Dual Credit | Advanced Placement | NCAA |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| Beginning Band: Concert Band | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Previous band experience required | No | No | No |
-| Intermediate Band: Symphonic Band | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Previous band experience required | No | No | No |
-| Intermediate Band: Wind Symphony | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Audition | No | No | No |
-| Advanced Band: Wind Ensemble | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Audition | No | No | No |
-| Instrumental Ensemble: Intermediate Percussion | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Previous band experience required | No | No | No |
-| Instrumental Ensemble: Advanced Percussion | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Audition | No | No | No |
-| Jazz Ensemble: Jazz 2 | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Audition \+ enrolled in a band class | No | No | No |
-| Jazz Ensemble: Jazz 1 | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Audition \+ enrolled in a band class | No | No | No |
-| Dance Choreography: Color Guard Class | N/A | N/A | 9–12 | 1–2 sem / 1–2 cr |  | Color Guard participation required | No | No | No |
-| Beginning Chorus: Descants (Treble Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr |  | None | No | No | No |
-| Beginning Chorus: Vocal Majority (Tenor/Bass Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr |  | None | No | No | No |
-| Beginning Chorus: Flight (Treble Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Audition | No | No | No |
-| Intermediate Chorus: Harmonia (Treble Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Audition | No | No | No |
-| Intermediate Chorus: Encores (Mixed Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Audition | No | No | No |
-| Advanced Chorus: Ambassadors (Tenor/Bass Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Audition | No | No | No |
-| Advanced Chorus: High Voltage (Treble Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Audition | No | No | No |
-| Advanced Chorus: FC Singers (Mixed Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Audition | No | No | No |
-| Advanced Chorus: Accents (Treble Voices) | N/A | N/A | 10–12 | 2 sem / 2 cr |  | Audition | No | No | No |
-| Advanced Chorus: Chamber Choir (Mixed Voices) | N/A | N/A | 10–12 | 2 sem / 2 cr |  | Audition | No | No | No |
-| Beginning Orchestra: Cadet | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Previous orchestra experience | No | No | No |
-| Beginning Orchestra: Academy | N/A | N/A | 10–12 | 2 sem / 2 cr |  | Audition or Cadet Orchestra | No | No | No |
-| Intermediate Orchestra: Symphony | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Audition | No | No | No |
-| Advanced Orchestra:  Camerata | N/A | N/A | 9–12 | 2 sem / 2 cr |  | Audition | No | No | No |
-| Instrumental Ensemble: Alternative String Orchestra | N/A | N/A | 10–12 | 2 sem / 2 cr |  | Audition \+ additional orchestra class | No | No | No |
+| Beginning Band: Concert Band | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Previous band experience required | No | No | No |
+| Intermediate Band: Symphonic Band | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Previous band experience required | No | No | No |
+| Intermediate Band: Wind Symphony | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Audition | No | No | No |
+| Advanced Band: Wind Ensemble | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Audition | No | No | No |
+| Instrumental Ensemble: Intermediate Percussion | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Previous band experience required | No | No | No |
+| Instrumental Ensemble: Advanced Percussion | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Audition | No | No | No |
+| Jazz Ensemble: Jazz 2 | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Audition \+ enrolled in a band class | No | No | No |
+| Jazz Ensemble: Jazz 1 | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Audition \+ enrolled in a band class | No | No | No |
+| Dance Choreography: Color Guard Class | N/A | N/A | 9–12 | 1–2 sem / 1–2 cr | 8 times | Color Guard participation required | No | No | No |
+| Beginning Chorus: Descants (Treble Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | None | No | No | No |
+| Beginning Chorus: Vocal Majority (Tenor/Bass Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | None | No | No | No |
+| Beginning Chorus: Flight (Treble Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Audition | No | No | No |
+| Intermediate Chorus: Harmonia (Treble Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Audition | No | No | No |
+| Intermediate Chorus: Encores (Mixed Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Audition | No | No | No |
+| Advanced Chorus: Ambassadors (Tenor/Bass Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Audition | No | No | No |
+| Advanced Chorus: High Voltage (Treble Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Audition | No | No | No |
+| Advanced Chorus: FC Singers (Mixed Voices) | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Audition | No | No | No |
+| Advanced Chorus: Accents (Treble Voices) | N/A | N/A | 10–12 | 2 sem / 2 cr | 3 times | Audition | No | No | No |
+| Advanced Chorus: Chamber Choir (Mixed Voices) | N/A | N/A | 10–12 | 2 sem / 2 cr | 3 times | Audition | No | No | No |
+| Beginning Orchestra: Cadet | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Previous orchestra experience | No | No | No |
+| Beginning Orchestra: Academy | N/A | N/A | 10–12 | 2 sem / 2 cr | 3 times | Audition or Cadet Orchestra | No | No | No |
+| Intermediate Orchestra: Symphony | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Audition | No | No | No |
+| Advanced Orchestra:  Camerata | N/A | N/A | 9–12 | 2 sem / 2 cr | 4 times | Audition | No | No | No |
+| Instrumental Ensemble: Alternative String Orchestra | N/A | N/A | 10–12 | 2 sem / 2 cr | 3 times | Audition \+ additional orchestra class | No | No | No |
 | Theatre Arts | N/A | N/A | 9–12 | 1 sem / 1 cr | 1 | None | No | No | No |
-| Technical Theatre | N/A | N/A | 9–12 | 1–2 sem / 1 cr per sem | 1 | None | No | No | No |
-| Advanced Technical Theatre | N/A | N/A | 10–12 | 2 sem / 2 cr | 1 | Technical Theatre | No | No | No |
+| Technical Theatre | N/A | N/A | 9–12 | 1–2 sem / 1 cr per sem | 2 | None | No | No | No |
+| Advanced Technical Theatre | N/A | N/A | 10–12 | 2 sem / 2 cr | 3 | Technical Theatre | No | No | No |
 | Advanced Acting | N/A | N/A | 9–12 | 1 sem / 1 cr | 1 | None; Recommended: Theatre Arts | No | No | No |
 | Special Topics: Directing | N/A | N/A | 10–12 | 1 sem / 1 cr | 1 | None; Recommended: Theatre Arts | No | No | No |
 | Special Topics: Playwriting | N/A | N/A | 10–12 | 1 sem / 1 cr | 1 | None; Recommended: Theatre Arts | No | No | No |
 | Special Topics: Group Voice Class | N/A | N/A | 10–12 | 1 sem / 1 cr | 1 | None; Recommended: Theatre Arts \+ a choir class | No | No | No |
 | Musical Theatre | N/A | N/A | 10–12 | 1 sem / 1 cr | 1 | None; Recommended: Theatre Arts \+ a choir class | No | No | No |
-| Theatre Production | N/A | N/A | 11–12 | 2 sem / 2 cr | 1 | Theatre Arts or Technical Theatre (rec.: 2 more theatre courses) | No | No | No |
-| Theatre Appreciation Dual Credit | N/A | N/A | 10–12 | 1 sem / 1 cr | 1 | None; Recommended: Theatre Arts | Yes | No | No |
-| Music Theory and Composition | N/A | N/A | 9–12 | 1 sem / 1 cr | 1 | None | No | No | No |
-| Music Theory and Composition Advanced Placement | N/A | N/A | 10–12 | 2 sem / 2 cr | 1 | None; Recommended: Music Theory and Composition | No | Yes | No |
-| Music Appreciation Dual Credit | N/A | N/A | 10–12 | 1 sem / 1 cr | 1 | None | Yes | No | No |
+| Theatre Production | N/A | N/A | 11–12 | 2 sem / 2 cr | 2 | Theatre Arts or Technical Theatre (rec.: 2 more theatre courses) | No | No | No |
+| Theatre Appreciation Dual Credit | N/A | N/A | 10–12 | 1 sem / 1 cr | 1 time | None; Recommended: Theatre Arts | Yes | No | No |
+| Music Theory and Composition | N/A | N/A | 9–12 | 1 sem / 1 cr | 1 time | None | No | No | No |
+| Music Theory and Composition Advanced Placement | N/A | N/A | 10–12 | 2 sem / 2 cr | 1 time | None; Recommended: Music Theory and Composition | No | Yes | No |
+| Music Appreciation Dual Credit | N/A | N/A | 10–12 | 1 sem / 1 cr | 1 time | None | Yes | No | No |
 
 # 
 
@@ -55,7 +55,7 @@
 | **Course Description** | This is a beginner-level, performance-based ensemble for brass and woodwind students. Students can expect to learn the fundamentals of musicianship and develop good ensemble playing techniques. After-school commitments include band concerts, contests, and rehearsals leading up to these performances. Attendance at all rehearsals and performances is mandatory. Students should consider replacing their beginner instrument with a step-up instrument for this class. This course has a small, per semester fee paid to the band boosters to offset expenses incurred during the class. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Previous band experience required |
 | **Co-requisite(s)** | N/A |
@@ -83,7 +83,7 @@
 | **Course Description** | This is an intermediate-level, performance-based ensemble for brass, woodwind, and percussion students. Students can expect to refine the fundamentals of musicianship and develop advanced ensemble playing techniques. After-school commitments include band concerts, contests, and rehearsals leading up to these performances. Attendance at all rehearsals and performances is mandatory. Students should replace their beginner instrument with a step-up instrument. This course has a small, per semester fee paid to the band boosters to offset expenses incurred during the class. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Previous band experience required |
 | **Co-requisite(s)** | N/A |
@@ -111,7 +111,7 @@
 | **Course Description** | This is an intermediate-level, performance-based ensemble for brass, woodwind, and percussion students. Students can expect to refine the fundamentals of musicianship and develop advanced ensemble playing techniques. After-school commitments include band concerts, contests, and rehearsals leading up to these performances. Attendance at all rehearsals and performances is mandatory. Students should replace their beginner instrument with a step-up instrument. This course has a small, per semester fee paid to the band boosters to offset expenses incurred during the class. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition |
 | **Co-requisite(s)** | N/A |
@@ -139,7 +139,7 @@
 | **Course Description** | This is an advanced-level, performance-based ensemble for brass, woodwind, and percussion students. This ensemble serves as the premier performing ensemble of the band program. Students can expect to perfect the fundamentals of musicianship and develop highly advanced ensemble playing techniques. After-school commitments include band concerts, contests, and rehearsals leading up to these performances. Attendance at all rehearsals and performances is mandatory. Every member should be playing a high quality instrument. This course has a small, per semester fee paid to the band boosters to offset expenses incurred during the class. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition |
 | **Co-requisite(s)** | N/A |
@@ -167,7 +167,7 @@
 | **Course Description** | This is a beginner-level, performance-based class for percussion students. Students can expect to learn the fundamentals of musicianship and develop good ensemble playing techniques. After-school commitments include band concerts, contests, and rehearsals leading up to these performances. Attendance at all rehearsals and performances is mandatory. All students must have the appropriate mallets and sticks, purchased at the expense of the student, as determined by the instructor. This course has a small, per semester fee paid to the band boosters to offset expenses incurred during the class. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Previous band experience required |
 | **Co-requisite(s)** | N/A |
@@ -195,7 +195,7 @@
 | **Course Description** | This is an advanced-level, performance-based class for percussion students. Students can expect to learn the fundamentals of musicianship and develop good ensemble playing techniques. After-school commitments include band concerts, contests, and rehearsals leading up to these performances. Attendance at all rehearsals and performances is mandatory. All students must have the appropriate mallets and sticks, purchased at the expense of the student, as determined by the instructor. This course has a small, per semester fee paid to the band boosters to offset expenses incurred during the class. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition |
 | **Co-requisite(s)** | N/A |
@@ -223,7 +223,7 @@
 | **Course Description** | This is a beginner-level, performance-based ensemble for students in the high school band program. Students can expect to learn the fundamentals of jazz music and develop advanced ensemble playing techniques. Students will play a variety of jazz styles including rock, Latin, and swing music. Students must be enrolled in another band class to enroll in this course. Exceptions to this, such as students who play guitar, bass guitar, drum set, or piano, may be granted at the discretion of the instructor. This course has a small, per semester fee paid to the band boosters to offset expenses incurred during the class. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition |
 | **Co-requisite(s)** | Enrollment in another band class (exceptions for guitar, bass guitar, drum set, or piano students at the instructor’s discretion) |
@@ -251,7 +251,7 @@
 | **Course Description** | This is an advanced-level, performance-based ensemble for students in the high school band program. Students can expect to learn the fundamentals of jazz music and develop advanced ensemble playing techniques. Students will play a variety of jazz styles including rock, Latin, and swing music. After-school commitments include band concerts, contests, and other miscellaneous performance opportunities. Attendance at all practices and performances is mandatory. Students must be enrolled in another band class to enroll in this course. Exceptions to this, such as students who play guitar, bass guitar, drum set, or piano, may be granted at the discretion of the instructor. Instrumentation is limited to traditional big band instrumentation: saxophone, trumpet, trombone, guitar, bass guitar, percussion, and piano. Exceptions to this instrumentation policy are at the sole discretion of the director. This course has a small, per semester fee paid to the band boosters to offset expenses incurred during the class. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition |
 | **Co-requisite(s)** | Enrollment in another band class (exceptions for guitar, bass guitar, drum set, or piano students at the instructor’s discretion) |
@@ -277,7 +277,7 @@
 | **Course Description** | Dance Choreography focuses on the development of the specific skills related to the color guard activity. Course content will include music terminology, melodic content and contrast, music listening, performance techniques, choreography, costuming and makeup, understanding the correlation between meter and tempo of music as it relates to choreography, and safety practices (warm up and cool down). Students enrolled in this course are required to be a part of the marching band. Tryouts and registration for the marching band / Color Guard occurs in the spring of the previous school year. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 1–2 semesters / 1–2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **8** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Color Guard participation required |
 | **Co-requisite(s)** | Marching band / Color Guard membership |
@@ -305,7 +305,7 @@
 | **Course Description** | Descants is an entry-level vocal course for treble voices designed to improve vocal technique and music literacy. Students will sing music in two or more parts from various styles and cultures. Academic course content, attendance at school performances and ISSMA contests, and rehearsals are mandatory. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | None |
 | **Co-requisite(s)** | N/A |
@@ -333,7 +333,7 @@
 | **Course Description** | Vocal Majority is an entry-level vocal course for tenor/bass voices designed to improve vocal technique and music literacy. Students will sing music in two or more parts from various styles and cultures. Academic course content, attendance at school performances and ISSMA contests, and rehearsals are mandatory. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | None |
 | **Co-requisite(s)** | N/A |
@@ -361,7 +361,7 @@
 | **Course Description** | Flight is an entry-level concert and competitive show choir course for treble voices designed to improve vocal technique and music literacy. Placement in this ensemble is based upon a vocal and choreography audition. This course is co-curricular and functions as both a concert and extracurricular competitive show choir. This course will require students to pay for an extracurricular show choir. There are several fundraising and financial aid opportunities to assist in payment. Students will sing music in two or more parts from various styles and cultures. Academic course content, attendance at school performances and ISSMA contests, and rehearsals are mandatory. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition |
 | **Co-requisite(s)** | N/A |
@@ -389,7 +389,7 @@
 | **Course Description** | Harmonia is an intermediate-level vocal course for treble voices designed to improve vocal technique and music literacy. Students will sing music in three or more parts from various styles and cultures. Academic course content, attendance at school performances and ISSMA contests, and rehearsals are mandatory. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition |
 | **Co-requisite(s)** | N/A |
@@ -417,7 +417,7 @@
 | **Course Description** | Encores is an intermediate-level concert and competitive show choir course for treble and tenor/bass voices designed to improve vocal technique and music literacy. Placement in this ensemble is based upon a vocal and choreography audition. This course is co-curricular and functions as a concert and extracurricular competitive show choir. Students will have after school rehearsals and will attend performances beyond the regular concert schedule. This course will require students to pay for an extracurricular show choir. There are several fundraising and financial aid opportunities to assist in payment. Students will sing in four or more parts from various styles and cultures. Academic course content, attendance at school performances and ISSMA contests, and rehearsals are mandatory. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition |
 | **Co-requisite(s)** | N/A |
@@ -445,7 +445,7 @@
 | **Course Description** | Ambassadors is an advanced-level vocal course for tenor/bass voices designed to improve vocal technique and music literacy. Placement in this ensemble is based upon a vocal audition. This course will require students to pay for an extracurricular choir. There are several fundraising and financial aid opportunities to assist in payment. Students will sing music in three or more parts from various styles and cultures. Academic course content, attendance at school performances and ISSMA contests, and rehearsals are mandatory. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition |
 | **Co-requisite(s)** | N/A |
@@ -473,7 +473,7 @@
 | **Course Description** | High Voltage is an advanced-level ensemble of treble voices who work on a wide range of vocal styles from classical concert literature to popular and show choir music. Placement in this ensemble is based upon a vocal and choreography audition. This course is co-curricular and functions as both a concert and extracurricular competitive show choir. This group typically rehearses Tuesdays and Thursdays after school for three hours, and attends day-long competitions on most Saturdays January through March. This course will require students to pay for an extracurricular show choir. There are several fundraising and financial aid opportunities to assist in payment. Students will sing music in three or more parts from various styles and cultures. Academic course content, attendance at school performances and ISSMA contests, and rehearsals are mandatory. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition |
 | **Co-requisite(s)** | N/A |
@@ -501,7 +501,7 @@
 | **Course Description** | FC Singers is an advanced-level ensemble of treble and tenor/bass voices who perform a wide range of vocal styles from classical concert literature to popular and show choir music. Placement in this ensemble is based upon a vocal and choreography audition. This course is co-curricular and functions as both a concert and extracurricular competitive show choir. This group typically rehearses Tuesdays and Thursdays after school for three hours, and attends day-long competitions on most Saturdays from January through March. This course will require students to pay for an extracurricular show choir. There are several fundraising and financial aid opportunities to assist in payment. Students will sing music in four or more parts from various styles and cultures. Academic course content, attendance at school performances and ISSMA contests, and rehearsals are mandatory. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition |
 | **Co-requisite(s)** | N/A |
@@ -527,7 +527,7 @@
 | **Course Description** | Accents is an advanced-level ensemble of treble singers who work on a wide range of vocal styles from Renaissance madrigals and motets to modern pop and vocal jazz. Placement in this ensemble is based upon a vocal audition. This course will require students to pay for extracurricular choir such as travel to out of state competitions. There are several fundraising and financial aid opportunities to assist in payment. Students will sing music in four or more parts from various styles and cultures. Academic course content and attendance at school performances/rehearsals are mandatory. |
 | **Grade Level(s)** | 10–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **3** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition |
 | **Co-requisite(s)** | N/A |
@@ -555,7 +555,7 @@
 | **Course Description** | Chamber Choir is a highly select group of treble and tenor/bass singers who work on a wide range of vocal styles from Renaissance madrigals and motets to modern pop and vocal jazz. Placement in this ensemble is based upon a vocal audition. This course will require students to pay for extracurricular choir such as travel to out of state competitions. There are several fundraising and financial aid opportunities to assist in payment. Students will sing music in four or more parts from various styles and cultures. Academic course content and attendance at school performances and rehearsals are mandatory. |
 | **Grade Level(s)** | 10–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **3** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition |
 | **Co-requisite(s)** | N/A |
@@ -583,7 +583,7 @@
 | **Course Description** | This orchestra will be rooted in the fundamentals and technique of performing in a music ensemble. Students will also begin to develop skills and artistry in musical expression. Membership is primarily composed of freshmen recommended by the orchestra director. In addition to developing technique, this course will focus on group III and IV repertoire as defined by the Indiana State School Music Association (ISSMA). Fundamentals of music theory will complement the performance material. All Cadet Orchestra students will be strongly urged but not required to participate in the ISSMA Solo and Ensemble contest. This course has a small, per semester fee paid to the orchestra boosters to offset expenses incurred during the class. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Previous orchestra experience |
 | **Co-requisite(s)** | N/A |
@@ -611,7 +611,7 @@
 | **Course Description** | This orchestra will be rooted in the fundamentals and technique of performing in a music ensemble. Students will also begin to develop skills and artistry in musical expression. Membership is primarily composed of musicians 10th grade and above recommended by the orchestra director. In addition to developing technique, this course will focus on group III repertoire as defined by the Indiana State School Music Association (ISSMA). Fundamentals of music theory will complement the performance material. All Academy Orchestra students will be strongly urged but not required to participate in the ISSMA Solo and Ensemble contest. This course has a small, per semester fee paid to the orchestra boosters to offset expenses incurred during the class. |
 | **Grade Level(s)** | 10–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **3** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition or Cadet Orchestra |
 | **Co-requisite(s)** | N/A |
@@ -639,7 +639,7 @@
 | **Course Description** | This intermediate-level orchestra will be rooted in the fundamentals and technique of performing in a music ensemble. Students will also begin to develop skills and artistry in musical expression. Membership is primarily composed of freshmen and some sophomores recommended by the orchestra director. In addition to developing technique, this course will focus on group II and III repertoire as defined by the Indiana State School Music Association (ISSMA). Fundamentals of music theory will complement the performance material. All Symphony Orchestra students will be strongly urged but not required to participate in the ISSMA Solo and Ensemble contest. This course has a small, per semester fee paid to the orchestra boosters to offset expenses incurred during the class. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition |
 | **Co-requisite(s)** | N/A |
@@ -667,7 +667,7 @@
 | **Course Description** | This advanced-level orchestra is composed of the most experienced members of the orchestra program. Membership is comprised of students recommended by the orchestra director. Students in Camerata Orchestra will study and perform top-level repertoire for string orchestra from all musical time periods. In the winter semester, students will rehearse and perform with select wind and percussion players as a Philharmonic Orchestra for ISSMA State Qualifiers. Placement in this ensemble includes 1-2 after-school rehearsals per week during winter semester. Camerata may also perform as a separate string orchestra for Large Group Contest, pending adequate progress. This performance-driven course is rooted in the development of musical expression. Curriculum enrichments, such as TED talks, recordings and videos of musical performances, texts, and literature highlighting performance practices are used to engage this course. Camerata Orchestra students are strongly urged to study privately with professional musicians. Participation in ISSMA Solo and Ensemble is highly recommended. This course has a small, per semester fee paid to the orchestra boosters to offset expenses incurred during the class. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **4** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition |
 | **Co-requisite(s)** | N/A |
@@ -693,7 +693,7 @@
 | **Course Description** | This group will explore performing styles outside traditional Classical music, including but not limited to: Electrified Strings (Blitz\!), Jazz/Pops Orchestra, American/Irish/Scottish Fiddle, Mariachi, and Theater Pit Orchestra. Students will also explore improvised solos over chord changes. Jazz string orchestra arrangements will be performed at ISSMA Jazz Contest during Winter Quarter. Pending availability, students in this course will occasionally collaborate with members of the Jazz Bands on pops orchestra and/or theater pit orchestra performances. Placement in this ensemble includes after-school rehearsals as needed for performances, including extensive rehearsals approaching staged theater productions, as well as multiple evening/weekend performances. This course has a small, per semester fee paid to the orchestra boosters to offset expenses incurred during the class. |
 | **Grade Level(s)** | 10–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** |  |
+| **Course may be taken up to \[X\] times** | **3** |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Audition \+ additional orchestra class |
 | **Co-requisite(s)** | Another orchestra class |
@@ -749,7 +749,7 @@
 | **Course Description** | Technical Theatre will actively engage students in the process of designing, building, managing, and implementing the aspects of a production. Students will explore stage technology and make informed judgments about technical production choices. Students will develop scenic designs, lighting, costuming, make-up, sound, and stage and house management. Students will understand the ways technical theater incorporates all the arts and other disciplines through construction, business, project management, design, and advertising. Students explore career opportunities in theatre and attend and critique theatrical productions. |
 | **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 1 or 2 semesters / 1 credit per semester |
-| **Course may be taken up to \[X\] times** | 1 |
+| **Course may be taken up to \[X\] times** | 2 |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | None |
 | **Co-requisite(s)** | N/A |
@@ -777,7 +777,7 @@
 | **Course Description** | Advanced Technical Theatre will actively lead students in the process of design, building, managing, programming, drafting, and implementing the technical aspects of a production. Students will create original designs and plans for scenic design, lighting, costuming, make-up, sound, and stage and house management. Further, students will assess stage technology and its impact on the theatre and their designs and implementation of technical elements of the production. Students will investigate careers in technical theatre and attend and critique theatrical productions. |
 | **Grade Level(s)** | 10–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** | 1 |
+| **Course may be taken up to \[X\] times** | 3 |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Technical Theatre |
 | **Co-requisite(s)** | N/A |
@@ -945,7 +945,7 @@
 | **Course Description** | Do you enjoy acting or doing behind the scenes technical work? What about putting those skills into competition? If so, Production is for you\! Theatre Production is a year-long class in which students will take on responsibilities associated with rehearsing and presenting a fully mounted theatre production. They will read and analyze plays in preparation for productions. Students will conceive a design for a production including set, lighting, sound, costumes, make-up, house management, and advertising. Students will investigate a theatre arts career and attend and critique theatrical productions. Students will rehearse and perform roles in a production, direct or serve as assistant director for a production and focus on the responsibilities associated with presenting a full scale theatre production. Students will employ a careful process of script analysis to create a character, and fully engage in the collaborative process of making theatre. Lastly, students will put all of these skills to the test by competing in regional and state thespian competitions. Whether you compete on stage or off- after school time is required as well as fees and travel expenses for competitions. Theatre Production is a great place to get a feel for what real, professional theatre is like. |
 | **Grade Level(s)** | 11–12 |
 | **Length & Credits** | 2 semesters / 2 credits |
-| **Course may be taken up to \[X\] times** | 1 |
+| **Course may be taken up to \[X\] times** | 2 |
 | **Pathway / Sequence** | N/A |
 | **Prerequisite(s)** | Theatre Arts or Technical Theatre; Recommended: 2 additional theatre courses |
 | **Co-requisite(s)** | N/A |

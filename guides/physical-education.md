@@ -14,10 +14,10 @@
 | Elective Physical Education (Basketball 101\) | N/A | N/A | 9–12 | 1 sem / 1 cr | Once per school year (8 credits max in all Elective PE courses combined) | Physical Education I | No | No | No |
 | Elective Physical Education (Coeducational Recreation Games) | N/A | N/A | 9–12 | 1 sem / 1 cr | Once per school year (8 credits max in all Elective PE courses combined) | Physical Education I | No | No | No |
 | Elective Physical Education (Lifetime Activities) | N/A | N/A | 9–12 | 1 sem / 1 cr | Once per school year (8 credits max in all Elective PE courses combined) | Physical Education I | No | No | No |
-| Elective Physical Education (Lifeguard Training) | N/A | N/A | 9–12 | 1 sem / 1 cr | 1 | Physical Education I | No | No | No |
+| Elective Physical Education (Lifeguard Training) | N/A | N/A | 10–12 | 1 sem / 1 cr | 1 | Physical Education I | No | No | No |
 | Elective Physical Education (Swimming and Water Games) | N/A | N/A | 9–12 | 1 sem / 1 cr | Once per school year (8 credits max in all Elective PE courses combined) | Physical Education I | No | No | No |
-| Elective Physical Education (Team Sports) | N/A | N/A | 10–12 | 1 sem / 1 cr | Once per school year (8 credits max in all Elective PE courses combined) | Physical Education I | No | No | No |
-| Advanced Lifeguarding / Career Exploration Internship | Work-Based Learning | 180 | 10–12 | 1–2 sem / 1–2 cr | 1 | Selected (Lifeguarding \+ certification or swim instructor rec.) | No | No | No |
+| Elective Physical Education (Team Sports) | N/A | N/A | 9–12 | 1 sem / 1 cr | Once per school year (8 credits max in all Elective PE courses combined) | Physical Education I | No | No | No |
+| Advanced Lifeguarding / Career Exploration Internship | Work-Based Learning | 180 | 10–12 | 1–2 sem / 1–2 cr | 6 | Selected (Lifeguarding \+ certification or swim instructor rec.) | No | No | No |
 | Applied PE Assistant / Career Exploration Internship | Work-Based Learning | 180 | 10–12 | 1–2 sem / 1–2 cr | 1 | Selected (B or better in PE I; PE instructor approval) | No | No | No |
 
 # 
@@ -250,7 +250,7 @@
 | :---- | :---- |
 | **Department** | Physical Education |
 | **Course Description** | Want to be a Lifeguard? This one-semester course offers opportunities to learn lifeguard techniques, first aid training, and CPR. Students who pass all parts of the class will be certified by the American Red Cross with 80% or better scores. Students will be required to participate in daily activities in addition to completing written work and tests and performing on skills tests. All Lifeguard candidates must successfully complete a pretest in the first week of class. The pretest includes: 1\. Swimming 3 laps freestyle or breaststroke nonstop 2\. Treading water for 2 minutes with only legs (no arms). 3\. Swimming 20 yards to retrieve a 10 pound brick from 14 feet down in deep water and returning it to the starting point in 1 minute and 40 seconds. In order to get certification, students must also exhibit model behavior. |
-| **Grade Level(s)** | 9–12 |
+| **Grade Level(s)** | 10–12 |
 | **Length & Credits** | 1 semester / 1 credit |
 | **Course may be taken up to \[X\] times** | 1 |
 | **Pathway / Sequence** | N/A |
@@ -304,7 +304,7 @@
 | :---- | :---- |
 | **Department** | Physical Education |
 | **Course Description** | Team Sports is a one-semester course that offers opportunities to participate in a variety of sports including: basketball, flag football, ultimate frisbee, soccer, team handball, and volleyball. Students will be in a competitive environment with opportunities to learn different strategies for those lifetime activities and to develop citizenship, leadership, and social skills. |
-| **Grade Level(s)** | 10–12 |
+| **Grade Level(s)** | 9–12 |
 | **Length & Credits** | 1 semester / 1 credit |
 | **Course may be taken up to \[X\] times** | Once per school year (8 credits max in all Elective PE courses combined) |
 | **Pathway / Sequence** | N/A |
@@ -334,7 +334,7 @@
 | **Course Description** | Put your lifeguard certification into practice\! The student will utilize those skills learned in Lifeguarding as an actual lifeguard in FC’s pool during swim classes. The student will also work with the instructor in the classroom assisting with CPR/ First Aid Training. Get on the job experience right here at the high school\! Students will also complete a career exploration component that will be used to calculate the semester grade. |
 | **Grade Level(s)** | 10–12 |
 | **Length & Credits** | 1–2 semesters / 1–2 credits |
-| **Course may be taken up to \[X\] times** | 1 |
+| **Course may be taken up to \[X\] times** | 6 |
 | **Pathway / Sequence** | Work-Based Learning |
 | **Prerequisite(s)** | Lifeguarding, plus lifeguard certification/swim instructor recommendation |
 | **Co-requisite(s)** | N/A |
