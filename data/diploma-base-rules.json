@@ -1,0 +1,111 @@
+{
+  "_source": "Final_Diploma_Rule_One_Pager.pdf + 1_16_25_Memo_2627_Indiana_Diploma_Course_Eligibility.pdf + CTD Companion Document",
+  "applies_to": "Class of 2029 and beyond",
+
+  "base_diploma_requirements": {
+    "english": {
+      "total_credits": 8,
+      "required": [
+        { "id": "english.english9", "credits": 2, "satisfied_by_state_course_codes": ["1002"] }
+      ],
+      "flexible": [
+        {
+          "id": "english.communications_focused",
+          "credits": 1,
+          "note": "A single course cannot meet more than one diploma requirement (state rule).",
+          "satisfied_by_state_course_codes": ["1064","1070","1074","1076","1078","1080","1084","2188","1124","2422","7306","7307","7308","1086","1096","1104","8234","8236","4790","4086","5364","0560","0553","0554","7144","4508"]
+        },
+        {
+          "id": "english.additional_english",
+          "credits": 5,
+          "satisfied_by_state_course_codes": ["0551","1004","1006","1008","1012","1014","1020","1022","1024","1026","1028","1030","1032","1034","1036","1038","1040","1042","1044","1046","1048","1050","1052","1054","1060","1063","1090","1092","1094","1096","1098","1104","1056","1058","1124"]
+        }
+      ]
+    },
+
+    "math": {
+      "total_credits": 7,
+      "required": [
+        { "id": "math.algebra1_required", "credits": 2, "satisfied_by_state_course_codes": ["2520"] },
+        { "id": "math.personal_finance", "credits": 1, "satisfied_by_state_course_codes": ["4540","4519","7150"] }
+      ],
+      "flexible": [
+        {
+          "id": "math.additional_credits",
+          "credits": 4,
+          "satisfied_by_state_course_codes": ["2532","2522","2524","2530","2550","2564","2566","2527","2546","2543","7218","4512","2595","2570","2562","2572","2563","2544"]
+        }
+      ]
+    },
+
+    "science_tech_engineering": {
+      "total_credits": 7,
+      "required": [
+        { "id": "stem.biology1_required", "credits": 2, "satisfied_by_state_course_codes": ["3024","3020","3032","3034"] },
+        { "id": "stem.computer_science", "credits": 1, "satisfied_by_state_course_codes": ["4565","4568","4570","8116","8118","4584","4586","7183"],
+          "note": "7183 Principles of Computing must be paired with one of: 7351,7352,7178,7179,7180,7181,7182,7184,7185" }
+      ],
+      "flexible": [
+        {
+          "id": "stem.additional_science",
+          "credits": 2,
+          "note": "(L) = lab science, relevant for Enrollment Honors Seal tagging",
+          "satisfied_by_state_course_codes": ["3026","3030","3044","3046","3108","3064","3066","3060","3084","3086","3080","3081","3087","3089","3008","3010","3012","3102","5276","3090","3092","5216","5217","5219","7323","7321","5008","5070","5072","5074"]
+        },
+        {
+          "id": "stem.stem_focused",
+          "credits": 2,
+          "note": "Any course from stem.additional_science EXCEPT 4565 also qualifies here. A single course cannot count for more than one requirement.",
+          "satisfied_by_state_course_codes": ["4818","5518","5534","5538","5644","5650","5698","7223","7100","7222","7106","7224","7107","7219","5170","5274","7113","5132","7232","7115","7234","7238","5229","7271","7270","5180","7322","7228","7167","7165","7166","7170","7253","7281","7282","7353","7262","7243","7247","7484","4590","4592","7488","7490","7485","7249","7112","7119","7163","7164","7263","7316","7317","7341","7343","7342","7344","7376","7378"]
+        }
+      ]
+    },
+
+    "social_studies": {
+      "total_credits": 5,
+      "required": [
+        { "id": "ss.us_history", "credits": 2, "satisfied_by_state_course_codes": ["1542","1562","8144","8146"] },
+        { "id": "ss.us_government", "credits": 1, "satisfied_by_state_course_codes": ["1540","1560"] }
+      ],
+      "flexible": [
+        {
+          "id": "ss.world_perspectives",
+          "credits": 2,
+          "note": "World Language Level III-VI also satisfies this per the eligibility memo.",
+          "satisfied_by_state_course_codes": ["1570","1548","1612","1502","1520","1528","1574","1590","1592"],
+          "also_satisfied_by": "any_world_language_level_3_plus"
+        }
+      ]
+    },
+
+    "pe_health": {
+      "total_credits": 2,
+      "required": [
+        { "id": "pe.physical_education", "credits": 1, "satisfied_by_state_course_codes": ["3542","3544","3560"] },
+        { "id": "pe.health_wellness", "credits": 1, "satisfied_by_state_course_codes": ["3506","3500"] }
+      ]
+    },
+
+    "personalized_electives": {
+      "total_credits": 12,
+      "note": "Any course not otherwise consumed by a required/flexible category above. CTE, Fine Arts, World Language commonly used here."
+    },
+
+    "college_careers": {
+      "total_credits": 1,
+      "required": [
+        { "id": "cc.preparing_for_college_careers", "credits": 1, "satisfied_by_state_course_codes": ["5394"], "note": "May be earned in middle school." }
+      ]
+    }
+  },
+
+  "global_rules": [
+    "A single course/credit can only be applied toward ONE base diploma requirement per student (confirmed FAQ Q42).",
+    "Diploma requirements CAN also count toward a Readiness Seal requirement simultaneously (confirmed FAQ Q42) - this is the one exception to the 'one requirement' rule.",
+    "PCC, Personal Finance, and Computer Science are hard-required, not just recommended (confirmed FAQ Q39).",
+    "Quantitative Reasoning is NOT an annual requirement under the new diploma (confirmed FAQ Q41) - only relevant to General/Core 40 diploma through class of 2028.",
+    "Total minimum credits for the Indiana Diploma = 42 (confirmed FAQ Q2)."
+  ],
+
+  "_still_needs_fchs_course_id_mapping": "This file uses STATE course codes (e.g. 2520). Once all FCHS courses are structured with their own ids, each FCHS course needs a 'state_course_code' field added so it can be matched against this rules file automatically."
+}
