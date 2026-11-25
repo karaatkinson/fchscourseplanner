@@ -6,7 +6,7 @@
 
 | Course Title | Pathway | WBL Hours | Grade(s) | Length/Credits | Max Times | \*Prereq (short) | Dual Credit | Advanced Placement | NCAA |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| Physical Education I-II | N/A | N/A | 9–12 | 1–2 sem / 1–2 cr | 1 each (PE I and PE II) | None | No | No | No |
+| Physical Education I-II | N/A | N/A | 8–12 | 1–2 sem / 1–2 cr | 1 each (PE I and PE II) | None | No | No | No |
 | Applied Physical Education I-II | N/A | N/A | 9–12 | 1–2 sem / 1–2 cr | 1 each (Applied PE I and Applied PE II) | None | No | No | No |
 | Health and Wellness | N/A | N/A | 10–12 | 1 sem / 1 cr | 1 | None | No | No | No |
 | Elective Physical Education (Weight Training) | N/A | N/A | 10–12 | 1 sem / 1 cr | Once per school year (8 credits max in all Elective PE courses combined) | Physical Education I | No | No | No |
@@ -28,7 +28,7 @@
 | :---- | :---- |
 | **Department** | Physical Education |
 | **Course Description** | Physical education offers opportunities for the development of leadership, physical fitness, sportsmanship and the opportunity to learn to work, and to play together. Physical Education I-II covers a wide range of team sports, health-related fitness activities, recreational activities, fitness tests, individual and dual sports, and aquatics. Athletic attire is required in P.E. You must wear a t-shirt and athletic shorts or pants and tennis shoes with laces. All students must complete the Physical Education requirement. Swimming is a required phase of Physical Education I-II and must be completed in order to receive credit for this course. Students with proper medical or religious documentation may be excused from swimming. Students must provide their own swimsuits and towels for the swimming portion of the class. |
-| **Grade Level(s)** | 9–12 |
+| **Grade Level(s)** | 8–12 |
 | **Length & Credits** | 1–2 semesters / 1–2 credits |
 | **Course may be taken up to \[X\] times** | 1 each (PE I and PE II) |
 | **Pathway / Sequence** | N/A |

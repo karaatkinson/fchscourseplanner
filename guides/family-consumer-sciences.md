@@ -7,7 +7,7 @@
 
 | Course Title | Pathway | WBL Hours | Grade(s) | Length/Credits | Max Times | \*Prereq (short) | Dual Credit | Advanced Placement | NCAA |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| Preparing for College and Careers | N/A | N/A | 9–12 | 1 sem / 1 cr | 1 | None | No | No | No |
+| Preparing for College and Careers | N/A | N/A | 8–12 | 1 sem / 1 cr | 1 | None | No | No | No |
 | Introduction to Public Service | N/A | N/A | 9–12 | 1 sem / 1 cr | 1 | None | No | No | No |
 | Principles of Culinary Arts & Hospitality | Culinary Arts – Baking and Pastry | N/A | 9–12 | 2 sem / 2 cr | 1 | None | No | No | No |
 | Nutrition | Culinary Arts – Baking and Pastry | N/A | 10–12 | 2 sem / 2 cr | 1 | Principles of Culinary Arts & Hospitality | No | No | No |
@@ -36,7 +36,7 @@
 | :---- | :---- |
 | **Department** | Family and Consumer Sciences |
 | **Course Description** | Do you know what you want to do after graduation? If not, you will have a better understanding of how to find out while taking this course. Preparing for College and Careers addresses the knowledge, skills, and behaviors all students need to be prepared for success in college, career, and life. The focus of the course is the impact of today’s choices on tomorrow’s possibilities. Topics to be addressed include twenty-first-century life and career skills; higher-order thinking, communication, leadership, and management processes; exploration of personal aptitudes, interests, values, and goals; examining multiple life roles and responsibilities as individuals and family members; planning and building employability skills; transferring school skills to life and work; and managing personal resources. This course includes reviewing the 16 national career clusters and Indiana's College and Career Pathways, in-depth investigation of one or more pathways, reviewing graduation plans, developing career plans, and developing personal and career portfolios. A project-based approach, including computer and technology applications, cooperative ventures between school and community, simulations, and real-life experiences, is recommended. |
-| **Grade Level(s)** | 9–12 |
+| **Grade Level(s)** | 8–12 |
 | **Length & Credits** | 1 semester / 1 credit |
 | **Course may be taken up to \[X\] times** | 1 |
 | **Pathway / Sequence** | N/A |

@@ -22,7 +22,7 @@
 | Digital Design Graphics | Digital Design | 0 | 10–12 | 2 sem / 2 cr | 1 | Principles of Digital Design | No | No | No |
 | Interactive Media Design | Digital Design | 0 | 11–12 | 2 sem / 2 cr | 1 | Digital Design Graphics | No | No | No |
 | Computer Science A Advanced Placement | N/A | 0 | 11–12 | 2 sem / 2 cr | 1 | Principles of Computing | No | Yes | No |
-| Computing Foundations for a Digital Age | N/A | 0 | 9–12 | 1 sem / 1 cr | 1 | None | No | No | No |
+| Computing Foundations for a Digital Age | N/A | 0 | 8–12 | 1 sem / 1 cr | 1 | None | No | No | No |
 | Introduction to Business | N/A | 0 | 9–12 | 1 sem / 1 cr | 1 | None | No | No | No |
 | Information Technology Support \- Cyber Flashes | N/A | 135 | 10–12 | 2 sem / 2 cr | 1 | Principles of Computing | No | No | No |
 | Principles of Entrepreneurship | N/A | 0 | 10–12 | 2 sem / 2 cr | 1 | None | Yes | No | No |
@@ -471,7 +471,7 @@
 | :---- | :---- |
 | **Department** | Business |
 | **Course Description** | Computers and the internet have revolutionized the way we access and disseminate information. As technology continues to change at an ever-increasing pace, the need for students to gain a foundational understanding of computer science is clear. Computing Foundations for a Digital Age is designed to introduce students to five major topics within computer science including computing systems, networks and the internet, data and analysis, algorithms and planning, and impacts of computing. The course introduces foundational computing concepts while exploring current events and building critical thinking, collaboration, problem solving, and other important skills that are invaluable for life in a global and technologically advancing society. |
-| **Grade Level(s)** | 9–12 |
+| **Grade Level(s)** | 8–12 |
 | **Length & Credits** | 1 semester / 1 credit |
 | **Course may be taken up to \[X\] times** | 1 |
 | **Pathway / Sequence** | N/A |
